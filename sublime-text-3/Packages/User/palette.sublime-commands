@@ -1,0 +1,39 @@
+[
+  // misc
+  { "caption": "Preferences: Palette", "command": "open_file",
+    "args": { "file": "${packages}/User/palette.sublime-commands" } },
+  { "caption": "Preferences: Context", "command": "open_file",
+    "args": { "file": "${packages}/User/Context.sublime-menu" } },
+
+  { "caption":"Snippets", "command": "show_overlay",
+    "args": {"overlay": "command_palette", "text": "Snippet: "}},
+  { "caption": "Soft Undo", "command": "soft_undo" },
+  { "caption": "Show Scope Name", "command": "show_scope_name" },
+
+  { "caption": "Regex: Rebrace", "command": "reg_replace",
+    "args": { "replacements": ["newline_braces"] } },
+
+  { "caption": "Il8n", "command": "run_macro_file",
+    "args": { "file": "Packages/User/macros/translate.sublime-macro" } },
+  { "caption": "Re-open tabs", "command": "reopenTabs" },
+
+  { "caption": "ShellCMD: sortby",
+    "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/sortby", "target": "point" } },
+  { "caption": "ShellCMD: sasspath",
+    "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/sasspath", "target": "point" } },
+  { "caption": "ShellCMD: HCDef",
+    "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/hcdef", "target": "point" } },
+  { "caption": "ShellCMD: Define Service",
+    "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/defineService", "target": "point" } },
+  //{ "caption": "ShellCMD: Gopen", "command": "shell_command", "args": { "command": "gnome-terminal ${packages}/User" } },
+  //{ "caption": "ShellCMD: Sublime settings", "command": "shell_command", "args": { "command": "gnome-terminal ~/.config" } },
+  { "caption": "Goto Definition…", "command": "goto_definition" },
+  { "caption": "HTML to TS", "command": "html_to_ts" },
+  { "caption": "Copy File Path", "command": "copy_path" },
+  { "caption": "Goto Definition", "command": "context_goto_definition" },
+  { "caption": "Build Script: Tex",
+    "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/tex" } },
+  { "caption": "New Snippet...", "command": "new_snippet" },
+  { "caption": "Open packages",
+    "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } }
+]

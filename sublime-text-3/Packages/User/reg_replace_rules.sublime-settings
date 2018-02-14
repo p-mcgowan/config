@@ -1,0 +1,30 @@
+{
+    "format": "3.0",
+    "replacements": {
+        "newline_braces": {
+            "find": "(?i)[ ]*\\n[ ]*{",
+            "greedy": true,
+            "replace": " {"
+        },
+        "replace_double_tag_end": {
+            "find": "(?i)>>",
+            "greedy": true,
+            "replace": ">"
+        },
+        "replace_empty_start_tag": {
+            "find": "(?i)^[ ]*>",
+            "greedy": false,
+            "replace": ""
+        },
+        "to_underscore": {
+            "find": "(?i) ",
+            "greedy": true,
+            "replace": "_"
+        },
+        "trim_eol_space": {
+            "find": "(?i)[ ]*$",
+            "greedy": true,
+            "replace": ""
+        }
+    }
+}

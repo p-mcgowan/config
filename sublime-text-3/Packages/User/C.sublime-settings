@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"S"
+	],
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4
+}

@@ -1,0 +1,2 @@
+#awk '{ print $NF,$0 }' | sort -k1,1 -n | cut -f2- -d' ' |sed 's/^[ ]*//g'
+sort -t':' -k2,2 -k1,1

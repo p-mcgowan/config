@@ -1,0 +1,74 @@
+[
+    // {
+    //     "keys": ["<your shortucut>"],
+    //     "command": "exec",
+    //     "args": {
+    //         "cmd": ["<path to your script>", "<script args>"]
+    //     }
+    // },
+    /** Add curly brace at end of line */
+    {
+        "keys": ["ctrl+shift+["],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/eolbrace.sublime-macro"
+        }
+    },
+    {
+        "keys": ["ctrl+shift+]"],
+        "command": "goto_definition"
+    },
+    /** Add semicolon at end of line */
+    {
+        "keys": ["ctrl+shift+;"],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/eolsemi.sublime-macro"
+        }
+    },
+    /** Add comma at end of line */
+    {
+        "keys": ["ctrl+shift+,"],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/eolcomma.sublime-macro"
+        }
+    },
+    /** Align and sort alphabetically */
+    {
+        "keys": ["ctrl+f9"],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/align-sort.sublime-macro"
+        }
+    },
+    /** Close current html tag */
+    {
+        "keys": ["ctrl+."],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/tag-close.sublime-macro"
+        }
+    },
+    /** Same as zl[tab] but retains selection */
+    { "keys": ["ctrl+k", "l"],
+      "command": "insert_snippet",
+      "args": { "name": "Packages/User/conlog.sublime-snippet" }
+    },
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+shift+t"], "command": "reopen_tabs" },
+    {
+        "keys": ["alt+shift+1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    { "keys": ["ctrl+b"], "command": "shell_command", "args": { "command": "gnome-terminal ." } },
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } }
+]

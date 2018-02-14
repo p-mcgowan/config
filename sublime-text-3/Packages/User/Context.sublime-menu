@@ -1,0 +1,27 @@
+[
+    { "caption": "-", "id": "separator" },
+    { "caption": "Goto hc.d.ts", "mnemonic": "h", "id": "gotohctds",
+        "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/hcdef", "target": "point" } },
+    { "caption": "Add Service Definition", "mnemonic": "A", "id": "addservicedefinition",
+        "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/defineService", "target": "point" } },
+
+    { "caption": "TS", "command": "html_to_ts", "args": {"extension": "ts"}  },
+    { "caption": "HTML", "command": "html_to_ts", "args": {"extension": "html"}  },
+    { "caption": "SCSS", "command": "html_to_ts", "args": {"extension": "scss"}  },
+    { "caption": "Related", "command": "html_to_ts" },
+    { "caption": "-", "id": "separator" },
+    { "command": "reveal_in_side_bar", "caption": "Reveal in Side Bar" }
+]
+
+// [
+//     { "caption": "Goto hc.d.ts", "mnemonic": "G", "id": "gotohctds",
+//         "command": "shell_command_on_region", "args": { "command": "hcdef", "target": "point" },
+//         "children": [
+//             { "command": "perforce_graphical_diff_with_depot", "caption": "Diff" },
+//             { "command": "perforce_graphical_diff_with_depot", "caption": "Diff" }
+//         ]
+//     }
+// ]
+
+// { "caption": "Google it", "mnemonic": "G", "id": "googleit",
+//     "command": "shell_command_on_region", "args": { "command": "|read -r line; google -w $line", "target": "point" } },

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read arg
+echo -n "$arg: HC.I${arg^},"
