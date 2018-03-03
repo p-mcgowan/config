@@ -28,7 +28,6 @@
 		"project.sublime-workspace",
 		"*.o",
 		"selenium-debug.log",
-		"platforms/*/*/**",
 		"plugins/*/*/**"
 	],
 	"folder_exclude_patterns":

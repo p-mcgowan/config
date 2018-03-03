@@ -1,5 +1,5 @@
 {
-   "checksum": "a2b79f39b883c7aa63efadb1f8f77842",
+   "checksum": "f89a5698c414104e31377aa12f7a1067",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -7,20 +7,20 @@
                "date_added": "13023153419890255",
                "id": "193",
                "meta_info": {
-                  "last_visited_desktop": "13162947665369996"
+                  "last_visited_desktop": "13164083327818785"
                },
                "name": "mail",
-               "sync_transaction_version": "319",
+               "sync_transaction_version": "457",
                "type": "url",
                "url": "https://webmail.shaw.ca/uwc/auth"
             }, {
                "date_added": "13084301303095381",
                "id": "194",
                "meta_info": {
-                  "last_visited_desktop": "13162883411243057"
+                  "last_visited_desktop": "13164083327984125"
                },
                "name": "gmail",
-               "sync_transaction_version": "319",
+               "sync_transaction_version": "459",
                "type": "url",
                "url": "https://mail.google.com/mail/u/0/"
             }, {
@@ -43,9 +43,19 @@
                "sync_transaction_version": "319",
                "type": "url",
                "url": "https://hockeycommunity.slack.com/messages"
+            }, {
+               "date_added": "13164524164532934",
+               "id": "215",
+               "meta_info": {
+                  "last_visited_desktop": "13164591025778758"
+               },
+               "name": "protonmail",
+               "sync_transaction_version": "597",
+               "type": "url",
+               "url": "https://protonmail.com/"
             } ],
             "date_added": "13163057173100750",
-            "date_modified": "13163057173100750",
+            "date_modified": "13164591031283412",
             "id": "5",
             "name": "communication",
             "sync_transaction_version": "319",
@@ -55,25 +65,25 @@
                "date_added": "13025767130215282",
                "id": "191",
                "meta_info": {
-                  "last_visited_desktop": "13161730349163695"
+                  "last_visited_desktop": "13164401786264201"
                },
                "name": "credit",
-               "sync_transaction_version": "319",
+               "sync_transaction_version": "535",
                "type": "url",
                "url": "https://www.cucardsonline.com/EN/home.htm"
             }, {
                "date_added": "13025767177665598",
                "id": "192",
                "meta_info": {
-                  "last_visited_desktop": "13161730349190860"
+                  "last_visited_desktop": "13164401787498201"
                },
                "name": "fcu",
-               "sync_transaction_version": "319",
+               "sync_transaction_version": "535",
                "type": "url",
                "url": "https://www.firstcu.ca/Personal/"
             } ],
             "date_added": "13163057173101079",
-            "date_modified": "13163057173101079",
+            "date_modified": "13164496650656718",
             "id": "6",
             "name": "finance",
             "sync_transaction_version": "319",
@@ -254,10 +264,10 @@
                   "date_added": "13157584255037353",
                   "id": "175",
                   "meta_info": {
-                     "last_visited_desktop": "13162850804659774"
+                     "last_visited_desktop": "13164584484739637"
                   },
                   "name": "reddit",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "569",
                   "type": "url",
                   "url": "https://www.reddit.com/r/popular/?geo_filter=GLOBAL"
                }, {
@@ -343,7 +353,7 @@
                   "url": "http://www.alluc.ee/stream/greys+anatomy+s14e08"
                } ],
                "date_added": "13163057173107882",
-               "date_modified": "13163057173107882",
+               "date_modified": "13164496650656784",
                "id": "165",
                "name": "media",
                "sync_transaction_version": "319",
@@ -402,10 +412,10 @@
                   "date_added": "13084508089561923",
                   "id": "126",
                   "meta_info": {
-                     "last_visited_desktop": "13161045935869745"
+                     "last_visited_desktop": "13164321671456519"
                   },
                   "name": "hc",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "518",
                   "type": "url",
                   "url": "https://hockey-community.com/feeds/newsfeed"
                }, {
@@ -432,8 +442,11 @@
                }, {
                   "date_added": "13094327508166371",
                   "id": "130",
+                  "meta_info": {
+                     "last_visited_desktop": "13164083327970647"
+                  },
                   "name": "hcgh",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "461",
                   "type": "url",
                   "url": "https://github.com/HockeyCommunity/rebuild"
                }, {
@@ -473,10 +486,10 @@
                      "id": "155",
                      "meta_info": {
                         "last_visited": "13155105799728303",
-                        "last_visited_desktop": "13162881426633638"
+                        "last_visited_desktop": "13164541791723532"
                      },
                      "name": "mdicon",
-                     "sync_transaction_version": "319",
+                     "sync_transaction_version": "562",
                      "type": "url",
                      "url": "https://www.google.com/design/icons/"
                   }, {
@@ -614,10 +627,10 @@
                   "date_added": "13084508089561923",
                   "id": "138",
                   "meta_info": {
-                     "last_visited_desktop": "13161045935680241"
+                     "last_visited_desktop": "13164321671249867"
                   },
                   "name": "hc",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "516",
                   "type": "url",
                   "url": "https://hockey-community.com/"
                }, {
@@ -843,13 +856,33 @@
                      "sync_transaction_version": "319",
                      "type": "url",
                      "url": "http://onlythepixel.com/2016/12/11/making-apis-with-node-and-express/"
+                  }, {
+                     "date_added": "13163717272369325",
+                     "id": "203",
+                     "meta_info": {
+                        "last_visited_desktop": "13163717882938428"
+                     },
+                     "name": "Automatic HTTPS connection/redirect with node.js/express - Stack Overflow",
+                     "sync_transaction_version": "407",
+                     "type": "url",
+                     "url": "https://stackoverflow.com/questions/7450940/automatic-https-connection-redirect-with-node-js-express"
                   } ],
                   "date_added": "13163057173105155",
-                  "date_modified": "13163057173105155",
+                  "date_modified": "13163717287891138",
                   "id": "93",
                   "name": "web",
                   "sync_transaction_version": "319",
                   "type": "folder"
+               }, {
+                  "date_added": "13164589774504535",
+                  "id": "217",
+                  "meta_info": {
+                     "last_visited_desktop": "13164589774504855"
+                  },
+                  "name": "github/gitignore: A collection of useful .gitignore templates",
+                  "sync_transaction_version": "581",
+                  "type": "url",
+                  "url": "https://github.com/github/gitignore"
                }, {
                   "date_added": "13102449186788176",
                   "id": "94",
@@ -913,7 +946,7 @@
                   "url": "https://www.google.ca/search?safe=off&ei=rrp4WrTeO9HWjwPnu43AAQ&q=intel+vaunt+developer&oq=intel+vaunt+developer&gs_l=psy-ab.3..35i39k1l2.2245.2380.0.2787.2.2.0.0.0.0.61.120.2.2.0....0...1c.1.64.psy-ab..0.2.120...33i160k1.0.4WZGsWcaohE"
                } ],
                "date_added": "13163057173102810",
-               "date_modified": "13163057173102810",
+               "date_modified": "13164589774504535",
                "id": "36",
                "name": "programming",
                "sync_transaction_version": "319",
@@ -1011,9 +1044,19 @@
                   "sync_transaction_version": "319",
                   "type": "url",
                   "url": "https://askubuntu.com/questions/429494/how-can-i-stream-from-computer-through-command-line"
+               }, {
+                  "date_added": "13164314009213874",
+                  "id": "210",
+                  "meta_info": {
+                     "last_visited_desktop": "13164314009214158"
+                  },
+                  "name": "Manjaro Linux",
+                  "sync_transaction_version": "514",
+                  "type": "url",
+                  "url": "https://manjaro.org/"
                } ],
                "date_added": "13163057173102819",
-               "date_modified": "13163057173102819",
+               "date_modified": "13164314009213874",
                "id": "38",
                "name": "linux",
                "sync_transaction_version": "319",
@@ -1094,10 +1137,10 @@
                }, {
                   "date_added": "13139009993578546",
                   "id": "63",
-                  "name": "testing",
-                  "sync_transaction_version": "319",
+                  "name": "minBodyWidth0",
+                  "sync_transaction_version": "500",
                   "type": "url",
-                  "url": "javascript: (function(){ alert('i was run); )()"
+                  "url": "javascript: document.getElementsByTagName('body')[0].style.minWidth ='0'"
                }, {
                   "date_added": "13111703627346626",
                   "id": "64",
@@ -1155,6 +1198,16 @@
                   "type": "url",
                   "url": "javascript:(function() { var searchString = window.prompt('Enter search string:'); if (searchString) { var regex = new RegExp(searchString, 'ig'); var links = document.getElementsByTagName('a'); console.log(`Searching ${links.length} links for '${regex}'`, { links: links }); for (var link of links) { if (regex.test(link.text)) { console.log(link); window.open(link.href, ''); link.click(); break; } } } })();"
                }, {
+                  "date_added": "13164358415559231",
+                  "id": "212",
+                  "meta_info": {
+                     "last_visited_desktop": "13164358415561038"
+                  },
+                  "name": "pdfnewlink",
+                  "sync_transaction_version": "547",
+                  "type": "url",
+                  "url": "javascript:a=document.createElement('a');a.href=(document.getElementsByTagName('embed').length ?  document.getElementsByTagName('embed') : document.getElementsByTagName('iframe'))[0].src;a.target=\"_blank\";document.body.append(a);a.click();"
+               }, {
                   "date_added": "13155273400643673",
                   "id": "72",
                   "name": "newEpisode",
@@ -1168,9 +1221,29 @@
                   "sync_transaction_version": "319",
                   "type": "url",
                   "url": "javascript: (function() { j = 0; mybuttons = document.getElementsByTagName('a'); console.log(mybuttons); for (i = 0; i \u003C mybuttons.length; i++) { console.log(mybuttons[i].innerHTML, /[dD]ismiss/.test(mybuttons[i].innerHTML)); if (/[dD]ismiss/.test(mybuttons[i].innerHTML)) { mybuttons[i].click(); j++; } } if(j) { alert(\"removed \" + j + \" notifcations\"); } } )()"
+               }, {
+                  "date_added": "13163281322085068",
+                  "id": "198",
+                  "meta_info": {
+                     "last_visited_desktop": "13163281322086268"
+                  },
+                  "name": "redcollapse",
+                  "sync_transaction_version": "357",
+                  "type": "url",
+                  "url": "javascript: [].forEach.call(document.getElementsByClassName('sitetable')[1].children, allComments => { if (/clearleft/.test(allComments.className)) return; [].forEach.call(allComments.children, comment => { let replies = comment.getElementsByClassName('sitetable')[0]; if (!replies) return; [].forEach.call(replies.children, reply => { if (/clearleft/.test(reply)) return; const expando = reply.getElementsByClassName('expand')[0]; if ((!expando) || /\\+/.test(expando.innerHTML)) return; expando.onclick() }) }) })"
+               }, {
+                  "date_added": "13164500209018760",
+                  "id": "214",
+                  "meta_info": {
+                     "last_visited_desktop": "13164500209019726"
+                  },
+                  "name": "subreddit redsub",
+                  "sync_transaction_version": "571",
+                  "type": "url",
+                  "url": "javascript: els = document.getElementsByTagName('link'); for (l of els) { if (l.getAttribute('title') == 'applied_subreddit_stylesheet') { l.remove(); } } [].forEach.call(document.getElementsByClassName('sitetable')[1].children, allComments => { if (/clearleft/.test(allComments.className)) { return; } [].forEach.call(allComments.children, comment => { let replies = comment.getElementsByClassName('sitetable')[0]; if (!replies) { return; } [].forEach.call(replies.children, reply => { if (/clearleft/.test(reply)) return; const expando = reply.getElementsByClassName('expand')[0]; if ((!expando) || /\\+/.test(expando.innerHTML)) { return; } expando.onclick() ; }) ; }) ; }); styleOn = document.getElementById('res-style-checkbox'); if (styleOn && styleOn.checked === true) { styleOn.click(); }"
                } ],
                "date_added": "13163057173102830",
-               "date_modified": "13163057173102830",
+               "date_modified": "13164500372620027",
                "id": "41",
                "name": "marklets",
                "sync_transaction_version": "319",
@@ -1187,11 +1260,11 @@
                   "date_added": "13071693985719153",
                   "id": "60",
                   "meta_info": {
-                     "last_visited": "13159663676521610",
-                     "last_visited_desktop": "13158571728047349"
+                     "last_visited": "13164554503218967",
+                     "last_visited_desktop": "13163897637187128"
                   },
                   "name": "ghme",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "570",
                   "type": "url",
                   "url": "https://github.com/p-mcgowan"
                }, {
@@ -1203,7 +1276,7 @@
                   "url": "https://github.com/eliangcs/http-prompt"
                } ],
                "date_added": "13163057173102834",
-               "date_modified": "13163057173102834",
+               "date_modified": "13164582492322245",
                "id": "42",
                "name": "git",
                "sync_transaction_version": "319",
@@ -1238,11 +1311,11 @@
                   "date_added": "13151400995757769",
                   "id": "54",
                   "meta_info": {
-                     "last_visited": "13162941806192755",
-                     "last_visited_desktop": "13160001636915754"
+                     "last_visited": "13164587342549514",
+                     "last_visited_desktop": "13164587412959443"
                   },
                   "name": "devblog",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "577",
                   "type": "url",
                   "url": "https://dev.to/"
                }, {
@@ -1262,13 +1335,17 @@
                }, {
                   "date_added": "13152645060602992",
                   "id": "57",
+                  "meta_info": {
+                     "last_visited": "13163827202348998",
+                     "last_visited_desktop": "13163820584587738"
+                  },
                   "name": "disect",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "412",
                   "type": "url",
                   "url": "http://www.abc.net.au/news/2017-10-16/north-korea-missile-range-map/8880894"
                } ],
                "date_added": "13163057173102884",
-               "date_modified": "13163057173102884",
+               "date_modified": "13164587349900795",
                "id": "45",
                "name": "tmp",
                "sync_transaction_version": "319",
@@ -1357,8 +1434,11 @@
                "children": [ {
                   "date_added": "13129929309563539",
                   "id": "32",
+                  "meta_info": {
+                     "last_visited_desktop": "13164190895533332"
+                  },
                   "name": "aispace",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "490",
                   "type": "url",
                   "url": "http://aispace.org/search/"
                }, {
@@ -1372,11 +1452,11 @@
                   "date_added": "13128545004875754",
                   "id": "34",
                   "meta_info": {
-                     "last_visited": "13159998626213071",
-                     "last_visited_desktop": "13162901436213211"
+                     "last_visited": "13164338387783292",
+                     "last_visited_desktop": "13164242327068296"
                   },
                   "name": "connect",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "526",
                   "type": "url",
                   "url": "http://connect.ubc.ca/webapps/blackboard/content/listContent.jsp?course_id=_87470_1&content_id=_3824014_1"
                }, {
@@ -1391,7 +1471,7 @@
                   "url": "https://piazza.com/class/iwkxfq63vox3sa"
                } ],
                "date_added": "13163057173101833",
-               "date_modified": "13163057173101833",
+               "date_modified": "13164347467170052",
                "id": "11",
                "name": "utils",
                "sync_transaction_version": "319",
@@ -1448,10 +1528,10 @@
                      "id": "30",
                      "meta_info": {
                         "last_visited": "13163033946465878",
-                        "last_visited_desktop": "13163025576486075"
+                        "last_visited_desktop": "13163551536718778"
                      },
                      "name": "capslides",
-                     "sync_transaction_version": "319",
+                     "sync_transaction_version": "364",
                      "type": "url",
                      "url": "https://docs.google.com/presentation/d/1FFSH0PbvmKFJYpLdWu3ERE-LqwKPP9ctPVyzzxKktSM/edit#slide=id.p"
                   }, {
@@ -1466,7 +1546,7 @@
                      "url": "http://elgwhd.axshare.com/#g=1&p=catalogue"
                   } ],
                   "date_added": "13163057173101945",
-                  "date_modified": "13163057173101945",
+                  "date_modified": "13163623811345042",
                   "id": "14",
                   "name": "docs",
                   "sync_transaction_version": "319",
@@ -1492,9 +1572,29 @@
                      "sync_transaction_version": "319",
                      "type": "url",
                      "url": "http://ignitersworld.com/lab/imageViewer.html"
+                  }, {
+                     "date_added": "13163806405148389",
+                     "id": "205",
+                     "meta_info": {
+                        "last_visited_desktop": "13163806405150290"
+                     },
+                     "name": "android - How to create a signed APK file using Cordova command line interface? - Stack Overflow",
+                     "sync_transaction_version": "400",
+                     "type": "url",
+                     "url": "https://stackoverflow.com/questions/26449512/how-to-create-a-signed-apk-file-using-cordova-command-line-interface"
+                  }, {
+                     "date_added": "13163641335950018",
+                     "id": "201",
+                     "meta_info": {
+                        "last_visited_desktop": "13163717290658589"
+                     },
+                     "name": "kumbe/Phonegap-ZoomControl: Plugin for enable the native zoom control on phonegap",
+                     "sync_transaction_version": "401",
+                     "type": "url",
+                     "url": "https://github.com/kumbe/Phonegap-ZoomControl"
                   } ],
                   "date_added": "13163057173101949",
-                  "date_modified": "13163057173101949",
+                  "date_modified": "13163807450685994",
                   "id": "15",
                   "name": "resources",
                   "sync_transaction_version": "319",
@@ -1504,52 +1604,32 @@
                   "id": "16",
                   "meta_info": {
                      "last_visited": "13161656078740137",
-                     "last_visited_desktop": "13161840765419203"
+                     "last_visited_desktop": "13163809932565729"
                   },
                   "name": "Rugs Town ‹ Log In",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "406",
                   "type": "url",
                   "url": "https://rugstowncanada.com//wp-login.php"
                }, {
-                  "date_added": "13161823018821780",
-                  "id": "17",
+                  "date_added": "13163293074660536",
+                  "id": "199",
                   "meta_info": {
-                     "last_visited_desktop": "13162503957454718"
+                     "last_visited_desktop": "13163293074660962"
                   },
-                  "name": "Setup A Headless Server for Android Project - Wannabe Exceptional",
-                  "sync_transaction_version": "319",
+                  "name": "Medium-like Image Loading with Vue.js (part 1) - Theodo",
+                  "sync_transaction_version": "356",
                   "type": "url",
-                  "url": "https://jpmrblood.github.io/linux/android/compile-android-studio-headless/"
-               }, {
-                  "date_added": "13161898422407005",
-                  "id": "18",
-                  "meta_info": {
-                     "last_visited_desktop": "13162502722478728"
-                  },
-                  "name": "How to install Android SDK Build Tools on the command line? - Stack Overflow",
-                  "sync_transaction_version": "319",
-                  "type": "url",
-                  "url": "https://stackoverflow.com/questions/17963508/how-to-install-android-sdk-build-tools-on-the-command-line"
+                  "url": "http://blog.theodo.fr/2016/10/medium-like-image-loading-with-vue-js/"
                }, {
                   "date_added": "13162007018016967",
                   "id": "19",
                   "meta_info": {
-                     "last_visited_desktop": "13162699163628540"
+                     "last_visited_desktop": "13163989395906631"
                   },
                   "name": "S3 Management Console",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "488",
                   "type": "url",
                   "url": "https://s3.console.aws.amazon.com/s3/buckets/rtar01189998819991197253/images/?region=us-west-1&tab=overview"
-               }, {
-                  "date_added": "13162007022636995",
-                  "id": "20",
-                  "meta_info": {
-                     "last_visited_desktop": "13162007022637356"
-                  },
-                  "name": "modern_1225.jpg (511×685)",
-                  "sync_transaction_version": "319",
-                  "type": "url",
-                  "url": "http://rtar01189998819991197253.s3-us-west-1.amazonaws.com/images/modern_1225.jpg"
                }, {
                   "date_added": "13163026730382179",
                   "id": "21",
@@ -1572,31 +1652,54 @@
                   "url": "https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/"
                } ],
                "date_added": "13163057173101838",
-               "date_modified": "13163057173101838",
+               "date_modified": "13163293074660536",
                "id": "12",
                "name": "capstone",
                "sync_transaction_version": "319",
                "type": "folder"
             }, {
+               "date_added": "13164067939431394",
+               "id": "207",
+               "meta_info": {
+                  "last_visited": "13164224969306707",
+                  "last_visited_desktop": "13164195645648860"
+               },
+               "name": "322home",
+               "sync_transaction_version": "495",
+               "type": "url",
+               "url": "https://www.cs.ubc.ca/~poole/cs322/2018/"
+            }, {
                "date_added": "13160953355492557",
                "id": "13",
                "meta_info": {
-                  "last_visited_desktop": "13161900895500012"
+                  "last_visited": "13164221856554628",
+                  "last_visited_desktop": "13164333192269480"
                },
-               "name": "322",
-               "sync_transaction_version": "319",
+               "name": "322canvas",
+               "sync_transaction_version": "525",
                "type": "url",
                "url": "https://canvas.ubc.ca/courses/3331"
             } ],
             "date_added": "13163057173101682",
-            "date_modified": "13163057173101682",
+            "date_modified": "13164233272739064",
             "id": "10",
             "name": "school",
             "sync_transaction_version": "319",
             "type": "folder"
+         }, {
+            "date_added": "13164082038433413",
+            "id": "208",
+            "meta_info": {
+               "last_visited": "13164088109177764",
+               "last_visited_desktop": "13164180128446131"
+            },
+            "name": "How do I get and modify the source code of packages installed through apt-get? - Ask Ubuntu",
+            "sync_transaction_version": "478",
+            "type": "url",
+            "url": "https://askubuntu.com/questions/28372/how-do-i-get-and-modify-the-source-code-of-packages-installed-through-apt-get"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "0",
+         "date_modified": "13164524164532934",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -1609,7 +1712,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "319",
+      "sync_transaction_version": "597",
       "synced": {
          "children": [  ],
          "date_added": "13163057168835561",
