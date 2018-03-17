@@ -1,5 +1,5 @@
 {
-   "checksum": "5e45f17bd8c94543478e851587b36be8",
+   "checksum": "0deab2c152daa37d9f12a21006c1d3bd",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -7,7 +7,7 @@
                "date_added": "13023153419890255",
                "id": "193",
                "meta_info": {
-                  "last_visited_desktop": "13164749871625594"
+                  "last_visited_desktop": "13165692232486539"
                },
                "name": "mail",
                "sync_transaction_version": "457",
@@ -17,10 +17,10 @@
                "date_added": "13084301303095381",
                "id": "194",
                "meta_info": {
-                  "last_visited_desktop": "13164083327984125"
+                  "last_visited_desktop": "13165573978661989"
                },
                "name": "gmail",
-               "sync_transaction_version": "459",
+               "sync_transaction_version": "765",
                "type": "url",
                "url": "https://mail.google.com/mail/u/0/"
             }, {
@@ -55,7 +55,7 @@
                "url": "https://protonmail.com/"
             } ],
             "date_added": "13163057173100750",
-            "date_modified": "13164591031283412",
+            "date_modified": "13165609069978019",
             "id": "5",
             "name": "communication",
             "sync_transaction_version": "319",
@@ -65,10 +65,10 @@
                "date_added": "13025767130215282",
                "id": "191",
                "meta_info": {
-                  "last_visited_desktop": "13164401786264201"
+                  "last_visited_desktop": "13165092484625406"
                },
                "name": "credit",
-               "sync_transaction_version": "535",
+               "sync_transaction_version": "728",
                "type": "url",
                "url": "https://www.cucardsonline.com/EN/home.htm"
             }, {
@@ -412,10 +412,10 @@
                   "date_added": "13084508089561923",
                   "id": "126",
                   "meta_info": {
-                     "last_visited_desktop": "13164321671456519"
+                     "last_visited_desktop": "13164973736073009"
                   },
                   "name": "hc",
-                  "sync_transaction_version": "518",
+                  "sync_transaction_version": "716",
                   "type": "url",
                   "url": "https://hockey-community.com/feeds/newsfeed"
                }, {
@@ -703,10 +703,10 @@
                "date_added": "13162938778297459",
                "id": "121",
                "meta_info": {
-                  "last_visited": "13162938778299295"
+                  "last_visited": "13165134650474102"
                },
                "name": "Fantastic Personal Websites and How to Make Them",
-               "sync_transaction_version": "319",
+               "sync_transaction_version": "746",
                "type": "url",
                "url": "https://dev.to/asopki/fantastic-personal-websites-and-how-to-make-them--22om"
             } ],
@@ -998,8 +998,11 @@
                }, {
                   "date_added": "13086375468406313",
                   "id": "83",
+                  "meta_info": {
+                     "last_visited_desktop": "13165441647594413"
+                  },
                   "name": "google-cmd",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "759",
                   "type": "url",
                   "url": "http://peter.sh/experiments/chromium-command-line-switches/"
                }, {
@@ -1027,10 +1030,10 @@
                   "date_added": "13155727467801459",
                   "id": "87",
                   "meta_info": {
-                     "last_visited_desktop": "13155862680072282"
+                     "last_visited_desktop": "13164929558788318"
                   },
                   "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-                  "sync_transaction_version": "319",
+                  "sync_transaction_version": "708",
                   "type": "url",
                   "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
                }, {
@@ -1260,11 +1263,11 @@
                   "date_added": "13071693985719153",
                   "id": "60",
                   "meta_info": {
-                     "last_visited": "13164554503218967",
-                     "last_visited_desktop": "13163897637187128"
+                     "last_visited": "13165452592484677",
+                     "last_visited_desktop": "13165094770259434"
                   },
                   "name": "ghme",
-                  "sync_transaction_version": "570",
+                  "sync_transaction_version": "760",
                   "type": "url",
                   "url": "https://github.com/p-mcgowan"
                }, {
@@ -1276,7 +1279,7 @@
                   "url": "https://github.com/eliangcs/http-prompt"
                } ],
                "date_added": "13163057173102834",
-               "date_modified": "13164582492322245",
+               "date_modified": "13165522596223204",
                "id": "42",
                "name": "git",
                "sync_transaction_version": "319",
@@ -1311,11 +1314,11 @@
                   "date_added": "13151400995757769",
                   "id": "54",
                   "meta_info": {
-                     "last_visited": "13164839493279504",
+                     "last_visited": "13165717951661208",
                      "last_visited_desktop": "13164587412959443"
                   },
                   "name": "devblog",
-                  "sync_transaction_version": "694",
+                  "sync_transaction_version": "781",
                   "type": "url",
                   "url": "https://dev.to/"
                }, {
@@ -1355,7 +1358,7 @@
                   "url": "https://docs.google.com/spreadsheets/d/1tV1cM0SXvynPP3eV3Gp2g6yakrNKZZzMDAKF4OAzCK4/edit#gid=0"
                } ],
                "date_added": "13163057173102884",
-               "date_modified": "13164839508250303",
+               "date_modified": "13165717962197964",
                "id": "45",
                "name": "tmp",
                "sync_transaction_version": "319",
@@ -1462,11 +1465,11 @@
                   "date_added": "13128545004875754",
                   "id": "34",
                   "meta_info": {
-                     "last_visited": "13164338387783292",
-                     "last_visited_desktop": "13164686008569951"
+                     "last_visited": "13165181792800415",
+                     "last_visited_desktop": "13165357322199296"
                   },
                   "name": "connect",
-                  "sync_transaction_version": "622",
+                  "sync_transaction_version": "746",
                   "type": "url",
                   "url": "http://connect.ubc.ca/webapps/blackboard/content/listContent.jsp?course_id=_87470_1&content_id=_3824014_1"
                }, {
@@ -1479,9 +1482,19 @@
                   "sync_transaction_version": "319",
                   "type": "url",
                   "url": "https://piazza.com/class/iwkxfq63vox3sa"
+               }, {
+                  "date_added": "13164937430150854",
+                  "id": "221",
+                  "meta_info": {
+                     "last_visited_desktop": "13164937430151187"
+                  },
+                  "name": "Google Custom Search",
+                  "sync_transaction_version": "712",
+                  "type": "url",
+                  "url": "https://cse.google.com/cse/publicurl?cx=001639227550064093264:dznewka3cca"
                } ],
                "date_added": "13163057173101833",
-               "date_modified": "13164347467170052",
+               "date_modified": "13165263298890274",
                "id": "11",
                "name": "utils",
                "sync_transaction_version": "319",
@@ -1507,10 +1520,10 @@
                      "id": "27",
                      "meta_info": {
                         "last_visited": "13156386216481259",
-                        "last_visited_desktop": "13162948428476589"
+                        "last_visited_desktop": "13164925835925625"
                      },
                      "name": "milestone1",
-                     "sync_transaction_version": "319",
+                     "sync_transaction_version": "700",
                      "type": "url",
                      "url": "https://docs.google.com/document/d/1qKPSFLyE0RWopifvzE-PJ3r552vl0L1Fp_BBwcSReq4/edit"
                   }, {
@@ -1527,10 +1540,10 @@
                      "date_added": "13151103116193089",
                      "id": "29",
                      "meta_info": {
-                        "last_visited_desktop": "13162948428476589"
+                        "last_visited_desktop": "13164925835925625"
                      },
                      "name": "capdoc",
-                     "sync_transaction_version": "319",
+                     "sync_transaction_version": "701",
                      "type": "url",
                      "url": "https://docs.google.com/document/d/1qKPSFLyE0RWopifvzE-PJ3r552vl0L1Fp_BBwcSReq4/edit"
                   }, {
@@ -1634,10 +1647,11 @@
                   "date_added": "13162007018016967",
                   "id": "19",
                   "meta_info": {
-                     "last_visited_desktop": "13163989395906631"
+                     "last_visited": "13165322105796001",
+                     "last_visited_desktop": "13165283860508316"
                   },
                   "name": "S3 Management Console",
-                  "sync_transaction_version": "488",
+                  "sync_transaction_version": "752",
                   "type": "url",
                   "url": "https://s3.console.aws.amazon.com/s3/buckets/rtar01189998819991197253/images/?region=us-west-1&tab=overview"
                }, {
@@ -1662,7 +1676,7 @@
                   "url": "https://aws.amazon.com/blogs/compute/resize-images-on-the-fly-with-amazon-s3-aws-lambda-and-amazon-api-gateway/"
                } ],
                "date_added": "13163057173101838",
-               "date_modified": "13163293074660536",
+               "date_modified": "13165350058849068",
                "id": "12",
                "name": "capstone",
                "sync_transaction_version": "319",
@@ -1672,10 +1686,10 @@
                "id": "207",
                "meta_info": {
                   "last_visited": "13164224969306707",
-                  "last_visited_desktop": "13164754246291571"
+                  "last_visited_desktop": "13165531652436227"
                },
                "name": "322home",
-               "sync_transaction_version": "495",
+               "sync_transaction_version": "762",
                "type": "url",
                "url": "https://www.cs.ubc.ca/~poole/cs322/2018/"
             }, {
@@ -1683,10 +1697,10 @@
                "id": "13",
                "meta_info": {
                   "last_visited": "13164221856554628",
-                  "last_visited_desktop": "13164754215204158"
+                  "last_visited_desktop": "13165531654543135"
                },
                "name": "322canvas",
-               "sync_transaction_version": "626",
+               "sync_transaction_version": "764",
                "type": "url",
                "url": "https://canvas.ubc.ca/courses/3331"
             } ],
@@ -1707,9 +1721,29 @@
             "sync_transaction_version": "478",
             "type": "url",
             "url": "https://askubuntu.com/questions/28372/how-do-i-get-and-modify-the-source-code-of-packages-installed-through-apt-get"
+         }, {
+            "date_added": "13165014308549788",
+            "id": "225",
+            "meta_info": {
+               "last_visited_desktop": "13165574498481464"
+            },
+            "name": "eykr38wc2kk01.png (2000×2210)",
+            "sync_transaction_version": "765",
+            "type": "url",
+            "url": "https://i.redd.it/eykr38wc2kk01.png"
+         }, {
+            "date_added": "13165175762481033",
+            "id": "227",
+            "meta_info": {
+               "last_visited": "13165179145050282"
+            },
+            "name": "Putting the helmet on - Securing your Express app",
+            "sync_transaction_version": "748",
+            "type": "url",
+            "url": "https://www.twilio.com/blog/2017/11/securing-your-express-app.html"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "13164524164532934",
+         "date_modified": "13165609069978021",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -1722,7 +1756,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "694",
+      "sync_transaction_version": "781",
       "synced": {
          "children": [  ],
          "date_added": "13163057168835561",
