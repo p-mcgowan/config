@@ -12,7 +12,6 @@
 		"Case Conversion",
 		"Emmet",
 		"Makefile Plus",
-		"Markdown Preview",
 		"Package Control",
 		"PackageResourceViewer",
 		"Pretty JSON",
@@ -24,6 +23,7 @@
 		"Theme - Soda",
 		"Theme - SoDaReloaded",
 		"TypeScript Syntax",
-		"Vue Syntax Highlight"
+		"Vue Syntax Highlight",
+		"MarkdownPreview"
 	]
 }
