@@ -1,11 +1,14 @@
 {
-   "checksum": "9e3d20d7443197c1781073ba701f4940",
+   "checksum": "57faa0fd63e706ddda9bef3013383fef",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "children": [ {
                "date_added": "13023153419890255",
                "id": "3",
+               "meta_info": {
+                  "last_visited_desktop": "13172823793125796"
+               },
                "name": "mail",
                "sync_transaction_version": "1750",
                "type": "url",
@@ -14,7 +17,7 @@
                "date_added": "13084301303095381",
                "id": "4",
                "meta_info": {
-                  "last_visited_desktop": "13172361217988470"
+                  "last_visited_desktop": "13174556524184469"
                },
                "name": "gmail",
                "sync_transaction_version": "1774",
@@ -240,6 +243,9 @@
                }, {
                   "date_added": "13153189463004228",
                   "id": "34",
+                  "meta_info": {
+                     "last_visited_desktop": "13173336165421527"
+                  },
                   "name": "The Ultimate Best Free Movie & TV Show Streaming Sites in 2017 [Case Study]",
                   "sync_transaction_version": "1750",
                   "type": "url",
@@ -1001,6 +1007,9 @@
                }, {
                   "date_added": "13162941629420527",
                   "id": "127",
+                  "meta_info": {
+                     "last_visited_desktop": "13174553437629166"
+                  },
                   "name": "Interview Questions You Should Ask",
                   "sync_transaction_version": "1780",
                   "type": "url",
@@ -1029,6 +1038,9 @@
                }, {
                   "date_added": "13162941629420527",
                   "id": "81",
+                  "meta_info": {
+                     "last_visited_desktop": "13174553437629166"
+                  },
                   "name": "Interview Questions You Should Ask",
                   "sync_transaction_version": "1779",
                   "type": "url",
@@ -1755,6 +1767,9 @@
                }, {
                   "date_added": "13071693985719153",
                   "id": "208",
+                  "meta_info": {
+                     "last_visited_desktop": "13174554228936992"
+                  },
                   "name": "ghme",
                   "sync_transaction_version": "1760",
                   "type": "url",
@@ -1838,9 +1853,18 @@
                   "sync_transaction_version": "1750",
                   "type": "url",
                   "url": "http://localhost:5000/products"
+               }, {
+                  "date_added": "13172448523481277",
+                  "id": "297",
+                  "meta_info": {
+                     "last_visited_desktop": "13172456294167148"
+                  },
+                  "name": "JavaScript global error handling - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/951791/javascript-global-error-handling"
                } ],
                "date_added": "13151448214323335",
-               "date_modified": "13172273840952322",
+               "date_modified": "13172448523481277",
                "id": "213",
                "name": "tmp",
                "sync_transaction_version": "1750",
@@ -2011,6 +2035,15 @@
             "sync_transaction_version": "1750",
             "type": "folder"
          }, {
+            "date_added": "13174555676178938",
+            "id": "302",
+            "meta_info": {
+               "last_visited_desktop": "13174555676180856"
+            },
+            "name": "Papertrail - cloud-hosted log management, live in seconds",
+            "type": "url",
+            "url": "https://papertrailapp.com/"
+         }, {
             "date_added": "13170538776789933",
             "id": "263",
             "name": "Map for 2 Bedroom Apartment in Vancouver - www.uvrentsline.com",
@@ -2037,9 +2070,36 @@
             "name": "siteDAta",
             "type": "url",
             "url": "chrome://settings/siteData"
+         }, {
+            "date_added": "13172448528839586",
+            "id": "298",
+            "meta_info": {
+               "last_visited_desktop": "13172456294167148"
+            },
+            "name": "JavaScript global error handling - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/951791/javascript-global-error-handling"
+         }, {
+            "date_added": "13174268650318762",
+            "id": "300",
+            "meta_info": {
+               "last_visited_desktop": "13174268650319582"
+            },
+            "name": "Software Developer (Front-/Backend)",
+            "type": "url",
+            "url": "https://isarbits.com/en/careers/developer/"
+         }, {
+            "date_added": "13174556858970637",
+            "id": "303",
+            "meta_info": {
+               "last_visited_desktop": "13174556858971913"
+            },
+            "name": "Live the experience | AIESEC",
+            "type": "url",
+            "url": "https://www.aiesec.org/"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "13172358556947536",
+         "date_modified": "13174556858970637",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
