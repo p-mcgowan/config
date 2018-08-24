@@ -15,6 +15,8 @@
 
   { "caption": "Il8n", "command": "run_macro_file",
     "args": { "file": "Packages/User/macros/translate.sublime-macro" } },
+  { "caption": "String split macro", "command": "run_macro_file",
+    "args": { "file": "Packages/User/macros/split.sublime-macro" } },
   { "caption": "Re-open tabs", "command": "reopenTabs" },
 
   { "caption": "ShellCMD: sortby",
