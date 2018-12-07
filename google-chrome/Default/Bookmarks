@@ -1461,10 +1461,11 @@
                   "date_added": "13152065722289134",
                   "id": "245",
                   "meta_info": {
+                     "last_visited": "13188667886541711",
                      "last_visited_desktop": "13183469154432380"
                   },
                   "name": "FHIR Implementation",
-                  "sync_transaction_version": "3",
+                  "sync_transaction_version": "43",
                   "type": "url",
                   "url": "https://github.com/HospitalRun/hospitalrun-server/projects/1"
                } ],
@@ -1767,7 +1768,7 @@
                      "last_visited_desktop": "13188652746573281"
                   },
                   "name": "ghib",
-                  "sync_transaction_version": "38",
+                  "sync_transaction_version": "44",
                   "type": "url",
                   "url": "https://github.com/isarbits/linde-plantserv2"
                }, {
@@ -2565,7 +2566,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "42",
+      "sync_transaction_version": "44",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",

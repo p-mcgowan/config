@@ -71,7 +71,7 @@
             "cells": [[0, 0, 1, 1]]
         }
     },
-    { "keys": ["ctrl+b"], "command": "shell_command", "args": { "command": "/usr/bin/gnome-terminal ." } },
+    { "keys": ["ctrl+b"], "command": "shell_command", "args": { "command": "gnome-terminal ." } },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } },
     { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },

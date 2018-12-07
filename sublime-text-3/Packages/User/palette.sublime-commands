@@ -39,5 +39,7 @@
   { "caption": "Open packages",
     "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } },
   { "command": "close_to_right", "caption": "Close Tabs to the Right" },
-  { "command": "close_others", "caption": "Close Other Tabs" }
+  { "command": "close_others", "caption": "Close Other Tabs" },
+  { "command": "gnome_terminal_here", "caption": "Gnomification" },
+
 ]
