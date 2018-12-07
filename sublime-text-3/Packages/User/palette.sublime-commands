@@ -37,5 +37,7 @@
     "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/tex" } },
   { "caption": "New Snippet...", "command": "new_snippet" },
   { "caption": "Open packages",
-    "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } }
+    "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } },
+  { "command": "close_to_right", "caption": "Close Tabs to the Right" },
+  { "command": "close_others", "caption": "Close Other Tabs" }
 ]

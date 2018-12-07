@@ -15,6 +15,7 @@
 		"EditorConfig",
 		"Emmet",
 		"HTML-CSS-JS Prettify",
+		"ImportHelper",
 		"Makefile Plus",
 		"MarkdownPreview",
 		"Package Control",
@@ -29,7 +30,7 @@
 		"SummitLinter",
 		"Theme - Soda",
 		"Theme - SoDaReloaded",
-		"TypeScript Syntax",
+		"TypeScript",
 		"Vue Syntax Highlight"
 	]
 }
