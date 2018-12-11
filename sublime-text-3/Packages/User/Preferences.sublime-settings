@@ -29,7 +29,9 @@
 		"*.sublime-project",
 		"*.o",
 		"selenium-debug.log",
-		"plugins/*/*/**"
+		"plugins/*/*/**",
+		"package-lock.json",
+		"yarn.lock"
 	],
 	"folder_exclude_patterns":
 	[
