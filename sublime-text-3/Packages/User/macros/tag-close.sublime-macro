@@ -1,0 +1,26 @@
+[
+    {
+        "args": {
+            "extend": false,
+            "to": "eol"
+        },
+        "command": "move_to"
+    },
+    {
+        "args": {
+            "characters": ">"
+        },
+        "command": "insert"
+    },
+    {
+        "args": {
+            "replacements": ["replace_double_tag_end", "replace_empty_start_tag"],
+            "no_selection": true
+        },
+        "command": "reg_replace"
+    },
+    {
+        "args": null,
+        "command": "close_tag"
+    }
+]
