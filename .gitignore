@@ -1,8 +1,9 @@
-/*
-/*/
+*
 !.gitignore
 !user-dirs.dirs
-!gtk-3.0/
 !google-chrome/Default/Bookmarks
-!mc/
-!sublime-text-3/Packages/User/
+!mc
+!mc/*
+!sublime-text-3/Packages/
+!sublime-text-3/Packages/*
+!sublime-text-3/Packages/**/
