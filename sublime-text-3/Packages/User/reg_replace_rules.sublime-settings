@@ -1,30 +1,53 @@
 {
     "format": "3.0",
     "replacements": {
-        "newline_braces": {
-            "find": "(?i)[ ]*\\n[ ]*{",
+        "trim_whitespace": {
+            "find": "[ \\t\\n]",
+            "replace": "",
             "greedy": true,
-            "replace": " {"
+            "case": false
         },
-        "replace_double_tag_end": {
-            "find": "(?i)>>",
+        "camel_to_underscores": {
+            "find": "([A-Z])",
+            "replace": "_\\L\\1",
             "greedy": true,
-            "replace": ">"
+            "case": true
         },
-        "replace_empty_start_tag": {
-            "find": "(?i)^[ ]*>",
-            "greedy": false,
-            "replace": ""
-        },
-        "to_underscore": {
-            "find": "(?i) ",
+        "underscores_to_camel": {
+            "find": "_([a-zA-Z])",
+            "replace": "\\U\\1",
             "greedy": true,
-            "replace": "_"
+            "case": true
         },
         "trim_eol_space": {
-            "find": "(?i)[ ]*$",
+            "find": "[ ]*$",
+            "replace": "",
             "greedy": true,
-            "replace": ""
+            "case": false
+        },
+        "replace_double_tag_end": {
+            "find": ">>",
+            "replace": ">",
+            "greedy": true,
+            "case": false
+        },
+        "replace_empty_start_tag": {
+            "find": "^[ ]*>",
+            "replace": "",
+            "greedy": false,
+            "case": false
+        },
+        "newline_braces": {
+            "find": "[ ]*\n[ ]*{",
+            "replace": " {",
+            "greedy": true,
+            "case": false
+        },
+        "to_underscore": {
+            "find": " ",
+            "replace": "_",
+            "greedy": true,
+            "case": false
         }
     }
 }

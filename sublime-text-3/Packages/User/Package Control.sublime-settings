@@ -5,32 +5,14 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"Alignment",
-		"ANSIescape",
-		"Babel",
-		"C Improved",
-		"Case Conversion",
-		"DocBlockr",
-		"EditorConfig",
-		"Emmet",
-		"HTML-CSS-JS Prettify",
 		"ImportHelper",
-		"Makefile Plus",
-		"MarkdownPreview",
 		"Package Control",
-		"PackageResourceViewer",
 		"Pretty JSON",
-		"Pug",
 		"RegReplace",
-		"Sass",
 		"ShellCommand",
 		"SideBarEnhancements",
-		"SublimeLinter",
-		"SummitLinter",
-		"Theme - Soda",
 		"Theme - SoDaReloaded",
-		"TypeScript",
-		"Vue Syntax Highlight"
+		"TypeScript"
 	]
 }

@@ -2,51 +2,6 @@
     "selection_only": true,
     // Use extended back references
     "extended_back_references": true,
-
-    "replacements": {
-        "camel_to_underscores": {
-            "find": "([A-Z])",
-            "replace": "_\\L\\1",
-            "greedy": true,
-            "case": true
-        },
-        "underscores_to_camel": {
-            "find": "_([a-zA-Z])",
-            "replace": "\\U\\1",
-            "greedy": true,
-            "case": true
-        },
-        "trim_eol_space": {
-            "find": "[ ]*$",
-            "replace": "",
-            "greedy": true,
-            "case": false
-        },
-        "replace_double_tag_end": {
-            "find": ">>",
-            "replace": ">",
-            "greedy": true,
-            "case": false
-        },
-        "replace_empty_start_tag": {
-            "find": "^[ ]*>",
-            "replace": "",
-            "greedy": false,
-            "case": false
-        },
-        "newline_braces": {
-            "find": "[ ]*\n[ ]*{",
-            "replace": " {",
-            "greedy": true,
-            "case": false
-        },
-        "to_underscore": {
-            "find": " ",
-            "replace": "_",
-            "greedy": true,
-            "case": false
-        }
-    }
 }
 // ////////////////////////////////
 // // Regex with scope qualifiers//

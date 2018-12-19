@@ -45,10 +45,7 @@
     /** Close current html tag */
     {
         "keys": ["ctrl+."],
-        "command": "run_macro_file",
-        "args": {
-            "file": "Packages/User/macros/tag-close.sublime-macro"
-        }
+        "command": "insert_import",
     },
     /** Same as zl[tab] but retains selection */
     { "keys": ["ctrl+k", "l"],
