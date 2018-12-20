@@ -1258,8 +1258,11 @@
                }, {
                   "date_added": "13071693985719153",
                   "id": "226",
+                  "meta_info": {
+                     "last_visited_desktop": "13189780563711040"
+                  },
                   "name": "ghme",
-                  "sync_transaction_version": "206",
+                  "sync_transaction_version": "385",
                   "type": "url",
                   "url": "https://github.com/p-mcgowan"
                }, {
@@ -1575,20 +1578,20 @@
                   "date_added": "13185027792145219",
                   "id": "512",
                   "meta_info": {
-                     "last_visited_desktop": "13189505701961842"
+                     "last_visited_desktop": "13189780566379229"
                   },
                   "name": "JIRA",
-                  "sync_transaction_version": "365",
+                  "sync_transaction_version": "388",
                   "type": "url",
                   "url": "https://linde-le.atlassian.net/secure/RapidBoard.jspa"
                }, {
                   "date_added": "13182593250185002",
                   "id": "513",
                   "meta_info": {
-                     "last_visited_desktop": "13189676923003156"
+                     "last_visited_desktop": "13189780550568180"
                   },
                   "name": "ghib",
-                  "sync_transaction_version": "373",
+                  "sync_transaction_version": "384",
                   "type": "url",
                   "url": "https://github.com/isarbits/linde-plantserv2"
                }, {
@@ -1622,8 +1625,11 @@
                }, {
                   "date_added": "13185983545977935",
                   "id": "518",
+                  "meta_info": {
+                     "last_visited_desktop": "13189769802542684"
+                  },
                   "name": "mite",
-                  "sync_transaction_version": "215",
+                  "sync_transaction_version": "379",
                   "type": "url",
                   "url": "https://isarbits.mite.yo.lk/login"
                }, {
@@ -2319,7 +2325,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "373",
+      "sync_transaction_version": "388",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",
