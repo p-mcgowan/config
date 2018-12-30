@@ -1,38 +1,33 @@
 {
-   "checksum": "549441ee06b1522569b2868c56f75a55",
+   "checksum": "0b3b3603fe31360d47c33ed4094f5b95",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "children": [ {
                "date_added": "13023153419890255",
                "id": "3",
-               "meta_info": {
-                  "last_visited": "13181159232797114",
-                  "last_visited_desktop": "13187776353733885"
-               },
                "name": "mail",
-               "sync_transaction_version": "1558",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://webmail.shaw.ca/uwc/auth"
             }, {
                "date_added": "13084301303095381",
                "id": "4",
                "meta_info": {
-                  "last_visited": "13180036282555444",
-                  "last_visited_desktop": "13188308207491114"
+                  "last_visited_desktop": "13189505538562648"
                },
                "name": "gmail",
-               "sync_transaction_version": "1677",
+               "sync_transaction_version": "1839",
                "type": "url",
                "url": "https://mail.google.com/mail/u/1/"
             }, {
                "date_added": "13128738819378185",
                "id": "5",
                "meta_info": {
-                  "last_visited_desktop": "13188241036702513"
+                  "last_visited_desktop": "13190464417522986"
                },
                "name": "whatsapp",
-               "sync_transaction_version": "1670",
+               "sync_transaction_version": "1917",
                "type": "url",
                "url": "https://web.whatsapp.com/"
             }, {
@@ -45,26 +40,20 @@
             }, {
                "date_added": "13164524164532934",
                "id": "7",
-               "meta_info": {
-                  "last_visited_desktop": "13181946628422384"
-               },
                "name": "protonmail",
-               "sync_transaction_version": "842",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://protonmail.com/"
             }, {
                "date_added": "13172348438731286",
                "id": "8",
-               "meta_info": {
-                  "last_visited_desktop": "13182974360447103"
-               },
                "name": "mpireEmail",
-               "sync_transaction_version": "1047",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://apps.rackspace.com/a/webmail.php?wsid=d75a639064b5ed2634ca3f05997a315307f34af1"
             } ],
             "date_added": "13023152097278691",
-            "date_modified": "13188334538905766",
+            "date_modified": "13189539831351407",
             "id": "2",
             "name": "communication",
             "sync_transaction_version": "158",
@@ -73,28 +62,30 @@
             "children": [ {
                "date_added": "13025767130215282",
                "id": "10",
-               "meta_info": {
-                  "last_visited": "13185229152810973",
-                  "last_visited_desktop": "13187088781652905"
-               },
                "name": "credit",
-               "sync_transaction_version": "1495",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://www.cucardsonline.com/EN/home.htm"
             }, {
                "date_added": "13025767177665598",
                "id": "11",
-               "meta_info": {
-                  "last_visited": "13183253783216206",
-                  "last_visited_desktop": "13187088783411289"
-               },
                "name": "fcu",
-               "sync_transaction_version": "1495",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://www.firstcu.ca/Personal/"
+            }, {
+               "date_added": "13189629670822180",
+               "id": "706",
+               "meta_info": {
+                  "last_visited_desktop": "13189629670822489"
+               },
+               "name": "db",
+               "sync_transaction_version": "1860",
+               "type": "url",
+               "url": "https://meine.deutsche-bank.de/trxm/db/"
             } ],
             "date_added": "13023152090621335",
-            "date_modified": "13187122503986377",
+            "date_modified": "13189629670822180",
             "id": "9",
             "name": "finance",
             "sync_transaction_version": "158",
@@ -147,11 +138,8 @@
                }, {
                   "date_added": "13166124988152129",
                   "id": "24",
-                  "meta_info": {
-                     "last_visited_desktop": "13180365476743150"
-                  },
                   "name": "moresynth",
-                  "sync_transaction_version": "637",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.youtube.com/watch?v=VPcmXMPuVtI&feature=youtu.be"
                }, {
@@ -171,11 +159,8 @@
                }, {
                   "date_added": "13097718647487661",
                   "id": "27",
-                  "meta_info": {
-                     "last_visited_desktop": "13186453594404185"
-                  },
                   "name": "ak47",
-                  "sync_transaction_version": "1442",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://play.spotify.com/user/11158429211/playlist/7HxRHLM8W24q7B9v4zAP9X"
                }, {
@@ -188,16 +173,13 @@
                }, {
                   "date_added": "13097718647487661",
                   "id": "525",
-                  "meta_info": {
-                     "last_visited_desktop": "13186453594404185"
-                  },
                   "name": "ak47",
-                  "sync_transaction_version": "1443",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://play.spotify.com/user/11158429211/playlist/7HxRHLM8W24q7B9v4zAP9X"
                } ],
                "date_added": "13136417373848957",
-               "date_modified": "13174511887832159",
+               "date_modified": "13188941810481720",
                "id": "19",
                "name": "music",
                "sync_transaction_version": "158",
@@ -221,11 +203,11 @@
                   "date_added": "13157584255037353",
                   "id": "39",
                   "meta_info": {
-                     "last_visited": "13188438965616946",
-                     "last_visited_desktop": "13188218408417179"
+                     "last_visited": "13190637474991105",
+                     "last_visited_desktop": "13190464090784467"
                   },
                   "name": "reddit",
-                  "sync_transaction_version": "1695",
+                  "sync_transaction_version": "1918",
                   "type": "url",
                   "url": "https://old.reddit.com/r/popular/?geo_filter=GLOBAL"
                }, {
@@ -245,46 +227,34 @@
                }, {
                   "date_added": "13183055124137415",
                   "id": "559",
-                  "meta_info": {
-                     "last_visited_desktop": "13184451408733416"
-                  },
                   "name": "azv",
-                  "sync_transaction_version": "1175",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.amazon.de/gp/video/storefront/ref=atv_tv_hom_1_slct"
                }, {
                   "date_added": "13187915183391417",
                   "id": "665",
-                  "meta_info": {
-                     "last_visited_desktop": "13187986497728564"
-                  },
                   "name": "cub",
-                  "sync_transaction_version": "1594",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.youtube.com/watch?v=Z-dV52FIIGg&index=46&list=PLoH7Sjb8-XEh-mU5C_MrCB6aiekTnYXrG"
                }, {
                   "date_added": "13187906659274127",
                   "id": "664",
-                  "meta_info": {
-                     "last_visited": "13187906659277145"
-                  },
                   "name": "What's your comfort TV show/film? : AskReddit",
-                  "sync_transaction_version": "1590",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://old.reddit.com/r/AskReddit/comments/a120qa/whats_your_comfort_tv_showfilm/"
                }, {
                   "date_added": "13188440950570342",
                   "id": "685",
-                  "meta_info": {
-                     "last_visited_desktop": "13188440950570570"
-                  },
                   "name": "(5) Hermitcraft VI 003 | THE FIRST TOWER! 🏛️ | A Minecraft Let's Play - YouTube",
-                  "sync_transaction_version": "1698",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.youtube.com/watch?v=RqfT6KFKsT8&list=PLgj0MXHeQpb9cTSk82HPvkOpjbzOvGsSs&index=3"
                } ],
                "date_added": "13137135502816139",
-               "date_modified": "13188440962897745",
+               "date_modified": "13190665009223008",
                "id": "29",
                "name": "media",
                "sync_transaction_version": "158",
@@ -358,21 +328,15 @@
                "children": [ {
                   "date_added": "13183593130600777",
                   "id": "570",
-                  "meta_info": {
-                     "last_visited_desktop": "13183593130601466"
-                  },
                   "name": "Best internet providers in Munich? : Munich",
-                  "sync_transaction_version": "1110",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://old.reddit.com/r/Munich/comments/41vt6l/best_internet_providers_in_munich/"
                }, {
                   "date_added": "13183593049599848",
                   "id": "569",
-                  "meta_info": {
-                     "last_visited_desktop": "13187984324411353"
-                  },
                   "name": "Surfen im Highspeed Internet vom Testsieger ab 9,90€ | M-net",
-                  "sync_transaction_version": "1590",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.m-net.de/privatkunden/highspeed-internet/"
                }, {
@@ -385,26 +349,71 @@
                }, {
                   "date_added": "13188002191972535",
                   "id": "668",
-                  "meta_info": {
-                     "last_visited_desktop": "13188002191972734"
-                  },
                   "name": "Product configuration PK SFF / SF",
-                  "sync_transaction_version": "1598",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://shop.m-net.de/Produktkonfiguration?Channel=PK&ConfigurationID=SFF_SF&GeoID=1131820"
                }, {
                   "date_added": "13188002195464314",
                   "id": "673",
                   "meta_info": {
-                     "last_visited_desktop": "13188002195464484"
+                     "last_visited_desktop": "13189629420108757"
                   },
                   "name": "PŸUR Internet: das Netz der nächsten Generation",
-                  "sync_transaction_version": "1607",
+                  "sync_transaction_version": "1858",
                   "type": "url",
                   "url": "https://www.pyur.com/content/pyur/de/privatkunden/internet.html"
+               }, {
+                  "children": [ {
+                     "date_added": "13189711440886246",
+                     "id": "709",
+                     "meta_info": {
+                        "last_visited_desktop": "13189711440886575"
+                     },
+                     "name": "bauhaus - Google Search",
+                     "sync_transaction_version": "1877",
+                     "type": "url",
+                     "url": "https://www.google.com/search?q=bauhaus&oq=bauhaus&aqs=chrome..69i57.3655j0j7&sourceid=chrome&ie=UTF-8"
+                  }, {
+                     "date_added": "13189711443221844",
+                     "id": "710",
+                     "meta_info": {
+                        "last_visited_desktop": "13189711443221981"
+                     },
+                     "name": "hagebaumarkt - Google Search",
+                     "sync_transaction_version": "1877",
+                     "type": "url",
+                     "url": "https://www.google.com/search?safe=off&ei=HnUaXLrULIGyrgS1oLJQ&q=hagebaumarkt&oq=hagerbau&gs_l=psy-ab.3.0.0i10l10.8275.10404..12757...1.0..0.134.489.4j1......0....1..gws-wiz.......0i71j0i13j0i13i30j0i13i5i30.b9yOMiZLWp4"
+                  }, {
+                     "date_added": "13189711445294051",
+                     "id": "711",
+                     "meta_info": {
+                        "last_visited_desktop": "13189711445294207"
+                     },
+                     "name": "obi - Google Search",
+                     "sync_transaction_version": "1877",
+                     "type": "url",
+                     "url": "https://www.google.com/search?q=obi&oq=obi&aqs=chrome..69i57j69i60l2j69i59.2591j0j7&sourceid=chrome&ie=UTF-8"
+                  }, {
+                     "date_added": "13189711447356717",
+                     "id": "712",
+                     "meta_info": {
+                        "last_visited_desktop": "13189711447356859"
+                     },
+                     "name": "toom store - Google Search",
+                     "sync_transaction_version": "1877",
+                     "type": "url",
+                     "url": "https://www.google.ca/search?q=toom%20store"
+                  } ],
+                  "date_added": "13189711437728241",
+                  "date_modified": "13189711447356717",
+                  "id": "708",
+                  "name": "hardware",
+                  "sync_transaction_version": "1878",
+                  "type": "folder"
                } ],
                "date_added": "13183663697680940",
-               "date_modified": "13188002805599797",
+               "date_modified": "13189724325635991",
                "id": "573",
                "name": "munich",
                "sync_transaction_version": "1110",
@@ -412,128 +421,138 @@
             }, {
                "date_added": "13071971455268524",
                "id": "13",
-               "meta_info": {
-                  "last_visited": "13180980990252772",
-                  "last_visited_desktop": "13186453594380655"
-               },
                "name": "bcfl",
-               "sync_transaction_version": "1432",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "http://1.1.1.1/login.html"
             }, {
                "date_added": "13025201688317177",
                "id": "14",
-               "meta_info": {
-                  "last_visited_desktop": "13186453594387691"
-               },
                "name": "peak",
-               "sync_transaction_version": "1433",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "http://ckpk.streamon.fm/"
             }, {
                "date_added": "13088748953378235",
                "id": "15",
-               "meta_info": {
-                  "last_visited": "13179631375653024",
-                  "last_visited_desktop": "13186453594394476"
-               },
                "name": "ferryLoc",
-               "sync_transaction_version": "1434",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "http://orca.bcferries.com:8080/cc/settings/includes/maps/route5.html"
             }, {
                "date_added": "13097718647487661",
                "id": "16",
-               "meta_info": {
-                  "last_visited_desktop": "13186453594404185"
-               },
                "name": "ak47",
-               "sync_transaction_version": "1444",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://play.spotify.com/user/11158429211/playlist/7HxRHLM8W24q7B9v4zAP9X"
             }, {
                "date_added": "13183990258095908",
                "id": "583",
-               "meta_info": {
-                  "last_visited_desktop": "13186453594410486"
-               },
                "name": "The Total Guide to Bodyweight Workouts & Exercises",
-               "sync_transaction_version": "1438",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://www.onnit.com/academy/basic-to-beast-complete-bodyweight-workout-program/"
             }, {
                "date_added": "13187587991631014",
                "id": "653",
-               "meta_info": {
-                  "last_visited_desktop": "13187622841361013"
-               },
                "name": "Watch Bodyguard - Season 1 (2018) Full Online Free - StreamCR",
-               "sync_transaction_version": "1516",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://scr.cr/watch/25995-bodyguard-season-1"
             }, {
                "date_added": "13187742007416424",
                "id": "659",
                "meta_info": {
-                  "last_visited_desktop": "13188172085860800"
+                  "last_visited_desktop": "13189627291837445"
                },
                "name": "mumbo",
-               "sync_transaction_version": "1645",
+               "sync_transaction_version": "1863",
                "type": "url",
-               "url": "https://www.youtube.com/watch?v=pzltGr4386A&list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74&index=51"
+               "url": "https://www.youtube.com/watch?v=EjhGnpRJZxY&list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74&index=60"
             }, {
                "date_added": "13188155932023386",
                "id": "676",
                "meta_info": {
-                  "last_visited_desktop": "13188155940598404"
+                  "last_visited_desktop": "13189632374204599"
                },
                "name": "cub",
-               "sync_transaction_version": "1640",
+               "sync_transaction_version": "1871",
                "type": "url",
-               "url": "https://www.youtube.com/watch?v=JUYtuPToq4I&index=73&list=PLoH7Sjb8-XEh-mU5C_MrCB6aiekTnYXrG"
-            }, {
-               "date_added": "13188182912858761",
-               "id": "678",
-               "meta_info": {
-                  "last_visited_desktop": "13188182912859030"
-               },
-               "name": "xisuma",
-               "sync_transaction_version": "1654",
-               "type": "url",
-               "url": "https://www.youtube.com/watch?v=wDcDs2qVHFQ&list=PL7VmhWGNRxKgL1PCx0cAwp44Gt7uKSKyd&index=59"
-            }, {
-               "date_added": "13188263495194917",
-               "id": "681",
-               "meta_info": {
-                  "last_visited_desktop": "13188263495195301"
-               },
-               "name": "(5) Combined Villager Breeder & Iron Farm - YouTube",
-               "sync_transaction_version": "1671",
-               "type": "url",
-               "url": "https://www.youtube.com/watch?v=sn1I_jVnRSU"
+               "url": "https://www.youtube.com/watch?v=gltaIs-ZkHU&index=81&list=PLoH7Sjb8-XEh-mU5C_MrCB6aiekTnYXrG"
             }, {
                "date_added": "13188267859413523",
                "id": "682",
                "meta_info": {
-                  "last_visited_desktop": "13188416882245376"
+                  "last_visited_desktop": "13189727743771063"
                },
                "name": "impulse",
-               "sync_transaction_version": "1693",
+               "sync_transaction_version": "1896",
                "type": "url",
-               "url": "https://www.youtube.com/watch?v=beYBhnf84yI&list=PL0Z8otuXXj_3XMGQ6Njua-ub497UBto_e&index=46"
+               "url": "https://www.youtube.com/watch?v=OyDviZC7kN8&list=PL0Z8otuXXj_3XMGQ6Njua-ub497UBto_e&index=50"
             }, {
-               "date_added": "13188440962897745",
-               "id": "686",
+               "date_added": "13188700411561231",
+               "id": "694",
                "meta_info": {
-                  "last_visited_desktop": "13188440962897842"
+                  "last_visited_desktop": "13189100155462270"
                },
                "name": "false",
-               "sync_transaction_version": "1703",
+               "sync_transaction_version": "1810",
                "type": "url",
-               "url": "https://www.youtube.com/watch?v=IiD8MzaVp5c&index=4&list=PLgj0MXHeQpb9cTSk82HPvkOpjbzOvGsSs"
+               "url": "https://www.youtube.com/watch?v=w3IIN9Q6EvY&index=52&list=PLgj0MXHeQpb9cTSk82HPvkOpjbzOvGsSs"
+            }, {
+               "date_added": "13188706286280092",
+               "id": "695",
+               "meta_info": {
+                  "last_visited_desktop": "13188941900602545"
+               },
+               "name": "doc",
+               "sync_transaction_version": "1785",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=13dts9wOiqE"
+            }, {
+               "date_added": "13189214081695643",
+               "id": "701",
+               "meta_info": {
+                  "last_visited_desktop": "13189539914991851"
+               },
+               "name": "iskall",
+               "sync_transaction_version": "1846",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=khXltVgZ1Tw&list=PLQDo59MddgIc-bKlNjtK57FA8DELdBIhY&index=55"
+            }, {
+               "date_added": "13189557013424737",
+               "id": "704",
+               "meta_info": {
+                  "last_visited_desktop": "13189724380530334"
+               },
+               "name": "ioser",
+               "sync_transaction_version": "1890",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=wF0fhGA6ARc&list=PLjVGzWOYql9afRR8CcR9ZAeVWfewAFOI4&index=2"
+            }, {
+               "date_added": "13189724325635991",
+               "id": "713",
+               "meta_info": {
+                  "last_visited_desktop": "13189724325636218"
+               },
+               "name": "xisume",
+               "sync_transaction_version": "1884",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=7rfp77oE-N0&list=PL7VmhWGNRxKgL1PCx0cAwp44Gt7uKSKyd&index=67"
+            }, {
+               "date_added": "13189746929840311",
+               "id": "714",
+               "meta_info": {
+                  "last_visited_desktop": "13189870985756145"
+               },
+               "name": "grian",
+               "sync_transaction_version": "1910",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=p6Qmig17r0s&list=PLU2851hDb3SEesCjVCmseu60aJht1DQwh&index=26"
             } ],
             "date_added": "13083274468578472",
-            "date_modified": "13188440970279711",
+            "date_modified": "13189746936452266",
             "id": "12",
             "name": "misc",
             "sync_transaction_version": "158",
@@ -573,11 +592,8 @@
                   }, {
                      "date_added": "13069198759421552",
                      "id": "155",
-                     "meta_info": {
-                        "last_visited_desktop": "13182974380738171"
-                     },
                      "name": "advancedScripting",
-                     "sync_transaction_version": "1048",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://www.tldp.org/LDP/abs/html/abs-guide.html"
                   }, {
@@ -617,7 +633,7 @@
                      "url": "https://github.com/livibetter-backup/bash-oauth/blob/master/OAuth.sh"
                   } ],
                   "date_added": "13114287032433795",
-                  "date_modified": "13179086603933159",
+                  "date_modified": "13188941810481674",
                   "id": "153",
                   "name": "bash",
                   "sync_transaction_version": "158",
@@ -671,11 +687,8 @@
                   }, {
                      "date_added": "13174012464111553",
                      "id": "307",
-                     "meta_info": {
-                        "last_visited_desktop": "13179607763448692"
-                     },
                      "name": "Best 404 page : ProgrammerHumor",
-                     "sync_transaction_version": "166",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://old.reddit.com/r/ProgrammerHumor/comments/8rik7h/best_404_page/"
                   }, {
@@ -723,12 +736,8 @@
                   }, {
                      "date_added": "13177282474948855",
                      "id": "413",
-                     "meta_info": {
-                        "last_visited": "13180830778682355",
-                        "last_visited_desktop": "13183545142551798"
-                     },
                      "name": "jsPerf: JavaScript performance playground",
-                     "sync_transaction_version": "1102",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://jsperf.com/"
                   }, {
@@ -741,26 +750,20 @@
                   }, {
                      "date_added": "13181131689172720",
                      "id": "530",
-                     "meta_info": {
-                        "last_visited_desktop": "13183917910786952"
-                     },
                      "name": "JSONPlaceholder - Fake online REST API for developers",
-                     "sync_transaction_version": "1138",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://jsonplaceholder.typicode.com/"
                   }, {
                      "date_added": "13181575557429994",
                      "id": "505",
-                     "meta_info": {
-                        "last_visited": "13181575557432109"
-                     },
                      "name": "Email Address Regular Expression That 99.99% Works.",
-                     "sync_transaction_version": "827",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://emailregex.com/"
                   } ],
                   "date_added": "13128738954459013",
-                  "date_modified": "13183917912902496",
+                  "date_modified": "13188941810481732",
                   "id": "161",
                   "name": "web",
                   "sync_transaction_version": "158",
@@ -783,11 +786,8 @@
                   }, {
                      "date_added": "13181292081135676",
                      "id": "497",
-                     "meta_info": {
-                        "last_visited": "13181292081139738"
-                     },
                      "name": "Laravel + Docker Part 1 — setup for Development – Shane Osbourne – Medium",
-                     "sync_transaction_version": "798",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c"
                   } ],
@@ -822,11 +822,8 @@
                   }, {
                      "date_added": "13173210442720569",
                      "id": "293",
-                     "meta_info": {
-                        "last_visited": "13179825768142060"
-                     },
                      "name": "Vim Is The Perfect IDE",
-                     "sync_transaction_version": "217",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://dev.to/allanmacgregor/vim-is-the-perfect-ide-e80"
                   }, {
@@ -838,7 +835,7 @@
                      "url": "https://vivaldi.com/?lang=en"
                   } ],
                   "date_added": "13173296885782828",
-                  "date_modified": "13174511887832017",
+                  "date_modified": "13188941810481690",
                   "id": "297",
                   "name": "software",
                   "sync_transaction_version": "158",
@@ -938,11 +935,8 @@
                }, {
                   "date_added": "13179184075560357",
                   "id": "442",
-                  "meta_info": {
-                     "last_visited_desktop": "13187898740016068"
-                  },
                   "name": "つ ◕_◕ ༽つ Low prices take my energy つ ◕_◕ ༽つ",
-                  "sync_transaction_version": "1570",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://old.reddit.com/r/buildapcsales/"
                } ],
@@ -963,11 +957,8 @@
                }, {
                   "date_added": "13155727467801459",
                   "id": "195",
-                  "meta_info": {
-                     "last_visited_desktop": "13186586279047698"
-                  },
                   "name": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-                  "sync_transaction_version": "1448",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
                }, {
@@ -994,21 +985,15 @@
                }, {
                   "date_added": "13181500954492638",
                   "id": "500",
-                  "meta_info": {
-                     "last_visited": "13181500954499153"
-                  },
                   "name": "Manage Multiple SSH Logins - DEV Community 👩‍💻👨‍💻",
-                  "sync_transaction_version": "799",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://dev.to/czarpino/manage-multiple-ssh-logins-47fg"
                }, {
                   "date_added": "13181560963742691",
                   "id": "503",
-                  "meta_info": {
-                     "last_visited": "13181560963744475"
-                  },
                   "name": "Developer under time pressure ? work faster : work better - DEV Community 👩‍💻👨‍💻",
-                  "sync_transaction_version": "800",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://dev.to/agazaboklicka/developer-under-time-pressure--work-faster--work-better?utm_source=additional_box&utm_medium=internal&utm_campaign=regular&booster_org="
                }, {
@@ -1028,11 +1013,8 @@
                }, {
                   "date_added": "13036755404800300",
                   "id": "520",
-                  "meta_info": {
-                     "last_visited_desktop": "13182969138094791"
-                  },
                   "name": "python-notify - Google Search",
-                  "sync_transaction_version": "1030",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.google.ca/search?q=python-notify&oq=python-notify&aqs=chrome..69i57j0l3.2220j0j1&sourceid=chrome&ie=UTF-8"
                }, {
@@ -1051,7 +1033,7 @@
                   "url": "http://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily"
                } ],
                "date_added": "13114287069943986",
-               "date_modified": "13186613109626264",
+               "date_modified": "13188941810481725",
                "id": "188",
                "name": "linux",
                "sync_transaction_version": "158",
@@ -1126,61 +1108,41 @@
                   "children": [ {
                      "date_added": "13182129518957652",
                      "id": "539",
-                     "meta_info": {
-                        "last_visited": "13182451608808706",
-                        "last_visited_desktop": "13182560280383323"
-                     },
                      "name": "1",
-                     "sync_transaction_version": "1002",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://goo.gl/8WGX1c"
                   }, {
                      "date_added": "13182129550069143",
                      "id": "540",
-                     "meta_info": {
-                        "last_visited": "13182451608995694",
-                        "last_visited_desktop": "13182560280390813"
-                     },
                      "name": "2",
-                     "sync_transaction_version": "1003",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://goo.gl/KjjHmz"
                   }, {
                      "date_added": "13182129562749174",
                      "id": "541",
-                     "meta_info": {
-                        "last_visited": "13182451608843789",
-                        "last_visited_desktop": "13182560280399524"
-                     },
                      "name": "3",
-                     "sync_transaction_version": "1004",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://goo.gl/st4CkM"
                   }, {
                      "date_added": "13182129575949000",
                      "id": "542",
-                     "meta_info": {
-                        "last_visited": "13182451608890004",
-                        "last_visited_desktop": "13182560280408773"
-                     },
                      "name": "4",
-                     "sync_transaction_version": "1007",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://goo.gl/aXHTJH"
                   }, {
                      "date_added": "13182129587636919",
                      "id": "543",
-                     "meta_info": {
-                        "last_visited": "13182451608942055",
-                        "last_visited_desktop": "13182560280415349"
-                     },
                      "name": "5",
-                     "sync_transaction_version": "1008",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://goo.gl/xrXeE6"
                   } ],
                   "date_added": "13182129513669469",
-                  "date_modified": "13182453420233728",
+                  "date_modified": "13188941810481439",
                   "id": "538",
                   "name": "votes",
                   "sync_transaction_version": "924",
@@ -1223,26 +1185,20 @@
                }, {
                   "date_added": "13183508766323635",
                   "id": "566",
-                  "meta_info": {
-                     "last_visited_desktop": "13183508766323944"
-                  },
                   "name": "RimWorld - sci-fi colony sim",
-                  "sync_transaction_version": "1100",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://rimworldgame.com/"
                }, {
                   "date_added": "13183508772179909",
                   "id": "567",
-                  "meta_info": {
-                     "last_visited_desktop": "13183508772180211"
-                  },
                   "name": "Oxygen Not Included | Klei Entertainment",
-                  "sync_transaction_version": "1101",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://www.klei.com/games/oxygen-not-included"
                } ],
                "date_added": "13114287036561954",
-               "date_modified": "13183508772179909",
+               "date_modified": "13188941810480718",
                "id": "202",
                "name": "gaming",
                "sync_transaction_version": "158",
@@ -1335,11 +1291,8 @@
                }, {
                   "date_added": "13179916902892760",
                   "id": "467",
-                  "meta_info": {
-                     "last_visited_desktop": "13179916902895657"
-                  },
                   "name": "findit",
-                  "sync_transaction_version": "793",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "javascript: (function() { const qs = /immobilienscout24/.test(location.href) ? '.address-block' : '.col-sm-4.mb10 a'; const addrEl = document.querySelector(qs); const addr = addrEl.innerText.replace(/Die\\ vollst%C3%A4ndige\\ Adresse\\ der\\ Immobilie\\ erhalten\\ Sie\\ vom\\ Anbieter\\./, '').trim().replace(/[\\n#]+/g, ''); window.open(`https://maps.google.com/maps/dir/${addr}/48.126174,11.547584`, '_blank'); })();"
                } ],
@@ -1360,12 +1313,8 @@
                }, {
                   "date_added": "13071693985719153",
                   "id": "226",
-                  "meta_info": {
-                     "last_visited": "13187982411870225",
-                     "last_visited_desktop": "13188081935394586"
-                  },
                   "name": "ghme",
-                  "sync_transaction_version": "1619",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/p-mcgowan"
                }, {
@@ -1378,23 +1327,23 @@
                }, {
                   "date_added": "13180697910257309",
                   "id": "494",
-                  "meta_info": {
-                     "last_visited_desktop": "13180697910258338"
-                  },
                   "name": "clone subfolder",
-                  "sync_transaction_version": "717",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository"
                }, {
                   "date_added": "13069109344723000",
                   "id": "524",
+                  "meta_info": {
+                     "last_visited_desktop": "13188993561137282"
+                  },
                   "name": "bitbucket",
-                  "sync_transaction_version": "819",
+                  "sync_transaction_version": "1786",
                   "type": "url",
                   "url": "https://bitbucket.org/"
                } ],
                "date_added": "13128738896046500",
-               "date_modified": "13188081948740156",
+               "date_modified": "13188941810481687",
                "id": "224",
                "name": "git",
                "sync_transaction_version": "158",
@@ -1460,11 +1409,8 @@
                }, {
                   "date_added": "13152065722289134",
                   "id": "245",
-                  "meta_info": {
-                     "last_visited_desktop": "13183469154432380"
-                  },
                   "name": "FHIR Implementation",
-                  "sync_transaction_version": "1099",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/HospitalRun/hospitalrun-server/projects/1"
                } ],
@@ -1478,38 +1424,27 @@
                "children": [ {
                   "date_added": "13183194201286452",
                   "id": "562",
-                  "meta_info": {
-                     "last_visited": "13183539330491003"
-                  },
                   "name": "sublime-import-helper/README.md at master · unlight/sublime-import-helper",
-                  "sync_transaction_version": "1110",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/unlight/sublime-import-helper/blob/master/README.md"
                }, {
                   "date_added": "13183194195291711",
                   "id": "561",
-                  "meta_info": {
-                     "last_visited": "13183539341345189",
-                     "last_visited_desktop": "13183381020880199"
-                  },
                   "name": "LSP/README.md at master · tomv564/LSP",
-                  "sync_transaction_version": "1110",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/tomv564/LSP/blob/master/README.md"
                }, {
                   "date_added": "13183194205024537",
                   "id": "563",
-                  "meta_info": {
-                     "last_visited": "13183539238663800",
-                     "last_visited_desktop": "13184348425407867"
-                  },
                   "name": "autocomplete imports · Issue #425 · Microsoft/TypeScript-Sublime-Plugin",
-                  "sync_transaction_version": "1217",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/Microsoft/TypeScript-Sublime-Plugin/issues/425"
                } ],
                "date_added": "13183663697680928",
-               "date_modified": "13183663697681402",
+               "date_modified": "13188941810481660",
                "id": "572",
                "name": "software",
                "sync_transaction_version": "1110",
@@ -1517,67 +1452,51 @@
             }, {
                "date_added": "13138397710296372",
                "id": "228",
-               "meta_info": {
-                  "last_visited_desktop": "13186002818184567"
-               },
                "name": "Free System76 + Ubuntu Stickers - System76",
-               "sync_transaction_version": "1371",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://system76.com/swag/stickers"
             }, {
                "date_added": "13073508853539000",
                "id": "515",
-               "meta_info": {
-                  "last_visited_desktop": "13186002818192457"
-               },
                "name": "HackR",
-               "sync_transaction_version": "1372",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://www.hackerrank.com/domains/algorithms/warmup"
             }, {
                "date_added": "13070244441850000",
                "id": "516",
                "meta_info": {
-                  "last_visited": "13188415546169060",
-                  "last_visited_desktop": "13186002818196482"
+                  "last_visited": "13189990135844774"
                },
                "name": "HN",
-               "sync_transaction_version": "1686",
+               "sync_transaction_version": "1911",
                "type": "url",
                "url": "https://news.ycombinator.com/"
             }, {
                "date_added": "13058061630475835",
                "id": "517",
-               "meta_info": {
-                  "last_visited_desktop": "13186002818202896"
-               },
                "name": "Bountysource",
-               "sync_transaction_version": "1387",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://www.bountysource.com/?utm_campaign=plugin&utm_content=tracker%2F50707&utm_medium=issues&utm_source=github"
             }, {
                "date_added": "13179184075560357",
                "id": "518",
-               "meta_info": {
-                  "last_visited_desktop": "13187898740016068"
-               },
                "name": "つ ◕_◕ ༽つ Low prices take my energy つ ◕_◕ ༽つ",
-               "sync_transaction_version": "1570",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "https://old.reddit.com/r/buildapcsales/"
             }, {
                "date_added": "13185492145541607",
                "id": "611",
-               "meta_info": {
-                  "last_visited_desktop": "13186002818214824"
-               },
                "name": "Vintage Beef's Home Page",
-               "sync_transaction_version": "1377",
+               "sync_transaction_version": "1782",
                "type": "url",
                "url": "http://mcpatron.com/vintagebeef/"
             } ],
             "date_added": "13053851546853647",
-            "date_modified": "13188416862105345",
+            "date_modified": "13190463154057339",
             "id": "148",
             "name": "nerdStuff",
             "sync_transaction_version": "158",
@@ -1588,11 +1507,8 @@
                   "children": [ {
                      "date_added": "13181305066375096",
                      "id": "532",
-                     "meta_info": {
-                        "last_visited_desktop": "13181305066377007"
-                     },
                      "name": "Server side architecture with Node and Typescript using Nest - DEV Community 👩‍💻👨‍💻",
-                     "sync_transaction_version": "819",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://dev.to/samueleresca/server-side-architecture-with-node-and-typescript-using-nest--59me"
                   } ],
@@ -1606,36 +1522,27 @@
                   "children": [ {
                      "date_added": "13182532061847772",
                      "id": "556",
-                     "meta_info": {
-                        "last_visited_desktop": "13182867801906833"
-                     },
                      "name": "spindex-pdf",
-                     "sync_transaction_version": "1023",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://s3.test/spindex-test/ddfe79e6aec3c3156d07afd845a240fa/output.pdf"
                   }, {
                      "date_added": "13182532080470857",
                      "id": "557",
-                     "meta_info": {
-                        "last_visited_desktop": "13182854554253245"
-                     },
                      "name": "spindex-json",
-                     "sync_transaction_version": "1023",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://s3.test/spindex-test/ddfe79e6aec3c3156d07afd845a240fa/output.json"
                   }, {
                      "date_added": "13182608308897357",
                      "id": "555",
-                     "meta_info": {
-                        "last_visited_desktop": "13182613096952697"
-                     },
                      "name": "spindex-img",
-                     "sync_transaction_version": "1013",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "http://s3.test/spindex-test/ddfe79e6aec3c3156d07afd845a240fa/DSC07779_pipe_1.jpg"
                   } ],
                   "date_added": "13182625468432070",
-                  "date_modified": "13182968684610152",
+                  "date_modified": "13188941810481678",
                   "id": "549",
                   "name": "test",
                   "sync_transaction_version": "1013",
@@ -1644,27 +1551,20 @@
                   "children": [ {
                      "date_added": "13181420943301077",
                      "id": "499",
-                     "meta_info": {
-                        "last_visited": "13181868739560855",
-                        "last_visited_desktop": "13186233210045788"
-                     },
                      "name": "TypeORM postgresql eager load relationships defined as lazy - Stack Overflow",
-                     "sync_transaction_version": "1407",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://stackoverflow.com/questions/52333277/typeorm-postgresql-eager-load-relationships-defined-as-lazy"
                   }, {
                      "date_added": "13181696189568011",
                      "id": "534",
-                     "meta_info": {
-                        "last_visited_desktop": "13186233214488137"
-                     },
                      "name": "python - SQLAlchemy, eager load postgresql INET/CIDR relationships - Stack Overflow",
-                     "sync_transaction_version": "1407",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://stackoverflow.com/questions/21489284/sqlalchemy-eager-load-postgresql-inet-cidr-relationships?rq=1"
                   } ],
                   "date_added": "13179184419541179",
-                  "date_modified": "13186260124643593",
+                  "date_modified": "13188941810481515",
                   "id": "443",
                   "name": "todo",
                   "sync_transaction_version": "1011",
@@ -1673,68 +1573,48 @@
                   "children": [ {
                      "date_added": "13181728061978813",
                      "id": "551",
-                     "meta_info": {
-                        "last_visited_desktop": "13181733332542083"
-                     },
                      "name": "Getting started – Google Cloud Platform",
-                     "sync_transaction_version": "1013",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://console.cloud.google.com/getting-started?pli=1"
                   }, {
                      "date_added": "13181833470037620",
                      "id": "553",
-                     "meta_info": {
-                        "last_visited_desktop": "13186748563951888"
-                     },
                      "name": "gcvNodeAPI",
-                     "sync_transaction_version": "1465",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://cloud.google.com/nodejs/docs/reference/libraries"
                   }, {
                      "date_added": "13181733985640152",
                      "id": "554",
-                     "meta_info": {
-                        "last_visited": "13182627103284795",
-                        "last_visited_desktop": "13186747589270612"
-                     },
                      "name": "gcvdocs",
-                     "sync_transaction_version": "1465",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://cloud.google.com/vision/docs/reference/rest/"
                   }, {
                      "date_added": "13181928532898990",
                      "id": "536",
-                     "meta_info": {
-                        "last_visited": "13182122250368482",
-                        "last_visited_desktop": "13186747461258762"
-                     },
                      "name": "Optical character recognition (OCR)  |  Cloud Vision API Documentation  |  Google Cloud",
-                     "sync_transaction_version": "1465",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://cloud.google.com/vision/docs/ocr#vision-document-text-detection-gcs-nodejs"
                   }, {
                      "date_added": "13185640807390336",
                      "id": "617",
-                     "meta_info": {
-                        "last_visited_desktop": "13187438819777296"
-                     },
                      "name": "Spindex Google Cloud Storage",
-                     "sync_transaction_version": "1504",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://console.cloud.google.com/storage/browser?project=spindex-test&authuser=1&organizationId=194300010953"
                   }, {
                      "date_added": "13185640779922168",
                      "id": "616",
-                     "meta_info": {
-                        "last_visited_desktop": "13187438819777296"
-                     },
                      "name": "google-cloud-storage",
-                     "sync_transaction_version": "1570",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://console.cloud.google.com/storage/browser?project=spindex-test&authuser=1&organizationId=194300010953"
                   } ],
                   "date_added": "13182625468432060",
-                  "date_modified": "13187899126691517",
+                  "date_modified": "13188941810481703",
                   "id": "548",
                   "name": "gcv",
                   "sync_transaction_version": "1013",
@@ -1742,87 +1622,76 @@
                }, {
                   "date_added": "13183137059626574",
                   "id": "564",
-                  "meta_info": {
-                     "last_visited_desktop": "13183217626457671"
-                  },
                   "name": "tesseract OCR",
-                  "sync_transaction_version": "1076",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://ocr.space/"
                }, {
                   "date_added": "13185027792145219",
                   "id": "600",
                   "meta_info": {
-                     "last_visited_desktop": "13188415130116496"
+                     "last_visited_desktop": "13189250844410479"
                   },
                   "name": "JIRA",
-                  "sync_transaction_version": "1686",
+                  "sync_transaction_version": "1817",
                   "type": "url",
                   "url": "https://linde-le.atlassian.net/secure/RapidBoard.jspa"
                }, {
                   "date_added": "13182593250185002",
                   "id": "547",
                   "meta_info": {
-                     "last_visited": "13188418436680057",
-                     "last_visited_desktop": "13188415148595885"
+                     "last_visited": "13189940949058801",
+                     "last_visited_desktop": "13189255688522942"
                   },
                   "name": "ghib",
-                  "sync_transaction_version": "1694",
+                  "sync_transaction_version": "1911",
                   "type": "url",
                   "url": "https://github.com/isarbits/linde-plantserv2"
                }, {
                   "date_added": "13181034844504227",
                   "id": "528",
-                  "meta_info": {
-                     "last_visited_desktop": "13181035718381499"
-                  },
                   "name": "Jest cheatsheet",
-                  "sync_transaction_version": "819",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://devhints.io/jest"
                }, {
                   "date_added": "13182426853243517",
                   "id": "550",
-                  "meta_info": {
-                     "last_visited_desktop": "13185366033553972"
-                  },
                   "name": "s3api",
-                  "sync_transaction_version": "1278",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html"
                }, {
                   "date_added": "13181392746480841",
                   "id": "529",
-                  "meta_info": {
-                     "last_visited_desktop": "13186599544344257"
-                  },
                   "name": "mailtrap",
-                  "sync_transaction_version": "1448",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://mailtrap.io/"
                }, {
                   "date_added": "13184862838764223",
                   "id": "595",
-                  "meta_info": {
-                     "last_visited_desktop": "13187707637433684"
-                  },
                   "name": "CircleCI",
-                  "sync_transaction_version": "1539",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://circleci.com/gh/isarbits/linde-plantserv2/tree/pm-dev"
                }, {
                   "date_added": "13185983545977935",
                   "id": "626",
-                  "meta_info": {
-                     "last_visited_desktop": "13188298360307925"
-                  },
                   "name": "mite",
-                  "sync_transaction_version": "1677",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://isarbits.mite.yo.lk/login"
+               }, {
+                  "date_added": "13180533918751279",
+                  "id": "690",
+                  "name": "Visual Studio Team Services Unavailable",
+                  "sync_transaction_version": "1782",
+                  "type": "url",
+                  "url": "https://marketplace.visualstudio.com/items?itemName=joekon.ssmacro#overview"
                } ],
                "date_added": "13180559877331480",
-               "date_modified": "13188435705624259",
+               "date_modified": "13190463154057336",
                "id": "491",
                "name": "isarbits",
                "sync_transaction_version": "700",
@@ -1839,26 +1708,20 @@
                   }, {
                      "date_added": "13172868640352868",
                      "id": "288",
-                     "meta_info": {
-                        "last_visited_desktop": "13182366662501436"
-                     },
                      "name": "fbBM",
-                     "sync_transaction_version": "959",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://business.facebook.com/home/accounts?business_id=422444781500016"
                   }, {
                      "date_added": "13173382382043147",
                      "id": "300",
-                     "meta_info": {
-                        "last_visited_desktop": "13186660693185281"
-                     },
                      "name": "fbaa",
-                     "sync_transaction_version": "1457",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://developers.facebook.com/apps/1974688162823356/dashboard/?business_id=199265510663756"
                   } ],
                   "date_added": "13172865226281748",
-                  "date_modified": "13179086603933143",
+                  "date_modified": "13188941810481487",
                   "id": "284",
                   "name": "fb",
                   "sync_transaction_version": "158",
@@ -1888,12 +1751,8 @@
                }, {
                   "date_added": "13176578633225778",
                   "id": "407",
-                  "meta_info": {
-                     "last_visited": "13180395967824004",
-                     "last_visited_desktop": "13181771928115172"
-                  },
                   "name": "aastaging",
-                  "sync_transaction_version": "831",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://aa-staging.mpireapps.io/"
                }, {
@@ -1906,11 +1765,8 @@
                }, {
                   "date_added": "13172348426105446",
                   "id": "53",
-                  "meta_info": {
-                     "last_visited_desktop": "13182852213405548"
-                  },
                   "name": "ZipBooks",
-                  "sync_transaction_version": "1023",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://app.zipbooks.com/login"
                }, {
@@ -1923,11 +1779,8 @@
                }, {
                   "date_added": "13172353437590931",
                   "id": "56",
-                  "meta_info": {
-                     "last_visited_desktop": "13187949615404928"
-                  },
                   "name": "Mpire Labs",
-                  "sync_transaction_version": "1590",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://github.com/mpirelabs"
                }, {
@@ -1940,11 +1793,8 @@
                }, {
                   "date_added": "13172862732569153",
                   "id": "282",
-                  "meta_info": {
-                     "last_visited_desktop": "13184970797464426"
-                  },
                   "name": "mpirejira",
-                  "sync_transaction_version": "1242",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://mpirelabs.atlassian.net/secure/BrowseProjects.jspa?page=1&selectedCategory=all&selectedProjectType=all"
                }, {
@@ -1977,7 +1827,7 @@
                   "url": "https://geargrabber.myshopify.com/admin"
                } ],
                "date_added": "13171497976885791",
-               "date_modified": "13187985793980360",
+               "date_modified": "13188941810481722",
                "id": "51",
                "name": "MPire",
                "sync_transaction_version": "158",
@@ -2122,32 +1972,22 @@
                }, {
                   "date_added": "13178942833882552",
                   "id": "438",
-                  "meta_info": {
-                     "last_visited": "13181928554940057",
-                     "last_visited_desktop": "13179092573999190"
-                  },
                   "name": "UBC ECE Capstone Project Submission (2018-19)",
-                  "sync_transaction_version": "834",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://docs.google.com/forms/d/e/1FAIpQLSflCXEvjZG38wvMiSMCvQ-oHpkVrEdAH2pGSa3DnmFwcuTIOQ/viewform?edit2=2_ABaOnufscTCX2uCisZbQsbRM_QGGMztdhGz8xaR24Xsq1xnVjuE8Z3oqVfwl2fs"
                }, {
                   "date_added": "13178942832201784",
                   "id": "437",
-                  "meta_info": {
-                     "last_visited_desktop": "13179092573911267"
-                  },
                   "name": "UBC ECE Capstone Project Submission (2018-19)",
-                  "sync_transaction_version": "158",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://docs.google.com/forms/d/e/1FAIpQLSflCXEvjZG38wvMiSMCvQ-oHpkVrEdAH2pGSa3DnmFwcuTIOQ/viewform?edit2=2_ABaOnucrPiX6P1Ql2y0EmFqE1a3j8vLDF5UaAnwTxTnCU8HFrwpjcFOQsKvkNPQ"
                }, {
                   "date_added": "13173949604724428",
                   "id": "305",
-                  "meta_info": {
-                     "last_visited": "13181732718448128"
-                  },
                   "name": "Trello",
-                  "sync_transaction_version": "828",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://trello.com/patmcgowan5/boards"
                }, {
@@ -2202,11 +2042,8 @@
                }, {
                   "date_added": "13172604961521981",
                   "id": "270",
-                  "meta_info": {
-                     "last_visited_desktop": "13180027972028454"
-                  },
                   "name": "itunes connect",
-                  "sync_transaction_version": "502",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://itunesconnect.apple.com/login"
                }, {
@@ -2219,17 +2056,13 @@
                }, {
                   "date_added": "13179343994259389",
                   "id": "526",
-                  "meta_info": {
-                     "last_visited": "13179343994261264",
-                     "last_visited_desktop": "13182593301942206"
-                  },
                   "name": "Top Industries Which Can Benefit From Augmented Reality App Development",
-                  "sync_transaction_version": "1011",
+                  "sync_transaction_version": "1782",
                   "type": "url",
                   "url": "https://hackernoon.com/top-industries-which-can-benefit-from-augmented-reality-app-development-bee6d30ef365"
                } ],
                "date_added": "13163057173101838",
-               "date_modified": "13181937279062769",
+               "date_modified": "13188941810481731",
                "id": "61",
                "name": "rugstown",
                "sync_transaction_version": "158",
@@ -2337,11 +2170,8 @@
                   }, {
                      "date_added": "13085086148898441",
                      "id": "101",
-                     "meta_info": {
-                        "last_visited_desktop": "13182971640440408"
-                     },
                      "name": "ngmat",
-                     "sync_transaction_version": "1034",
+                     "sync_transaction_version": "1782",
                      "type": "url",
                      "url": "https://material.angularjs.org/latest/#/"
                   }, {
@@ -2360,7 +2190,7 @@
                      "url": "https://developers.google.com/web/tools/chrome-devtools/iterate/inspect-styles/shortcuts?hl=en"
                   } ],
                   "date_added": "13112986767328996",
-                  "date_modified": "13174511887832149",
+                  "date_modified": "13188941810481692",
                   "id": "97",
                   "name": "resources",
                   "sync_transaction_version": "158",
@@ -2468,8 +2298,11 @@
                }, {
                   "date_added": "13084508089561923",
                   "id": "118",
+                  "meta_info": {
+                     "last_visited": "13190594217622471"
+                  },
                   "name": "hc",
-                  "sync_transaction_version": "158",
+                  "sync_transaction_version": "1918",
                   "type": "url",
                   "url": "https://hockey-community.com/"
                }, {
@@ -2503,7 +2336,7 @@
                   "type": "folder"
                } ],
                "date_added": "13083274434962124",
-               "date_modified": "13179086603933170",
+               "date_modified": "13190665009223010",
                "id": "85",
                "name": "hc",
                "sync_transaction_version": "158",
@@ -2529,19 +2362,9 @@
             "name": "work",
             "sync_transaction_version": "158",
             "type": "folder"
-         }, {
-            "date_added": "13188390650861162",
-            "id": "684",
-            "meta_info": {
-               "last_visited_desktop": "13188390650863094"
-            },
-            "name": "Bug #1743279 “QCA6174 stops working on newer kernels after secon...” : Bugs : linux-firmware package : Ubuntu",
-            "sync_transaction_version": "1688",
-            "type": "url",
-            "url": "https://bugs.launchpad.net/ubuntu/+source/linux-firmware/+bug/1743279"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "13188390650861162",
+         "date_modified": "13189711437728241",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -2554,7 +2377,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "1703",
+      "sync_transaction_version": "1918",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",
