@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+{ provide: '${SELECTION}', useClass: ${SELECTION} },
+]]>
+    </content>
+    <!--
+        Macro:
+        [
+            { "command": "expand_selection", "args": { "to": "word" } },
+            { "command": "insert_import", "args": null },
+            { "command": "insert_snippet", "args": { "contents": "{ provide: '${SELECTION}', useClass: ${SELECTION} }," } }
+        ]
+     -->
+
+    <tabTrigger>ndep</tabTrigger>
+</snippet>

@@ -1,5 +1,5 @@
 {
-   "checksum": "0b3b3603fe31360d47c33ed4094f5b95",
+   "checksum": "00f255813868910e879049b26570c890",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -203,11 +203,11 @@
                   "date_added": "13157584255037353",
                   "id": "39",
                   "meta_info": {
-                     "last_visited": "13190637474991105",
+                     "last_visited": "13190894794738404",
                      "last_visited_desktop": "13190464090784467"
                   },
                   "name": "reddit",
-                  "sync_transaction_version": "1918",
+                  "sync_transaction_version": "1919",
                   "type": "url",
                   "url": "https://old.reddit.com/r/popular/?geo_filter=GLOBAL"
                }, {
@@ -254,7 +254,7 @@
                   "url": "https://www.youtube.com/watch?v=RqfT6KFKsT8&list=PLgj0MXHeQpb9cTSk82HPvkOpjbzOvGsSs&index=3"
                } ],
                "date_added": "13137135502816139",
-               "date_modified": "13190665009223008",
+               "date_modified": "13190907624972471",
                "id": "29",
                "name": "media",
                "sync_transaction_version": "158",
@@ -419,6 +419,74 @@
                "sync_transaction_version": "1110",
                "type": "folder"
             }, {
+               "children": [ {
+                  "date_added": "13190855935268798",
+                  "id": "721",
+                  "meta_info": {
+                     "last_visited": "13190855935270858"
+                  },
+                  "name": "hacknet - Google Search",
+                  "sync_transaction_version": "1935",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=hacknet&oq=hacknet&aqs=chrome..69i57.1822j0j7&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8"
+               }, {
+                  "date_added": "13190855259735595",
+                  "id": "720",
+                  "meta_info": {
+                     "last_visited": "13190855259737574"
+                  },
+                  "name": "Worthwhile 2018 Movies You May Have (Actually) Missed - Imgur",
+                  "sync_transaction_version": "1936",
+                  "type": "url",
+                  "url": "https://m.imgur.com/a/ZlyVkJF"
+               }, {
+                  "date_added": "13190810970237198",
+                  "id": "719",
+                  "meta_info": {
+                     "last_visited": "13190810970239227"
+                  },
+                  "name": "why leaders eat last - Google Search",
+                  "sync_transaction_version": "1937",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=why+leaders+eat+last&oq=why+leaders+eat+last&aqs=chrome..69i57.5146j0j7&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8"
+               }, {
+                  "date_added": "13190755829515319",
+                  "id": "718",
+                  "meta_info": {
+                     "last_visited": "13190755829517429"
+                  },
+                  "name": "Full space documentary - Interstellar Journey To The Stars - YouTube",
+                  "sync_transaction_version": "1938",
+                  "type": "url",
+                  "url": "https://m.youtube.com/watch?v=XODHE3ffhXU&feature=youtu.be"
+               }, {
+                  "date_added": "13190686036534410",
+                  "id": "717",
+                  "meta_info": {
+                     "last_visited": "13190686036538393"
+                  },
+                  "name": "sick of it - Google Search",
+                  "sync_transaction_version": "1939",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=sick+of+it&oq=sick+of+it&aqs=chrome..69i57.1816j0j7&client=ms-android-google&sourceid=chrome-mobile&ie=UTF-8"
+               }, {
+                  "date_added": "13190683340562596",
+                  "id": "716",
+                  "meta_info": {
+                     "last_visited": "13190683340564981"
+                  },
+                  "name": "After 6 months of testing this in my company, i can confidently say it takes one registry key to make Windows Update bearable : sysadmin",
+                  "sync_transaction_version": "1940",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/sysadmin/comments/aavocr/after_6_months_of_testing_this_in_my_company_i/"
+               } ],
+               "date_added": "13190907675386910",
+               "date_modified": "13190907684704751",
+               "id": "722",
+               "name": "tmp",
+               "sync_transaction_version": "1942",
+               "type": "folder"
+            }, {
                "date_added": "13071971455268524",
                "id": "13",
                "name": "bcfl",
@@ -552,7 +620,7 @@
                "url": "https://www.youtube.com/watch?v=p6Qmig17r0s&list=PLU2851hDb3SEesCjVCmseu60aJht1DQwh&index=26"
             } ],
             "date_added": "13083274468578472",
-            "date_modified": "13189746936452266",
+            "date_modified": "13190907704119999",
             "id": "12",
             "name": "misc",
             "sync_transaction_version": "158",
@@ -935,8 +1003,11 @@
                }, {
                   "date_added": "13179184075560357",
                   "id": "442",
+                  "meta_info": {
+                     "last_visited_desktop": "13190908230767461"
+                  },
                   "name": "つ ◕_◕ ༽つ Low prices take my energy つ ◕_◕ ༽つ",
-                  "sync_transaction_version": "1782",
+                  "sync_transaction_version": "1948",
                   "type": "url",
                   "url": "https://old.reddit.com/r/buildapcsales/"
                } ],
@@ -1452,8 +1523,11 @@
             }, {
                "date_added": "13138397710296372",
                "id": "228",
+               "meta_info": {
+                  "last_visited_desktop": "13190908251448376"
+               },
                "name": "Free System76 + Ubuntu Stickers - System76",
-               "sync_transaction_version": "1782",
+               "sync_transaction_version": "1950",
                "type": "url",
                "url": "https://system76.com/swag/stickers"
             }, {
@@ -1467,24 +1541,30 @@
                "date_added": "13070244441850000",
                "id": "516",
                "meta_info": {
-                  "last_visited": "13189990135844774"
+                  "last_visited": "13190758132678027"
                },
                "name": "HN",
-               "sync_transaction_version": "1911",
+               "sync_transaction_version": "1919",
                "type": "url",
                "url": "https://news.ycombinator.com/"
             }, {
                "date_added": "13058061630475835",
                "id": "517",
+               "meta_info": {
+                  "last_visited_desktop": "13190907719422935"
+               },
                "name": "Bountysource",
-               "sync_transaction_version": "1782",
+               "sync_transaction_version": "1944",
                "type": "url",
                "url": "https://www.bountysource.com/?utm_campaign=plugin&utm_content=tracker%2F50707&utm_medium=issues&utm_source=github"
             }, {
                "date_added": "13179184075560357",
                "id": "518",
+               "meta_info": {
+                  "last_visited_desktop": "13190908230767461"
+               },
                "name": "つ ◕_◕ ༽つ Low prices take my energy つ ◕_◕ ༽つ",
-               "sync_transaction_version": "1782",
+               "sync_transaction_version": "1947",
                "type": "url",
                "url": "https://old.reddit.com/r/buildapcsales/"
             }, {
@@ -1496,7 +1576,7 @@
                "url": "http://mcpatron.com/vintagebeef/"
             } ],
             "date_added": "13053851546853647",
-            "date_modified": "13190463154057339",
+            "date_modified": "13190907624972476",
             "id": "148",
             "name": "nerdStuff",
             "sync_transaction_version": "158",
@@ -2364,7 +2444,7 @@
             "type": "folder"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "13189711437728241",
+         "date_modified": "13190907675387989",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -2377,7 +2457,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "1918",
+      "sync_transaction_version": "1950",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",
