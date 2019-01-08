@@ -44,7 +44,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"ANSIescape",
+		"Case Conversion",
+		"DocBlockr",
+		"EditorConfig",
+		"Makefile Plus",
+		"MarkdownPreview",
+		"PackageResourceViewer",
+		"Sass",
+		"SummitLinter",
+		"TypeScript Syntax",
+		"Vintage",
+		"Vue Syntax Highlight"
 	],
 	"node_path": "/home/pat/.nvm/versions/node/v10.14.1/bin/node",
 	"rulers":
