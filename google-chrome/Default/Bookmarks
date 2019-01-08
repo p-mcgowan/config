@@ -1,5 +1,5 @@
 {
-   "checksum": "5db5214fff392142980f57eb06b45418",
+   "checksum": "a82d756a8dc5da52cdc4d23632c5f9d4",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -14,10 +14,10 @@
                "date_added": "13084301303095381",
                "id": "4",
                "meta_info": {
-                  "last_visited_desktop": "13191365043050275"
+                  "last_visited_desktop": "13191429205937616"
                },
                "name": "gmail",
-               "sync_transaction_version": "4843",
+               "sync_transaction_version": "4845",
                "type": "url",
                "url": "https://mail.google.com/mail/u/1/"
             }, {
@@ -203,11 +203,11 @@
                   "date_added": "13157584255037353",
                   "id": "39",
                   "meta_info": {
-                     "last_visited": "13191357894065181",
+                     "last_visited": "13191429953910453",
                      "last_visited_desktop": "13191414408161623"
                   },
                   "name": "reddit",
-                  "sync_transaction_version": "4843",
+                  "sync_transaction_version": "4846",
                   "type": "url",
                   "url": "https://old.reddit.com/r/popular/?geo_filter=GLOBAL"
                }, {
@@ -254,7 +254,7 @@
                   "url": "https://www.youtube.com/watch?v=RqfT6KFKsT8&list=PLgj0MXHeQpb9cTSk82HPvkOpjbzOvGsSs&index=3"
                } ],
                "date_added": "13137135502816139",
-               "date_modified": "13191020587909501",
+               "date_modified": "13191430979746413",
                "id": "29",
                "name": "media",
                "sync_transaction_version": "4843",
@@ -1359,9 +1359,9 @@
                   "date_added": "13164500209018760",
                   "id": "223",
                   "name": "redsub",
-                  "sync_transaction_version": "4843",
+                  "sync_transaction_version": "4847",
                   "type": "url",
-                  "url": "javascript: els = document.getElementsByTagName('link'); for (l of els) { if (l.getAttribute('title') == 'applied_subreddit_stylesheet') { l.remove(); } } [].forEach.call(document.getElementsByClassName('sitetable')[1].children, allComments => { if (/clearleft/.test(allComments.className)) { return; } [].forEach.call(allComments.children, comment => { let replies = comment.getElementsByClassName('sitetable')[0]; if (!replies) { return; } [].forEach.call(replies.children, reply => { if (/clearleft/.test(reply)) return; const expando = reply.getElementsByClassName('expand')[0]; if ((!expando) || /\\+/.test(expando.innerHTML)) { return; } expando.onclick() ; }) ; }) ; }); styleOn = document.getElementById('res-style-checkbox'); if (styleOn && styleOn.checked === true) { styleOn.click(); }"
+                  "url": "javascript:const els = document.getElementsByTagName('link'); for (l of els) { if (l.getAttribute('title') == 'applied_subreddit_stylesheet') { l.remove(); } } const comments = document.getElementsByClassName('sitetable')[1]; [].forEach.call( comments && comments.children || [], allComments => { if (/clearleft/.test(allComments.className)) { return; } [].forEach.call(allComments.children, comment => { const replies = comment.getElementsByClassName('sitetable')[0]; if (!replies) { return; } [].forEach.call(replies.children, reply => { if (/clearleft/.test(reply)) return; const expando = reply.getElementsByClassName('expand')[0]; if (!expando || /\\+/.test(expando.innerHTML)) { return; } expando.onclick(); }); }); } ); const styleOn = document.getElementById('res-style-checkbox'); if (styleOn && styleOn.checked === true) { styleOn.click(); }"
                }, {
                   "date_added": "13176355589073552",
                   "id": "402",
@@ -2477,7 +2477,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "4843",
+      "sync_transaction_version": "4847",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",
