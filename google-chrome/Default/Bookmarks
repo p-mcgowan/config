@@ -1,5 +1,5 @@
 {
-   "checksum": "2a42378c83afebe07a4e90d9fe8a3573",
+   "checksum": "37d07b7874f68b8059ae2501cac72d71",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -14,20 +14,20 @@
                "date_added": "13084301303095381",
                "id": "4",
                "meta_info": {
-                  "last_visited_desktop": "13189510626194693"
+                  "last_visited_desktop": "13190995083700393"
                },
                "name": "gmail",
-               "sync_transaction_version": "369",
+               "sync_transaction_version": "410",
                "type": "url",
                "url": "https://mail.google.com/mail/u/1/"
             }, {
                "date_added": "13128738819378185",
                "id": "5",
                "meta_info": {
-                  "last_visited_desktop": "13189270555773966"
+                  "last_visited_desktop": "13191498499368627"
                },
                "name": "whatsapp",
-               "sync_transaction_version": "345",
+               "sync_transaction_version": "464",
                "type": "url",
                "url": "https://web.whatsapp.com/"
             }, {
@@ -62,15 +62,21 @@
             "children": [ {
                "date_added": "13025767130215282",
                "id": "10",
+               "meta_info": {
+                  "last_visited_desktop": "13190996948540535"
+               },
                "name": "credit",
-               "sync_transaction_version": "160",
+               "sync_transaction_version": "411",
                "type": "url",
                "url": "https://www.cucardsonline.com/EN/home.htm"
             }, {
                "date_added": "13025767177665598",
                "id": "11",
+               "meta_info": {
+                  "last_visited_desktop": "13190996951376953"
+               },
                "name": "fcu",
-               "sync_transaction_version": "245",
+               "sync_transaction_version": "413",
                "type": "url",
                "url": "https://www.firstcu.ca/Personal/"
             } ],
@@ -193,10 +199,11 @@
                   "date_added": "13157584255037353",
                   "id": "39",
                   "meta_info": {
-                     "last_visited": "13189373950706714"
+                     "last_visited": "13189373950706714",
+                     "last_visited_desktop": "13189780792357298"
                   },
                   "name": "reddit",
-                  "sync_transaction_version": "346",
+                  "sync_transaction_version": "403",
                   "type": "url",
                   "url": "https://old.reddit.com/r/popular/?geo_filter=GLOBAL"
                }, {
@@ -495,9 +502,19 @@
                "sync_transaction_version": "351",
                "type": "url",
                "url": "https://m.youtube.com/watch?v=guvMmdeZqiI"
+            }, {
+               "date_added": "13189780651593170",
+               "id": "589",
+               "meta_info": {
+                  "last_visited_desktop": "13189780660012685"
+               },
+               "name": "test - Google Search",
+               "sync_transaction_version": "394",
+               "type": "url",
+               "url": "https://www.google.com/search?q=test&oq=test&aqs=chrome..69i57j69i65l3.359j0j7&sourceid=chrome&ie=UTF-8"
             } ],
             "date_added": "13083274468578472",
-            "date_modified": "13189505500016004",
+            "date_modified": "13189780651593170",
             "id": "12",
             "name": "misc",
             "sync_transaction_version": "3",
@@ -1259,10 +1276,10 @@
                   "date_added": "13071693985719153",
                   "id": "226",
                   "meta_info": {
-                     "last_visited_desktop": "13189780563711040"
+                     "last_visited_desktop": "13189781093192613"
                   },
                   "name": "ghme",
-                  "sync_transaction_version": "385",
+                  "sync_transaction_version": "405",
                   "type": "url",
                   "url": "https://github.com/p-mcgowan"
                }, {
@@ -1588,10 +1605,10 @@
                   "date_added": "13182593250185002",
                   "id": "513",
                   "meta_info": {
-                     "last_visited_desktop": "13189780550568180"
+                     "last_visited_desktop": "13191335700736259"
                   },
                   "name": "ghib",
-                  "sync_transaction_version": "384",
+                  "sync_transaction_version": "430",
                   "type": "url",
                   "url": "https://github.com/isarbits/linde-plantserv2"
                }, {
@@ -2311,7 +2328,7 @@
             "type": "folder"
          } ],
          "date_added": "13163057168835553",
-         "date_modified": "13189501763439178",
+         "date_modified": "13189780660011551",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -2325,7 +2342,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "388",
+      "sync_transaction_version": "464",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",
