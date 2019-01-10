@@ -29,5 +29,7 @@
   { "caption": "Nest: Depencancies", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-dependancy.sublime-macro" } },
   { "caption": "Nest: Inject", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-inject.sublime-macro" } },
   { "caption": "Regex: Trim", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
+  { "caption": "String interpolation", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/string-interp.sublime-snipper" } },
+  { "caption": "Move to new group", "command": "move_to_new_group" },
   // { "caption": "Reload plugins", "command": "package_reloader_reload", "args": null },
 ]

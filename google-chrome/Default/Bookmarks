@@ -14,20 +14,20 @@
                "date_added": "13084301303095381",
                "id": "4",
                "meta_info": {
-                  "last_visited_desktop": "13190995083700393"
+                  "last_visited_desktop": "13191502034983675"
                },
                "name": "gmail",
-               "sync_transaction_version": "410",
+               "sync_transaction_version": "471",
                "type": "url",
                "url": "https://mail.google.com/mail/u/1/"
             }, {
                "date_added": "13128738819378185",
                "id": "5",
                "meta_info": {
-                  "last_visited_desktop": "13191498499368627"
+                  "last_visited_desktop": "13191502185311308"
                },
                "name": "whatsapp",
-               "sync_transaction_version": "464",
+               "sync_transaction_version": "474",
                "type": "url",
                "url": "https://web.whatsapp.com/"
             }, {
@@ -1605,10 +1605,10 @@
                   "date_added": "13182593250185002",
                   "id": "513",
                   "meta_info": {
-                     "last_visited_desktop": "13191335700736259"
+                     "last_visited_desktop": "13191613134067644"
                   },
                   "name": "ghib",
-                  "sync_transaction_version": "430",
+                  "sync_transaction_version": "480",
                   "type": "url",
                   "url": "https://github.com/isarbits/linde-plantserv2"
                }, {
@@ -2342,7 +2342,7 @@
          "sync_transaction_version": "3",
          "type": "folder"
       },
-      "sync_transaction_version": "464",
+      "sync_transaction_version": "480",
       "synced": {
          "children": [ {
             "date_added": "13128032995713342",

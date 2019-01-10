@@ -6,12 +6,12 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"FileIcons",
 		"ImportHelper",
 		"Package Control",
 		"Pretty JSON",
 		"RegReplace",
 		"SideBarEnhancements",
-		"Theme - SoDaReloaded",
 		"TypeScript"
 	]
 }

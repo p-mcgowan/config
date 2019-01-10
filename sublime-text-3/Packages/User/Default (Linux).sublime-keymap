@@ -68,6 +68,7 @@
             "cells": [[0, 0, 1, 1]]
         }
     },
+    { "keys": ["ctrl+shift+alt+2"], "command": "move_to_new_group" },
     { "keys": ["ctrl+b"], "command": "gopen", "args": null },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } },

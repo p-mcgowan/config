@@ -1,5 +1,0 @@
-// Overwrite defaul build behaviour:
-// instead open a terminal in current file location
-{
-    "shell_cmd": "gnome-terminal ."
-}
