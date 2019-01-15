@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+@Inject('${SELECTION}') private readonly ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION},
+]]>
+    </content>
+<!--
+macro:
+[
+    { "command": "expand_selection", "args": { "to": "word" } },
+    { "command": "insert_import", "args": null },
+    { "command": "insert_snippet", "args": { "contents": "@Inject('${SELECTION}') private readonly ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\\l$1$2/g}: ${SELECTION}," } },
+    { "command": "convert_to_camel", "args": null }
+]
+ -->
+    <tabTrigger>ninj</tabTrigger>
+</snippet>

@@ -11,7 +11,7 @@
         "keys": ["ctrl+shift+["],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/eolbrace.sublime-macro"
+            "file": "Packages/User/macros/eolbrace.sublime-macro"
         }
     },
     {
@@ -23,7 +23,7 @@
         "keys": ["ctrl+shift+;"],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/eolsemi.sublime-macro"
+            "file": "Packages/User/macros/eolsemi.sublime-macro"
         }
     },
     /** Add comma at end of line */
@@ -31,7 +31,7 @@
         "keys": ["ctrl+shift+,"],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/eolcomma.sublime-macro"
+            "file": "Packages/User/macros/eolcomma.sublime-macro"
         }
     },
     /** Align and sort alphabetically */
@@ -39,21 +39,21 @@
         "keys": ["ctrl+f9"],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/align-sort.sublime-macro"
+            "file": "Packages/User/macros/align-sort.sublime-macro"
         }
     },
     /** Close current html tag */
     {
         "keys": ["ctrl+."],
-        "command": "run_macro_file",
-        "args": {
-            "file": "Packages/User/tag-close.sublime-macro"
-        }
+        "command": "insert_import",
     },
     /** Same as zl[tab] but retains selection */
     { "keys": ["ctrl+k", "l"],
       "command": "insert_snippet",
-      "args": { "name": "Packages/User/conlog.sublime-snippet" }
+      "args": { "name": "Packages/User/snippets/conlog.sublime-snippet" }
+    },
+    { "keys": ["ctrl+shift+]"],
+      "command": "typescript_go_to_definition",
     },
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
     { "keys": ["ctrl+shift+v"], "command": "paste" },
@@ -68,7 +68,11 @@
             "cells": [[0, 0, 1, 1]]
         }
     },
-    { "keys": ["ctrl+b"], "command": "shell_command", "args": { "command": "gnome-terminal ." } },
+    { "keys": ["ctrl+shift+alt+2"], "command": "move_to_new_group" },
+    { "keys": ["ctrl+b"], "command": "gopen", "args": null },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },
-    { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } }
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } },
+    { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
+    { "keys": ["alt+shift+e"], "command": "reveal_in_side_bar" },
 ]

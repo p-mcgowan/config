@@ -1,12 +1,10 @@
 <snippet>
     <content><![CDATA[
-.then(function(data: any) {
-    $0
-});
-]]></content>
+log.debug($0);
+]]>
+    </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>.then</tabTrigger>
+    <tabTrigger>ld</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.ts</scope>
-    <scope>source.js</scope>
+    <scope>source.ts, source.js</scope>
 </snippet>

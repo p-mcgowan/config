@@ -1,9 +1,7 @@
 <snippet>
-    <content><![CDATA[
-<md-icon ${1:md-font-icon="icon-gear"}>${0:code}</md-icon>
-]]></content>
+    <content><![CDATA[	]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>md-icon</tabTrigger>
+    <tabTrigger>dotab</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <!-- <scope>source.python</scope> -->
 </snippet>

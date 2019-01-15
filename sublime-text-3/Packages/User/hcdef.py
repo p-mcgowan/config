@@ -14,3 +14,4 @@ class GotoHcdefCommand(sublime_plugin.WindowCommand):
                 selText = self.view.substr(region)
                 # search for interface (selection)
                 view.find('interface ' + selText, 0)
+

@@ -6,22 +6,12 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"ANSIescape",
-		"Babel",
-		"C Improved",
-		"Case Conversion",
-		"Emmet",
-		"Makefile Plus",
-		"Markdown Preview",
+		"FileIcons",
+		"ImportHelper",
 		"Package Control",
-		"PackageResourceViewer",
 		"Pretty JSON",
 		"RegReplace",
-		"Sass",
-		"ShellCommand",
 		"SideBarEnhancements",
-		"Theme - Soda",
-		"TypeScript Syntax",
-		"Vue Syntax Highlight"
+		"TypeScript"
 	]
 }

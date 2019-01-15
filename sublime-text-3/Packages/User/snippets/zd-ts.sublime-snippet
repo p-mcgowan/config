@@ -1,11 +1,10 @@
 <snippet>
     <content><![CDATA[
-if (typeof ${1:$SELECTION} === 'undefined' || ${1:$SELECTION} === null) {
-    $0
-}
-]]></content>
+console.debug($0);
+]]>
+    </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>zundef</tabTrigger>
+    <tabTrigger>zd</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.ts, source.js</scope>
 </snippet>
