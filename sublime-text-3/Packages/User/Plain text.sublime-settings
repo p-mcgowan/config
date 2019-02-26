@@ -5,6 +5,6 @@
     "translate_tabs_to_spaces": false,
     "detect_indentation": false,
     "use_tab_stops": true,
-    "word_wrap": true,
+    "word_wrap": false,
     "translate_tabs_to_spaces": true,
 }

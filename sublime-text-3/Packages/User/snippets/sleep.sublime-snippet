@@ -1,0 +1,7 @@
+ <snippet>
+    <content><![CDATA[
+await new Promise(res => setTimeout(res, ${0:1000}));
+]]>
+    </content>
+    <tabTrigger>sleep</tabTrigger>
+ </snippet>

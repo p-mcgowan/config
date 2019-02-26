@@ -6,12 +6,18 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"ANSIescape",
+		"Case Conversion",
 		"FileIcons",
+		"GraphQL",
 		"ImportHelper",
+		"MarkdownLivePreview",
+		"nginx",
 		"Package Control",
 		"Pretty JSON",
 		"RegReplace",
 		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
 		"TypeScript"
 	]
 }

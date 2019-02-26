@@ -12,7 +12,6 @@
 		"colours"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"detect_indentation": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -37,7 +36,9 @@
 	[
 		".idea",
 		"node_modules",
-		".git"
+		".git",
+		".vscode",
+		"dist"
 	],
 	"font_size": 9,
 	"highlight_modified_tabs": true,
@@ -45,11 +46,9 @@
 	"ignored_packages":
 	[
 		"ANSIescape",
-		"Case Conversion",
 		"DocBlockr",
 		"EditorConfig",
 		"Makefile Plus",
-		"MarkdownPreview",
 		"PackageResourceViewer",
 		"Sass",
 		"SummitLinter",

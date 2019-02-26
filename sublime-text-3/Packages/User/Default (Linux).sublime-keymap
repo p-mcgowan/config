@@ -75,4 +75,6 @@
     { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
     { "keys": ["ctrl+alt+s"], "command": "save_all" },
     { "keys": ["alt+shift+e"], "command": "reveal_in_side_bar" },
+    { "keys": ["alt+shift+d"], "command": "find_all_under" },
+    // { "keys": ["ctrl+f"], "command": "show_panel", "args": { "panel": "find", "in_selection": true } },
 ]

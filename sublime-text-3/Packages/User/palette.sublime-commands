@@ -28,8 +28,11 @@
   { "caption": "Gnomification" , "command": "gnome_terminal_here" },
   { "caption": "Nest: Depencancies", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-dependancy.sublime-macro" } },
   { "caption": "Nest: Inject", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-inject.sublime-macro" } },
-  { "caption": "Regex: Trim", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
-  { "caption": "String interpolation", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/string-interp.sublime-snipper" } },
+  { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
+  { "caption": "String interpolation", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/string-interp.sublime-snippet" } },
   { "caption": "Move to new group", "command": "move_to_new_group" },
+  { "caption": "Sort numeric", "command": "custom_sort_lines", "args": { "numeric": true } },
+  { "caption": "InsertDocs", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/tsdoc.sublime-snippet" } },
+  // { "caption": "Subbit: Open selection", "command": "open_file", "args": {"file": "${selection}"} },
   // { "caption": "Reload plugins", "command": "package_reloader_reload", "args": null },
 ]
