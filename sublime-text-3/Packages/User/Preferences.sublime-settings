@@ -50,12 +50,12 @@
 		"EditorConfig",
 		"Makefile Plus",
 		"PackageResourceViewer",
-		"Sass",
 		"SummitLinter",
 		"TypeScript Syntax",
 		"Vintage",
 		"Vue Syntax Highlight"
 	],
+	"mini_diff": false,
 	"node_path": "/home/pat/.nvm/versions/node/v10.14.1/bin/node",
 	"rulers":
 	[
@@ -64,6 +64,7 @@
 	],
 	"shift_tab_unindent": true,
 	"show_errors_inline": true,
+	"show_git_status": false,
 	"show_panel_on_build": false,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
