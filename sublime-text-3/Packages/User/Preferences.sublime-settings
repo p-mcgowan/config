@@ -32,6 +32,12 @@
 		"package-lock.json",
 		"yarn.lock"
 	],
+  "binary_file_patterns": [
+    "docker/dev/s3rverdata",
+    "docker/dev/db",
+    "backend/tmp",
+    "backend/src/v2c/junk",
+  ],
 	"folder_exclude_patterns":
 	[
 		".idea",
