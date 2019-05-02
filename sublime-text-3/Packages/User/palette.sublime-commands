@@ -9,7 +9,6 @@
   { "caption": "Regex: Rebrace", "command": "reg_replace", "args": { "replacements": ["newline_braces"] } },
 
   { "caption": "Il8n", "command": "run_macro_file", "args": { "file": "Packages/User/macros/translate.sublime-macro" } },
-  { "caption": "String split macro", "command": "run_macro_file", "args": { "file": "Packages/User/macros/split.sublime-macro" } },
   { "caption": "Re-open tabs", "command": "reopenTabs" },
 
   { "caption": "ShellCMD: sortby", "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/sortby", "target": "point" } },

@@ -16,7 +16,8 @@
 		"docker/dev/s3rverdata",
 		"docker/dev/db",
 		"backend/tmp",
-		"backend/src/v2c/junk"
+		"backend/src/v2c/junk",
+		"client/src/assets/fonts"
 	],
 	"bold_folder_labels": true,
 	"detect_indentation": false,
