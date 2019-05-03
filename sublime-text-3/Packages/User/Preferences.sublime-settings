@@ -14,7 +14,8 @@
 	"binary_file_patterns":
 	[
 		"docker/dev/s3rverdata",
-		"docker/dev/db",
+    "docker/dev/db",
+		"docker/dev/volumes",
 		"backend/tmp",
 		"backend/src/v2c/junk",
 		"client/src/assets/fonts"
