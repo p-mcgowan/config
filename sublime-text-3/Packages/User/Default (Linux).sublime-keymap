@@ -14,10 +14,10 @@
             "file": "Packages/User/macros/eolbrace.sublime-macro"
         }
     },
-    {
+    /*{
         "keys": ["ctrl+shift+]"],
         "command": "goto_definition"
-    },
+    },*/
     /** Add semicolon at end of line */
     {
         "keys": ["ctrl+shift+;"],

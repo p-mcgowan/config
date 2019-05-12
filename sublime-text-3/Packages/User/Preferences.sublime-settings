@@ -14,7 +14,7 @@
 	"binary_file_patterns":
 	[
 		"docker/dev/s3rverdata",
-    "docker/dev/db",
+		"docker/dev/db",
 		"docker/dev/volumes",
 		"backend/tmp",
 		"backend/src/v2c/junk",
@@ -49,7 +49,7 @@
 		".vscode",
 		"dist"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -64,7 +64,7 @@
 		"Vintage"
 	],
 	"mini_diff": false,
-	"node_path": "/home/pat/.nvm/versions/node/v10.14.1/bin/node",
+	"node_path": "/home/pat/.nvm/versions/node/v12.1.0/bin/node",
 	"rulers":
 	[
 		80,
@@ -78,7 +78,7 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
-	"typescript_tsdk": "/home/pat/.nvm/versions/node/v10.14.1/lib/node_modules/typescript/lib",
+	"typescript_tsdk": "/home/pat/.nvm/versions/node/v12.1.0/lib/node_modules/typescript/lib",
 	"use_tab_stops": true,
 	"word_wrap": false
 }
