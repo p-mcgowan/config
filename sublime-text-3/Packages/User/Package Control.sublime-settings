@@ -13,13 +13,16 @@
 		"ImportHelper",
 		"Kotlin",
 		"MarkdownLivePreview",
+		"MarkdownPreview",
 		"nginx",
 		"Package Control",
 		"Pretty JSON",
+		"Pug",
 		"RegReplace",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
-		"TypeScript"
+		"TypeScript",
+		"Vue Syntax Highlight"
 	]
 }
