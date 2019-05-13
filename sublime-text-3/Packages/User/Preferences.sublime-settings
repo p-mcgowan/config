@@ -13,12 +13,8 @@
 	],
 	"binary_file_patterns":
 	[
-		"docker/dev/s3rverdata",
-    "docker/dev/db",
-		"docker/dev/volumes",
-		"backend/tmp",
-		"backend/src/v2c/junk",
-		"client/src/assets/fonts"
+		"package-lock.json",
+		"yarn.lock"
 	],
 	"bold_folder_labels": true,
 	"detect_indentation": false,
@@ -36,18 +32,14 @@
 		"*.sublime-workspace",
 		"*.sublime-project",
 		"*.o",
-		"selenium-debug.log",
-		"plugins/*/*/**",
-		"package-lock.json",
-		"yarn.lock"
+		"selenium-debug.log"
 	],
 	"folder_exclude_patterns":
 	[
 		".idea",
 		"node_modules",
 		".git",
-		".vscode",
-		"dist"
+		".vscode"
 	],
 	"font_size": 9,
 	"highlight_modified_tabs": true,
@@ -64,7 +56,8 @@
 		"Vintage"
 	],
 	"mini_diff": false,
-	"node_path": "/home/pat/.nvm/versions/node/v10.14.1/bin/node",
+	"node_path": "/home/pat/.nvm/versions/node/v10.12.0/bin/node",
+	"remember_open_files": false,
 	"rulers":
 	[
 		80,
@@ -78,7 +71,7 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
-	"typescript_tsdk": "/home/pat/.nvm/versions/node/v10.14.1/lib/node_modules/typescript/lib",
+	"typescript_tsdk": "/home/pat/.nvm/versions/node/v10.12.0/lib/node_modules/typescript/lib",
 	"use_tab_stops": true,
 	"word_wrap": false
 }
