@@ -54,7 +54,9 @@
     },
     { "keys": ["ctrl+shift+]"],
       "command": "typescript_go_to_definition",
+      "context": { "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
     },
+    { "keys": ["ctrl+shift+]"], "command": "goto_definition" },
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
     { "keys": ["ctrl+shift+v"], "command": "paste" },
     { "keys": ["ctrl+shift+t"], "command": "reopen_tabs" },
