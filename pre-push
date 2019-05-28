@@ -22,5 +22,5 @@
 remote="$1"
 url="$2"
 
-cp google-chrome/Default/Bookmarks{,.bak}
-exit 0
+cp google-chrome/Default/Bookmarks google-chrome/Default/Bookmarks.bak && exit 0
+exit 1
