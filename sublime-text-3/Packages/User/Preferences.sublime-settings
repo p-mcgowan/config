@@ -17,6 +17,7 @@
 		"yarn.lock"
 	],
 	"bold_folder_labels": true,
+	"default_line_ending": "linux",
 	"detect_indentation": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
