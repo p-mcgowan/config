@@ -7,3 +7,6 @@
 !sublime-text-3/Packages/User/
 !sublime-text-3/Packages/User/**
 !user-dirs.dirs
+!google-chrome/Default/Bookmarks.bak
+!bkpmarks
+!pre-push
