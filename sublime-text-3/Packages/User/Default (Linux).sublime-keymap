@@ -47,6 +47,10 @@
         "keys": ["ctrl+."],
         "command": "insert_import",
     },
+    {
+        "keys": ["ctrl+shift+."],
+        "command": "typescript_organize_imports",
+    },
     /** Same as zl[tab] but retains selection */
     { "keys": ["ctrl+k", "l"],
       "command": "insert_snippet",
