@@ -1,8 +1,10 @@
 [
   { "caption": "Preferences: Palette", "command": "open_file", "args": { "file": "${packages}/User/palette.sublime-commands" } },
   { "caption": "Preferences: Context", "command": "open_file", "args": { "file": "${packages}/User/Context.sublime-menu" } },
+  { "caption": "Open packages", "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } },
 
   { "caption": "Snippets", "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}},
+  { "caption": "New Snippet...", "command": "new_snippet" },
   { "caption": "Soft Undo", "command": "soft_undo" },
   { "caption": "Show Scope Name", "command": "show_scope_name" },
 
@@ -15,25 +17,26 @@
   { "caption": "ShellCMD: sasspath", "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/sasspath", "target": "point" } },
   { "caption": "ShellCMD: HCDef", "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/hcdef", "target": "point" } },
   { "caption": "ShellCMD: Define Service", "command": "shell_command_on_region", "args": { "command": "${packages}/User/ShellCMDScripts/defineService", "target": "point" } },
-  { "caption": "Goto Definition…", "command": "goto_definition" },
   { "caption": "HTML to TS", "command": "html_to_ts" },
+  { "caption": "Build Script: Tex", "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/tex" } },
+
+  { "caption": "Goto Definition…", "command": "goto_definition" },
   { "caption": "Copy File Path", "command": "copy_path" },
   { "caption": "Goto Definition", "command": "context_goto_definition" },
-  { "caption": "Build Script: Tex", "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/tex" } },
-  { "caption": "New Snippet...", "command": "new_snippet" },
-  { "caption": "Open packages", "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } },
+
   { "caption": "Close Tabs to the Right" , "command": "close_to_right" },
   { "caption": "Close Other Tabs" , "command": "close_others" },
-  { "caption": "Gnomification" , "command": "gnome_terminal_here" },
+
+  // { "caption": "Gnomification" , "command": "gnome_terminal_here" },
+
+  { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
+
   { "caption": "Nest: Depencancies", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-dependancy.sublime-macro" } },
   { "caption": "Nest: Inject", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-inject.sublime-macro" } },
-  { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
   { "caption": "String interpolation", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/string-interp.sublime-snippet" } },
+  { "caption": "CatToTemplate", "command": "cat_to_template" },
   { "caption": "Move to new group", "command": "move_to_new_group" },
   { "caption": "Sort numeric", "command": "custom_sort_lines", "args": { "numeric": true } },
   { "caption": "InsertDocs", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/tsdoc.sublime-snippet" } },
-  { "caption": "CatToTemplate", "command": "cat_to_template" },
   { "caption": "Notifier", "command": "run_macro_file", "args": { "file": "Packages/User/macros/notific.sublime-macro" } },
-  // { "caption": "Subbit: Open selection", "command": "open_file", "args": {"file": "${selection}"} },
-  // { "caption": "Reload plugins", "command": "package_reloader_reload", "args": null },
 ]
