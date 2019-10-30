@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-@Inject('${SELECTION}') private readonly ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION},
+@Inject('${SELECTION}') private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION},
 ]]>
     </content>
 <!--

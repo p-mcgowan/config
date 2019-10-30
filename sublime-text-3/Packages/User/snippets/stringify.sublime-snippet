@@ -3,6 +3,5 @@
 console.log(JSON.stringify(${1}));
 ]]>
     </content>
-    <tabTrigger>str</tabTrigger>
-    <tabTrigger>stringify</tabTrigger>
+    <tabTrigger>json</tabTrigger>
  </snippet>

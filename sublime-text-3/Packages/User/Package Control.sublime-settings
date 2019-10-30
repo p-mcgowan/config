@@ -7,9 +7,11 @@
 	[
 		"Alignment",
 		"ANSIescape",
+		"AutomaticPackageReloader",
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
 		"FileIcons",
+		"FilterPipes",
 		"GraphQL",
 		"Handlebars",
 		"JSX",
@@ -18,12 +20,14 @@
 		"MarkdownPreview",
 		"nginx",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
 		"Pug",
 		"RegReplace",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
+		"Terraform",
 		"TypeScript",
 		"Vue Syntax Highlight"
 	]

@@ -39,4 +39,6 @@
   { "caption": "Sort numeric", "command": "custom_sort_lines", "args": { "numeric": true } },
   { "caption": "InsertDocs", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/tsdoc.sublime-snippet" } },
   { "caption": "Notifier", "command": "run_macro_file", "args": { "file": "Packages/User/macros/notific.sublime-macro" } },
+
+  { "caption": "TSReload", "command": "package_reloader_reload", "args": {"pkg_name": "TypeScript"} },
 ]
