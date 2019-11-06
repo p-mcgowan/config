@@ -26,6 +26,7 @@
 
   { "caption": "Close Tabs to the Right" , "command": "close_to_right" },
   { "caption": "Close Other Tabs" , "command": "close_others" },
+  // { "caption": "Set Custom Layout" , "command": "custom_layout" },
 
   // { "caption": "Gnomification" , "command": "gnome_terminal_here" },
 
