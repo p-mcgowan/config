@@ -1,0 +1,14 @@
+[
+	{
+		"args": null,
+		"command": "select_all"
+	},
+	{
+		"args": null,
+		"command": "paste_and_indent"
+	},
+	{
+		"args": null,
+		"command": "pretty_json"
+	}
+]
