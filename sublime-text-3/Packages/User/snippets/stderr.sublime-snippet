@@ -1,0 +1,7 @@
+ <snippet>
+    <content><![CDATA[
+process.stderr.write(${1:JSON.stringify($0)});
+]]>
+    </content>
+    <tabTrigger>stderr</tabTrigger>
+ </snippet>

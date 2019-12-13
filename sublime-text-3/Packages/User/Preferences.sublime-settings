@@ -45,8 +45,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"ANSIescape",
-		"DocBlockr",
 		"EditorConfig",
 		"Makefile Plus",
 		"SummitLinter",

@@ -6,17 +6,14 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"ANSIescape",
-		"AutomaticPackageReloader",
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen (evolution)",
 		"FileIcons",
 		"FilterPipes",
 		"GraphQL",
 		"Handlebars",
 		"JSX",
-		"Kotlin",
-		"MarkdownLivePreview",
 		"MarkdownPreview",
 		"nginx",
 		"Package Control",
