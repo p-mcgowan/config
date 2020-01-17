@@ -41,6 +41,9 @@
   { "caption": "InsertDocs", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/tsdoc.sublime-snippet" } },
   { "caption": "Notifier", "command": "run_macro_file", "args": { "file": "Packages/User/macros/notific.sublime-macro" } },
   { "caption": "PP: PasteJson", "command": "run_macro_file", "args": { "file": "Packages/User/macros/paste-json.sublime-macro" } },
+  { "caption": "JsonStringify", "command": "json_stringify" },
+  { "caption": "JsonUnStringify", "command": "json_unstringify" },
+  { "caption": "JsonFlattify", "command": "flatten_json" },
 
   { "caption": "TSReload", "command": "package_reloader_reload", "args": {"pkg_name": "TypeScript"} },
 ]
