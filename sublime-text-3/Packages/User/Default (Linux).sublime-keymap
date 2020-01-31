@@ -88,5 +88,6 @@
     { "keys": ["ctrl+alt+s"], "command": "save_all" },
     { "keys": ["alt+shift+e"], "command": "reveal_in_side_bar" },
     { "keys": ["alt+shift+d"], "command": "find_all_under" },
+    { "keys": ["ctrl+h"], "command": "replace_in_sel", "args": null },
     // { "keys": ["ctrl+f"], "command": "show_panel", "args": { "panel": "find", "in_selection": true } },
 ]

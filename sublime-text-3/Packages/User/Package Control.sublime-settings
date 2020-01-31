@@ -6,23 +6,25 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"ANSIescape",
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen (evolution)",
 		"FileIcons",
+		"FilterPipes",
 		"GraphQL",
+		"Handlebars",
 		"JSX",
-		"Kotlin",
-		"MarkdownLivePreview",
 		"MarkdownPreview",
 		"nginx",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pretty JSON",
 		"Pug",
 		"RegReplace",
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
+		"Terraform",
 		"TypeScript",
 		"Vue Syntax Highlight"
 	]

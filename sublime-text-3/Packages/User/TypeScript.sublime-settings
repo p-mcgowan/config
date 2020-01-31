@@ -1,5 +1,6 @@
 // These settings override both User and Default settings for the TypeScript syntax
 {
     "tab_size": 4,
-    "show_errors_inline": false,
+    "show_errors_inline": true,
+    "error_color": "region.redish"
 }
