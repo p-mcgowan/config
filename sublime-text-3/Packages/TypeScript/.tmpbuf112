@@ -1,0 +1,73 @@
+import { Inject, Injectable } from '@nestjs/common';
+import { AppRepo, InjectRepo } from '../../../common/app.repo';
+import { OcrEngine } from '../../../provider/ocr-types';
+import { LambdaFnName } from '../../lambda/types/lambda-fn-name';
+import { Page } from '../../page/page.entity';
+import { JobName, JobWorker, JobWorkers, WorkResponse } from '../job-workers';
+import { LambdaApi } from '../lambda-api';
+import { QueueJob } from '../types/boss';
+import { IndexResultsJobData } from './index-results-worker';
+
+interface ExtractTextKeys {
+    pdfTxtKey?: string;
+    pdfWordsKey?: string;
+    ocrResultsKey?: string;
+    metadataKey?: string;
+}
+
+@Injectable()
+export class ExtractTextWorker implements JobWorker {
+    public readonly jobName = JobName.extractText;
+
+    constructor(@Inject('LambdaApi') private lambdaApi: LambdaApi, @InjectRepo(Page) private pageRepo: AppRepo<Page>) {}
+
+    public async work(job: QueueJob): Promise<WorkResponse> {
+        const keys: Partial<ExtractTextKeys> = {};
+        let shouldOcr: boolean;
+        let ocrEngine: OcrEngine = null;
+        const isPdf = job.data && job.data.splitKey;
+
+        if (isPdf) {
+            const { response, error } = await this.lambdaApi.call(
+                LambdaFnName.extractPdfText,
+                {
+                    key: job.data.splitKey,
+                },
+                job,
+            );
+            if (error) {
+                return { error };
+            }
+            keys.pdfTxtKey = response.pdfTxtKey;
+            keys.pdfWordsKey = response.pdfWordsKey;
+            shouldOcr = response.shouldOcr;
+        }
+        if (!isPdf || shouldOcr) {
+            const { response, error } = await this.lambdaApi.call(
+                LambdaFnName.ocr,
+                {
+                    key: job.data.largeImageKey,
+                    ocrEngine: job.data.opts.ocrEngine,
+                },
+                job,
+            );
+            if (error) {
+                return { error };
+            }
+            keys.ocrResultsKey = response.ocrResultsKey;
+            keys.metadataKey = response.metadataKey;
+            ocrEngine = response.ocrEngine;
+        }
+        if (ocrEngine) {
+            await this.pageRepo.update(job.data.pageId, {
+                ocrEngine,
+            });
+        }
+
+        const indexJob = JobWorkers.prepareNextJobData<IndexResultsJobData>(job, JobName.indexResults, {
+            pdfWordsKey: keys.pdfWordsKey,
+            metadataKey: keys.metadataKey,
+        });
+        return { response: keys, nextJobs: [indexJob] };
+    }
+}

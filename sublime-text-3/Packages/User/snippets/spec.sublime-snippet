@@ -1,0 +1,57 @@
+<snippet>
+    <content><![CDATA[
+import { INestApplication } from '@nestjs/common';
+import { Test, TestingModule } from '@nestjs/testing';
+import { expect } from 'chai';
+import * as supertest from 'supertest';
+import * as sinon from 'sinon';
+// import { SomethingModule } from './something.module';
+// import { SomethingService } from './something.service';
+
+describe('SomethingModule', () => {
+    let app: INestApplication;
+    let api: supertest.SuperTest<supertest.Test>;
+    // let service: SomethingService;
+
+    before(async () => {
+        const moduleFixture: TestingModule = await Test.createTestingModule({ providers: [SomethingModule] }).compile();
+        app = await moduleFixture.createNestApplication().init();
+        api = supertest(app.getHttpServer());
+        // service = app.get(SomethingService);
+    });
+
+    afterEach(() => sinon.restore());
+
+    after(async () => app.close());
+
+    it('should successfully do something', async () => {
+        await api
+            .get('/collections/collection')
+            .set('Accept', 'application/json')
+            .expect(200)
+            .expect('Content-Type', /json/)
+            .expect(({ body }) => {
+                expect(body.errors).to.be.undefined;
+                expect(body.data).to.eql('Hello world!');
+            });
+    });
+
+    it('should fail when not acceptable', async () => {
+        await api
+            .post('/collections')
+            .set('Accept', 'application/json')
+            .send({})
+            .expect(422)
+            .expect(({ body }) => {
+                expect(body.errors).to.eql('Nope, you dumb');
+            });
+    });
+});
+
+]]>
+    </content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>spec</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.ts, source.js, source.tsx</scope>
+</snippet>
