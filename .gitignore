@@ -4,6 +4,7 @@
 !mc/*
 !sublime-text-3/
 !sublime-text-3/Packages/
+!sublime-text-3/Packages/TypeScript
 !sublime-text-3/Packages/User/
 !sublime-text-3/Packages/User/**
 !user-dirs.dirs

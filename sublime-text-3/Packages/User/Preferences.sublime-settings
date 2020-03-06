@@ -53,7 +53,6 @@
 		"Vintage"
 	],
 	"mini_diff": false,
-	"node_path": "/home/pat/.nvm/versions/node/v10.17.0/bin/node",
 	"remember_open_files": false,
 	"rulers":
 	[
@@ -68,7 +67,6 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
-	"typescript_tsdk": "/home/pat/.nvm/versions/node/v10.17.0/bin/../lib/node_modules/typescript/lib/",
 	"use_tab_stops": true,
 	"word_wrap": false
 }
