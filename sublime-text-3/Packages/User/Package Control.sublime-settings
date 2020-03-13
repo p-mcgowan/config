@@ -7,8 +7,11 @@
 	[
 		"Alignment",
 		"Case Conversion",
+		"Chain of Command",
+		"Color Highlight",
 		"Dockerfile Syntax Highlighting",
 		"DoxyDoxygen (evolution)",
+		"Emmet",
 		"FileIcons",
 		"FilterPipes",
 		"GraphQL",

@@ -1,0 +1,18 @@
+/*
+  Color Highlight user settings in here override the default
+*/
+{
+  "user": {
+    "highlight_values": false,
+    "named_values": false,
+    "hex_values": false,
+    "0x_hex_values": false,
+    "xterm_color_values": false,
+    "rgb_values": true,
+    "hsv_values": true,
+    "hsl_values": true,
+    "hwb_values": true,
+    "lab_values": true,
+    "lch_values": true
+  }
+}

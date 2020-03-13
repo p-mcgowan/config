@@ -2,6 +2,14 @@
     "selection_only": true,
     // Use extended back references
     "extended_back_references": true,
+    // "replacements": {
+    //     "js_class": {
+    //         "find": " class=\"",
+    //         "replace": " className=\"",
+    //         "greedy": true,
+    //         "case": false
+    //     }
+    // }
 }
 // ////////////////////////////////
 // // Regex with scope qualifiers//
