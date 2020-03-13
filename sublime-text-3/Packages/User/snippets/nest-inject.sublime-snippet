@@ -1,8 +1,9 @@
 <snippet>
     <content><![CDATA[
-@Inject('${SELECTION}') private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION},
+private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION},
 ]]>
     </content>
+<!-- @Inject('${SELECTION}') private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\l$1$2/g}: ${SELECTION}, -->
 <!--
 macro:
 [
