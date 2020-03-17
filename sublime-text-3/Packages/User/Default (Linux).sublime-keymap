@@ -82,6 +82,7 @@
     },
     { "keys": ["ctrl+shift+alt+2"], "command": "move_to_new_group" },
     { "keys": ["ctrl+b"], "command": "gopen", "args": null },
+    { "keys": ["ctrl+shift+b"], "command": "run_command_exec_prompt", "args": null },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": { "forward": true } },
     { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },

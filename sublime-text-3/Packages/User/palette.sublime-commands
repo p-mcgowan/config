@@ -44,6 +44,7 @@
   { "caption": "JsonStringify", "command": "json_stringify" },
   { "caption": "JsonUnStringify", "command": "json_unstringify" },
   { "caption": "JsonFlattify", "command": "flatten_json" },
+  { "caption": "Run command here", "command": "run_command_exec_prompt" },
 
   { "caption": "TSReload", "command": "package_reloader_reload", "args": {"pkg_name": "TypeScript"} },
 ]
