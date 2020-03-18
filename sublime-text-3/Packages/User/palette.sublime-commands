@@ -45,7 +45,7 @@
   { "caption": "JsonUnStringify", "command": "json_unstringify" },
   { "caption": "JsonFlattify", "command": "flatten_json" },
   { "caption": "Run command here...", "command": "run_command_exec_prompt" },
-  { "caption": "Perty", "command": "run_on", "args": { "command": "npx prettier --config ~/.prettierrc --write FILENAME" } },
+  { "caption": "Perty", "command": "run_on", "args": { "command": "npx prettier --write FILENAME" } },
 
   { "caption": "TSReload", "command": "package_reloader_reload", "args": {"pkg_name": "TypeScript"} },
 ]

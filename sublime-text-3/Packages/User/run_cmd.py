@@ -3,6 +3,21 @@ import sublime
 import sublime_plugin
 import subprocess
 import re
+from string import Template
+
+errorTemplate = Template("""
+<body id="my-plugin-feature">
+    <style>
+        display: block;
+        div.error {
+            margin: 5px;
+        }
+    </style>
+    <div class="error">${error}</div>
+</body>
+""")
+# <style>body { height: 100%; width: 100%; } div { margin: 5px; white-space: nowrap; }</style>
+# <div>${error}</div>
 
 class RunOnCommand(sublime_plugin.WindowCommand):
     """Exec command here with DIRNAME and FILENAME subs."""
@@ -22,10 +37,16 @@ class RunOnCommand(sublime_plugin.WindowCommand):
             print(command)
 
             stdout = p.stdout.read()
-            stderr = p.stdout.read()
+            stderr = p.stderr.read()
 
             if stderr:
-                print(stderr)
+                content = ''.join(map(lambda x: '<div><code>' + re.sub(' ', '&nbsp;', x) + '</code></div>', stderr.decode('UTF-8').split('\n')))
+                print(content)
+                content = errorTemplate.substitute({ "error": content })
+                max_width = min(self.window.active_view().viewport_extent()[0], 800)
+                # self.window.active_view().show_popup(content, max_width=self.window.active_view().viewport_extent()[0], max_height=400)
+                self.window.active_view().show_popup(content, max_width=max_width, max_height=400)
+                print(stderr.decode('UTF-8'))
             if stdout:
                 print(stdout)
 
