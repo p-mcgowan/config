@@ -31,7 +31,9 @@ class RunOnCommand(sublime_plugin.WindowCommand):
             command = re.sub('DIRNAME', dirName, command)
             command = re.sub('FILENAME', fname, command)
 
+            # running gnome-terminal fails sometimes
             env = os.environ.copy()
+            env["GNOME_TERMINAL_SCREEN"] = ""
             p = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True)
 
             print(command)
