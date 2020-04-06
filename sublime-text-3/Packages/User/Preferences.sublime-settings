@@ -14,7 +14,13 @@
 	"binary_file_patterns":
 	[
 		"package-lock.json",
-		"yarn.lock"
+		"yarn.lock",
+		"*.min",
+		"*.min.js",
+		"*.min.js.map",
+		"*.min.css",
+		"*.sublime-workspace",
+		"*.sublime-project"
 	],
 	"bold_folder_labels": true,
 	"default_line_ending": "linux",
@@ -23,15 +29,9 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
-		"*.min",
-		"*.min.js",
-		"*.min.js.map",
-		"*.min.css",
 		"*.css.map",
 		"*.js.map",
 		"*.cache",
-		"*.sublime-workspace",
-		"*.sublime-project",
 		"*.o",
 		"selenium-debug.log"
 	],
@@ -42,7 +42,6 @@
 		".vscode"
 	],
 	"font_size": 9,
-  "ui_scale": 0.8,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -68,6 +67,7 @@
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
+	"ui_scale": 0.8,
 	"use_tab_stops": true,
 	"word_wrap": false
 }
