@@ -1,10 +1,20 @@
 <snippet>
     <content><![CDATA[
-require('fs').writeFileSync(${1:'/home/patrickmcgowan/tmp/res.json'}, ${0:JSON.stringify($2, null, 2)});
+describe('${1:the module}', () => {
+
+  beforeAll(async () => { });
+  beforeEach(async () => { });
+  afterEach(async () => { });
+  afterAll(async () => { });
+
+  it('$2', async () => {
+    $0
+  });
+});
 ]]>
     </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>fs</tabTrigger>
+    <tabTrigger>describe</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.ts, source.js, source.tsx</scope>
 </snippet>

@@ -6,11 +6,10 @@
 127.0.0.1 s3.test
 127.0.0.1 es.test
 127.0.0.1 kibana.test
+127.0.0.1 db.test
 127.0.0.1 sk.test sks.test searchkit.test
-# 127.0.0.1 eslog.test
 172.17.0.2 staging.test integration.test
-127.0.1.1 xpress
-# 192.168.10.10 spa.audienceaccelerator.test audienceaccelerator.test
+127.0.1.1 acrbot
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback

@@ -46,10 +46,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"EditorConfig",
-		"Makefile Plus",
-		"SummitLinter",
-		"TypeScript Syntax",
 		"Vintage"
 	],
 	"mini_diff": false,

@@ -1,51 +1,54 @@
 <snippet>
     <content><![CDATA[
-import { INestApplication } from '@nestjs/common';
-import { Test, TestingModule } from '@nestjs/testing';
-import { expect } from 'chai';
-import * as supertest from 'supertest';
-import * as sinon from 'sinon';
-// import { SomethingModule } from './something.module';
-// import { SomethingService } from './something.service';
+import app from '@/app';
+// import sequelize from '@/database';
+import supertest from 'supertest';
 
-describe('SomethingModule', () => {
-    let app: INestApplication;
-    let api: supertest.SuperTest<supertest.Test>;
-    // let service: SomethingService;
+// @TODO - change post to 201 (seems to cause problems)
+const RESPONSE_CODES = {
+  get: 200,
+  post: 200,
+  delete: 204,
+  patch: 204,
+  notFound: 404,
+  unprocessable: 422,
+};
 
-    before(async () => {
-        const moduleFixture: TestingModule = await Test.createTestingModule({ providers: [SomethingModule] }).compile();
-        app = await moduleFixture.createNestApplication().init();
-        api = supertest(app.getHttpServer());
-        // service = app.get(SomethingService);
-    });
+const request = supertest(app);
 
-    afterEach(() => sinon.restore());
+jest.mock('morgan', () => () => (req: any, res: any, next: any) => next());
 
-    after(async () => app.close());
+describe('${1:SomethingDomain}', () => {
+  const baseUrl = '${2:/project-name}';
 
-    it('should successfully do something', async () => {
-        await api
-            .get('/collections/collection')
-            .set('Accept', 'application/json')
-            .expect(200)
-            .expect('Content-Type', /json/)
-            .expect(({ body }) => {
-                expect(body.errors).to.be.undefined;
-                expect(body.data).to.eql('Hello world!');
-            });
-    });
+  beforeEach(async () => {
+    /*
+    await Promise.all(
+      Object.values(sequelize.models).map((model) =>
+        model.destroy({
+          truncate: true,
+          force: true,
+          cascade: true,
+        }),
+      ),
+    );
+    */
+  });
 
-    it('should fail when not acceptable', async () => {
-        await api
-            .post('/collections')
-            .set('Accept', 'application/json')
-            .send({})
-            .expect(422)
-            .expect(({ body }) => {
-                expect(body.errors).to.eql('Nope, you dumb');
-            });
-    });
+  afterAll(async () => {
+    // await sequelize.close();
+    jest.restoreAllMocks();
+  });
+
+  it('${3:should succeed in doing something}', async () => {
+    await request
+      .post(`${baseUrl}/collections/`)
+      .send({ data: 'thing' })
+      .expect(RESPONSE_CODES.post)
+      .expect(({ body }) => {
+        expect(body).toBeDefined();
+      });
+  });
 });
 
 ]]>
