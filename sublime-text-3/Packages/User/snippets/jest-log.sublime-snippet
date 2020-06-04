@@ -1,0 +1,10 @@
+ <snippet>
+    <content><![CDATA[
+process.stderr.write(`\n\n\n\n\${
+  /* tslint:disable-next-line */
+  require('util').inspect(${1:thing}, false, null, true)
+}\n\n\n\n`);
+]]>
+    </content>
+    <tabTrigger>jestlog</tabTrigger>
+ </snippet>

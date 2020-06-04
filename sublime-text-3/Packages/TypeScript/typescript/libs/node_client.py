@@ -263,7 +263,7 @@ class ServerClient(NodeCommClient):
             self.server_proc = None
         else:
             global_vars._node_path = node_path
-            print("Trying to spawn node executable from: " + node_path)
+            log.debug("Trying to spawn node executable from: " + node_path)
             try:
                 node_process_cmd = [node_path] + node_args + [script_path, "--disableAutomaticTypingAcquisition"] + tsserver_args
                 if os.name == "nt":
@@ -307,6 +307,7 @@ class WorkerClient(NodeCommClient):
         WorkerClient.stop_worker = False
 
         node_path = global_vars.get_node_path()
+        pref_settings = sublime.load_settings('Preferences.sublime-settings')
         node_args = pref_settings.get('node_args', [])
         tsserver_args = pref_settings.get('tsserver_args', [])
         tsserver_env = dict(os.environ, **pref_settings.get('tsserver_env', {}))

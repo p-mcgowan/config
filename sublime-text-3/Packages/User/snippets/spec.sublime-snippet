@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
+/* tslint:disable:no-null-keyword */
 import app from '@/app';
 // import sequelize from '@/database';
 import supertest from 'supertest';
 
-// @TODO - change post to 201 (seems to cause problems)
 const RESPONSE_CODES = {
   get: 200,
   post: 200,
@@ -42,10 +42,10 @@ describe('${1:SomethingDomain}', () => {
 
   it('${3:should succeed in doing something}', async () => {
     await request
-      .post(`${baseUrl}/collections/`)
+      .post(`\${baseUrl}/collections/`)
       .send({ data: 'thing' })
-      .expect(RESPONSE_CODES.post)
-      .expect(({ body }) => {
+      .expect(({ status, body }) => {
+        expect(status).toBe(RESPONSE_CODES.post);
         expect(body).toBeDefined();
       });
   });

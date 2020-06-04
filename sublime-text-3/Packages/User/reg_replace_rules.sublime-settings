@@ -48,6 +48,12 @@
             "replace": "_",
             "greedy": true,
             "case": false
+        },
+        "gen_packs": {
+            "find": "^│\\ *([^ ]+) *│ +'\\^?([^']+)'.*",
+            "replace": "\\1@\\2",
+            "greedy": true,
+            "case": false
         }
     }
 }

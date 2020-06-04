@@ -1,0 +1,25 @@
+ <snippet>
+    <content><![CDATA[
+"examples": {
+  "application/json": {
+    "simCardProvider": "simCardProvider",
+    "simCardIccId": "simCardIccId",
+    "imei": "imei",
+    "simCardMsisdn": "simCardMsisdn",
+    "simCardStatus": "simCardStatus",
+    "connectivityStatus": "connectivityStatus",
+    "simCardActivateDate": "simCardActivateDate",
+    "nop": {
+      "acked": {
+        "value": "value"
+      },
+      "lastAckDate": {
+        "value": "value"
+      }
+    }
+  }
+}
+]]>
+    </content>
+    <tabTrigger>example</tabTrigger>
+ </snippet>
