@@ -41,7 +41,7 @@
 		".git",
 		".vscode"
 	],
-	"font_size": 9,
+	"font_size": 10,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -59,6 +59,7 @@
 	"show_errors_inline": true,
 	"show_git_status": false,
 	"show_panel_on_build": false,
+	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
