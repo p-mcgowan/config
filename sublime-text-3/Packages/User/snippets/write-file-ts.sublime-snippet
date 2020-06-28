@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-require('fs').writeFileSync(${1:'/home/patrickmcgowan/tmp/res.json'}, ${0:JSON.stringify($2, null, 2)});
+require('fs').writeFileSync(${1:'/tmp/data.json'}, ${0:JSON.stringify(${2:data}, null, 2)});
 ]]>
     </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-/* tslint:disable:no-null-keyword */
+/* eslint-disable max-lines-per-function */
 import app from '@/app';
-// import sequelize from '@/database';
+import sequelize from '@/database';
 import supertest from 'supertest';
 
 const RESPONSE_CODES = {
@@ -21,28 +21,14 @@ jest.mock('morgan', () => () => (req: any, res: any, next: any) => next());
 describe('${1:SomethingDomain}', () => {
   const baseUrl = '${2:/project-name}';
 
-  beforeEach(async () => {
-    /*
-    await Promise.all(
-      Object.values(sequelize.models).map((model) =>
-        model.destroy({
-          truncate: true,
-          force: true,
-          cascade: true,
-        }),
-      ),
-    );
-    */
-  });
-
   afterAll(async () => {
-    // await sequelize.close();
     jest.restoreAllMocks();
+    await sequelize.close();
   });
 
   it('${3:should succeed in doing something}', async () => {
     await request
-      .post(`\${baseUrl}/collections/`)
+      .post(`\${baseUrl}/collections`)
       .send({ data: 'thing' })
       .expect(({ status, body }) => {
         expect(status).toBe(RESPONSE_CODES.post);
