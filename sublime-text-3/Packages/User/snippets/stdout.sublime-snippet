@@ -1,6 +1,6 @@
  <snippet>
     <content><![CDATA[
-process.stdout.write(${1:JSON.stringify($0)});
+process.stdout.write(${1:JSON.stringify($0, null, 2)});
 ]]>
     </content>
     <tabTrigger>stdout</tabTrigger>
