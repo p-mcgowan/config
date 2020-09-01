@@ -23,6 +23,7 @@
 		"*.sublime-project"
 	],
 	"bold_folder_labels": true,
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "linux",
 	"detect_indentation": false,
 	"enable_telemetry": false,
@@ -34,6 +35,19 @@
 		"*.cache",
 		"*.o",
 		"selenium-debug.log"
+	],
+	"filename_syntax_settings":
+	[
+		[
+			"\\.env*",
+			"bash",
+			"i"
+		],
+		[
+			"\\.toml",
+			"ruby",
+			"i"
+		]
 	],
 	"folder_exclude_patterns":
 	[

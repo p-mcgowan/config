@@ -1,6 +1,6 @@
  <snippet>
     <content><![CDATA[
-expect(body?.joi?.details[0]?.message).toBe(${0:'poop'});
+expect(body?.joi?.details?.[0]?.message).toBe(${0:'poop'});
 ]]>
     </content>
     <tabTrigger>joim</tabTrigger>
