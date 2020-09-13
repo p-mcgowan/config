@@ -55,7 +55,7 @@
 		".git",
 		".vscode"
 	],
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
