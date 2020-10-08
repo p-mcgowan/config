@@ -1,8 +1,10 @@
 <snippet>
-    <content><![CDATA[
+    <content>
+<![CDATA[
 /* eslint-disable max-lines-per-function */
 import app from '@/app';
-import sequelize from '@/database';
+import { baseUrl as root } from '@/http/nodegen/routesImporter';
+${3:// }import sequelize from '@/database/sequelize';
 import supertest from 'supertest';
 
 const RESPONSE_CODES = {
@@ -14,19 +16,23 @@ const RESPONSE_CODES = {
   unprocessable: 422,
 };
 
-const request = supertest(app);
+let request: supertest.SuperTest<supertest.Test>;
 
 jest.mock('morgan', () => () => (req: any, res: any, next: any) => next());
 
 describe('${1:SomethingDomain}', () => {
-  const baseUrl = '${2:/project-name}';
+  const baseUrl = root.replace(/\/*\$/, '');
+
+  beforeAll(async () => {
+    request = supertest((await app()).expressApp);
+  });
 
   afterAll(async () => {
     jest.restoreAllMocks();
-    await sequelize.close();
+    ${3:// }await sequelize.close();
   });
 
-  it('${3:should succeed in doing something}', async () => {
+  it('${2:should succeed in doing something}', async () => {
     await request
       .post(`\${baseUrl}/collections`)
       .send({ data: 'thing' })
@@ -34,7 +40,7 @@ describe('${1:SomethingDomain}', () => {
         expect(status).toBe(RESPONSE_CODES.post);
         expect(body).toBeDefined();
       });
-  });
+  });$0
 });
 
 ]]>

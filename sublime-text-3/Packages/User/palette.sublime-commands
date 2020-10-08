@@ -33,6 +33,7 @@
   { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
 
   { "caption": "Reload Plugin: Typescript", "command": "reload_plugin", "args": { "name": "TypeScript.main" }},
+  { "caption": "Reload Plugin: SyntaxFromFileName", "command": "reload_plugin", "args": { "name": "SyntaxFromFileName.main" }},
 
   { "caption": "Nest: Depencancies", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-dependancy.sublime-macro" } },
   { "caption": "Nest: Inject", "command": "run_macro_file", "args": { "file": "Packages/User/macros/nest-inject.sublime-macro" } },

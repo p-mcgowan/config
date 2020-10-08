@@ -50,9 +50,7 @@ class SyntaxFromFileName(sublime_plugin.EventListener):
 
             syntax_file = self._syntaxes.get(syntax_name)
             if syntax_file is None:
-                self._error(
-                    "Unknown syntax '%s' in [%s]" % (syntax_name, s_setting)
-                )
+                # self._error("Unknown syntax '%s' in [%s]" % (syntax_name, s_setting))
                 error = True
 
             opts = 0
