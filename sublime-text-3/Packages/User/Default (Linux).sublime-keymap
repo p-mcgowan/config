@@ -51,6 +51,11 @@
         "keys": ["ctrl+shift+."],
         "command": "typescript_organize_imports",
     },
+    // {
+    //   "keys": ["ctrl+shift+."],
+    //   "command": "run_macro_file",
+    //   "args": { "file": "Packages/User/macros/plint.sublime-macro" }
+    // },
     /** Same as zl[tab] but retains selection */
     { "keys": ["ctrl+k", "l"],
       "command": "insert_snippet",
