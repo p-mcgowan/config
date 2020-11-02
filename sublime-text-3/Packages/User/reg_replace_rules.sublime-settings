@@ -54,6 +54,10 @@
             "replace": "\\1@\\2",
             "greedy": true,
             "case": false
+        },
+        "trim_to_80": {
+          "find": "([^\\r\\n]{1,80}(?=\\s|$))",
+          "replace": "\\1\n",
         }
     }
 }

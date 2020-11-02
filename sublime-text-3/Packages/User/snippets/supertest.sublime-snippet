@@ -1,0 +1,10 @@
+ <snippet>
+    <content><![CDATA[
+.expect(({ status, body }) => {
+  expect(status).toBe(${1:RESPONSE_CODES.post});
+  ${0}
+});
+]]>
+    </content>
+    <tabTrigger>super</tabTrigger>
+ </snippet>
