@@ -51,9 +51,8 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
             if sys.platform == "win32":
                 if "start" not in command:
                     command = "start \"\" " + command
-                command = "cd " + dirName + " & " + command
 
-                p = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True)
+                p = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True, cwd=dirName)
 
                 if p.stdout:
                     p.stdout.close()
