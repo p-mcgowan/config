@@ -80,5 +80,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"ui_scale": 0.8,
 	"use_tab_stops": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"drag_text": false
 }
