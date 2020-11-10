@@ -8,7 +8,7 @@
     <array>
       <string>nunjucks</string>
       <string>nunjs</string>
-      <string>html</string>
+      <string>njk</string>
     </array>
 
     <key>name</key>
