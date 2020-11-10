@@ -49,8 +49,9 @@
   { "caption": "JsonUnStringify", "command": "json_unstringify" },
   { "caption": "JsonFlattify", "command": "flatten_json" },
   { "caption": "Run command here...", "command": "run_command_exec_prompt" },
-  { "caption": "Perty", "command": "run_cmd", "args": { "command": "npx prettier --config ~/.prettierrc --write FILENAME" } },
-  { "caption": "ng-perty", "command": "run_cmd", "args": { "command": "npx prettier --parser angular --write FILENAME" } },
+  { "caption": "Perty", "command": "prettier", "args": null },
+  // { "caption": "Perty", "command": "run_cmd", "args": { "command": "npx prettier --config ~/.prettierrc --write FILENAME" } },
+  // { "caption": "ng-perty", "command": "run_cmd", "args": { "command": "npx prettier --parser angular --write FILENAME" } },
   { "caption": "Lint", "command": "run_cmd", "args": { "command": "npx eslint FILENAME" } },
   { "caption": "Lint-fix", "command": "run_cmd", "args": { "command": "npx eslint FILENAME --fix" } },
   { "caption": "TSLint", "command": "run_cmd", "args": { "command": "npm run lint:fix -- FILENAME" } },
@@ -61,5 +62,4 @@
   { "caption": "JsonToExpect", "command": "run_macro_file", "args": { "file": "Packages/User/macros/json-to-expect.sublime-macro" } },
   { "caption": "psql file", "command": "run_cmd", "args": { "command": "psql FILENAME" } },
   { "caption": "Regex: Wrap words 80", "command": "reg_replace", "args": { "replacements": ["trim_to_80"] } },
-
 ]
