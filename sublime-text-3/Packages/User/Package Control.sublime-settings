@@ -9,6 +9,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AutomaticPackageReloader",
 		"Case Conversion",
 		"Chain of Command",
 		"Dockerfile Syntax Highlighting",

@@ -61,5 +61,5 @@
   { "caption": "Regex: gen-it", "command": "reg_replace", "args": { "replacements": ["gen_packs"] } },
   { "caption": "JsonToExpect", "command": "run_macro_file", "args": { "file": "Packages/User/macros/json-to-expect.sublime-macro" } },
   { "caption": "psql file", "command": "run_cmd", "args": { "command": "psql FILENAME" } },
-  { "caption": "Regex: Wrap words 80", "command": "reg_replace", "args": { "replacements": ["trim_to_80"] } },
+  { "caption": "Regex: Wrap at chars", "command": "wrap_at_exec_prompt", "args": null, }
 ]

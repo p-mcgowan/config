@@ -26,6 +26,7 @@
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"default_line_ending": "linux",
 	"detect_indentation": false,
+	"drag_text": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -80,6 +81,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"ui_scale": 0.8,
 	"use_tab_stops": true,
-	"word_wrap": false,
-	"drag_text": false
+	"word_wrap": false
 }
