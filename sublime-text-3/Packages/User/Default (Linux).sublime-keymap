@@ -87,7 +87,7 @@
     },
     { "keys": ["ctrl+shift+alt+2"], "command": "move_to_new_group", "args": {"group": 1} },
     { "keys": ["ctrl+shift+alt+1"], "command": "move_to_new_group", "args": {"group": 0} },
-    { "keys": ["ctrl+b"], "command": "run_cmd", "args": { "command" : "/usr/bin/gnome-terminal --working-directory='DIRNAME' '/bin/bash -il'" } },
+    { "keys": ["ctrl+b"], "command": "run_cmd", "args": { "command" : "gnome-terminal --working-directory='DIRNAME' '/bin/bash -il'" } },
     { "keys": ["ctrl+shift+b"], "command": "run_command_exec_prompt", "args": null },
     { "keys": ["ctrl+alt+shift+."], "command": "prettier", "args": null },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": { "forward": false } },

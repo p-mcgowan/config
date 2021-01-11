@@ -1,4 +1,6 @@
 [
+  // sublime.log_input(False); sublime.log_commands(False); sublime.log_result_regex(False)
+
   { "caption": "Preferences: Palette", "command": "open_file", "args": { "file": "${packages}/User/palette.sublime-commands" } },
   { "caption": "Preferences: Context", "command": "open_file", "args": { "file": "${packages}/User/Context.sublime-menu" } },
   { "caption": "Open packages", "command": "external_command", "args": { "executable": "/home/pat/.config/sublime-text-3/Packages/User/buildScripts/packages" } },
@@ -61,5 +63,8 @@
   { "caption": "Regex: gen-it", "command": "reg_replace", "args": { "replacements": ["gen_packs"] } },
   { "caption": "JsonToExpect", "command": "run_macro_file", "args": { "file": "Packages/User/macros/json-to-expect.sublime-macro" } },
   { "caption": "psql file", "command": "run_cmd", "args": { "command": "psql FILENAME" } },
-  { "caption": "Regex: Wrap at chars", "command": "wrap_at_exec_prompt", "args": null, }
+  { "caption": "Regex: Wrap at chars", "command": "wrap_at_exec_prompt", "args": null, },
+  { "caption": "Show build file js", "command": "goto_build", "args": null, },
+  // { "caption": "Terminal in Packages", "command": "run_cmd", "args": { "command": "gnome-terminal --working-directory=${packages} -- bash -il " } },
+  { "caption": "Terminal in Packages", "command": "run_cmd", "args": { "command": "gnome-terminal --working-directory=DIRNAME" } },
 ]
