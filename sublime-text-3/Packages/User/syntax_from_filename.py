@@ -78,7 +78,7 @@ class SyntaxFromFileName(sublime_plugin.EventListener):
                             view.settings().set('sticky-syntax', False)
 
             except Exception as ex:
-                self.error(
+                self._error(
                     "Bad file pattern '%s' in [%s]" % (syntax_name, s_setting)
                 )
                 error = True

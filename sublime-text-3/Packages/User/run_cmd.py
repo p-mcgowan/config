@@ -3,7 +3,6 @@ import sublime
 import sublime_plugin
 import subprocess
 import re
-import threading
 import sys
 from string import Template
 
@@ -20,13 +19,6 @@ errorTemplate = Template("""
 """)
 # <style>body { height: 100%; width: 100%; } div { margin: 5px; white-space: nowrap; }</style>
 # <div>${error}</div>
-
-class ProcessListener(object):
-    def on_data(self, proc, data):
-        pass
-
-    def on_finished(self, proc):
-        pass
 
 class RunCmdCommand(sublime_plugin.WindowCommand):
     """Exec command here."""
@@ -62,7 +54,11 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
 
             else:
                 env["GNOME_TERMINAL_SCREEN"] = ""
+                print(command)
                 p = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
+                # env["GNOME_TERMINAL_SCREEN"] = ""
+                # p = subprocess.Popen("/usr/bin/dbus-launch {}".format(command), stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
+                # p = subprocess.Popen("/usr/bin/dbus-launch --exit-with-session {}".format(command), stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
                 self.stdout, self.stderr = p.communicate()
 
             exitCode = p.wait()
