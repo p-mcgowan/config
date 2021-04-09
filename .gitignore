@@ -4,12 +4,16 @@
 !lns/
 !mc/
 !mc/*
+!sublime-text/
+!sublime-text/Packages/
+!sublime-text/Packages/TypeScript
+!sublime-text/Packages/User/
+!sublime-text/Packages/User/**
 !sublime-text-3/
 !sublime-text-3/Packages/
 !sublime-text-3/Packages/TypeScript
 !sublime-text-3/Packages/User/
 !sublime-text-3/Packages/User/**
-sublime-text-3/Packages/User/Color Highlight.cache/
 !user-dirs.dirs
 !google-chrome/Default/Bookmarks.bak
 !bkpmarks
