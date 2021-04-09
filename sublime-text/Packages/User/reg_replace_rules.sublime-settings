@@ -1,0 +1,63 @@
+{
+    "format": "3.0",
+    "replacements": {
+        "trim_whitespace": {
+            "find": "[ \\t\\n]",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "camel_to_underscores": {
+            "find": "([A-Z])",
+            "replace": "_\\L\\1",
+            "greedy": true,
+            "case": true
+        },
+        "underscores_to_camel": {
+            "find": "_([a-zA-Z])",
+            "replace": "\\U\\1",
+            "greedy": true,
+            "case": true
+        },
+        "trim_eol_space": {
+            "find": "[ ]*$",
+            "replace": "",
+            "greedy": true,
+            "case": false
+        },
+        "replace_double_tag_end": {
+            "find": ">>",
+            "replace": ">",
+            "greedy": true,
+            "case": false
+        },
+        "replace_empty_start_tag": {
+            "find": "^[ ]*>",
+            "replace": "",
+            "greedy": false,
+            "case": false
+        },
+        "newline_braces": {
+            "find": "[ ]*\n[ ]*{",
+            "replace": " {",
+            "greedy": true,
+            "case": false
+        },
+        "to_underscore": {
+            "find": " ",
+            "replace": "_",
+            "greedy": true,
+            "case": false
+        },
+        "gen_packs": {
+            "find": "^│\\ *([^ ]+) *│ +'\\^?([^']+)'.*",
+            "replace": "\\1@\\2",
+            "greedy": true,
+            "case": false
+        },
+        "trim_to_80": {
+          "find": "([^\\r\\n]{1,80}(?=\\s|$))",
+          "replace": "\\1\n",
+        }
+    }
+}

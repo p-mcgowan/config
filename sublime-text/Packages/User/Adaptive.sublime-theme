@@ -1,0 +1,14 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+  },
+  "rules":
+  [
+    {
+      "class":"egal",
+      "scope": "markup.highlight.text.lsp",
+      "foreground": "red"
+    }
+  ]
+}

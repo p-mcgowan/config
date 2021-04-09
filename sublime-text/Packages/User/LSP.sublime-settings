@@ -1,0 +1,43 @@
+// Settings in here override those in "LSP/LSP.sublime-settings",
+
+{
+  "clients": {
+    "js": {
+        "command": ["lsp-tsserver"],
+        "enabled": true,
+        "languageId": "javascript",
+        "scopes": ["source.js"],
+        "syntaxes": ["Packages/JavaScript/JavaScript.sublime-syntax"]
+    },
+    "jsts": {
+        "command": ["lsp-tsserver"],
+        "enabled": true,
+        "languageId": "typescript",
+        "scopes": ["source.ts", "source.tsx"],
+        "syntaxes": ["Packages/TypeScript-TmLanguage/TypeScript.tmLanguage", "Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage"],
+    },
+    "vue-ls": {
+      "command": [
+        "node",
+        "/home/pat/.nvm/versions/node/v8.11.2/bin/vls"
+      ],
+      "enabled": true,
+      "languageId": "vue",
+      "scopes": [
+        "text.html.vue"
+      ],
+      "syntaxes": [
+        // For ST3 builds < 3153
+        // "Packages/Vue Syntax Highlight/vue.tmLanguage"
+        // For ST3 builds >= 3153
+        "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+      ]
+    }
+  },
+  "auto_show_diagnostics_panel": false,
+  "diagnostics_highlight_style": "stippled",
+  "show_code_actions": "bulb",
+  "diagnostics_gutter_marker": "",
+  "show_code_actions_bulb": false,
+  "document_highlight_style": ""
+}

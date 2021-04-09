@@ -1,0 +1,12 @@
+#!/bin/bash
+
+file=${1/.tex/}
+
+mkdir -p ${file}_output/
+rm -f $file.pdf
+pdflatex -halt-on-error $file.tex &>build_error.log || sub build_error.log
+mv -f $file.aux $file.log $file.out ${file}_output/
+if [ -f $file.pdf ]; then
+  gnome-open $file.pdf &>/dev/null
+fi
+exit 0

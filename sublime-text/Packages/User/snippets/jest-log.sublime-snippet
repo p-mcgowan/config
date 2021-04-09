@@ -1,0 +1,7 @@
+ <snippet>
+    <content><![CDATA[
+process.stderr.write(`\n\${JSON.stringify({$0\}, null, 2)}\n`);
+]]>
+    </content>
+    <tabTrigger>jestlog</tabTrigger>
+ </snippet>

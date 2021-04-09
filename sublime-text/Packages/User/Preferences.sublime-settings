@@ -1,0 +1,86 @@
+{
+	"added_words":
+	[
+		"colour",
+		"app",
+		"api",
+		"coloured",
+		"favourites",
+		"Online",
+		"online",
+		"screenshots",
+		"colours"
+	],
+	"binary_file_patterns":
+	[
+		"package-lock.json",
+		"yarn.lock",
+		"*.min",
+		"*.min.js",
+		"*.min.js.map",
+		"*.min.css",
+		"*.sublime-workspace",
+		"*.sublime-project"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+	"default_line_ending": "linux",
+	"detect_indentation": false,
+	"drag_text": false,
+	"enable_telemetry": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.css.map",
+		"*.js.map",
+		"*.cache",
+		"*.o",
+		"selenium-debug.log"
+	],
+	"filename_syntax_settings":
+	[
+		[
+			"\\.env*",
+			"bash",
+			"i"
+		],
+		[
+			"\\.toml",
+			"ruby",
+			"i"
+		]
+	],
+	"folder_exclude_patterns":
+	[
+		".idea",
+		".git",
+		".vscode"
+	],
+	"font_size": 9,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"TypeScript",
+    "Vintage",
+	],
+	"mini_diff": false,
+	"remember_open_files": false,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"shift_tab_unindent": true,
+	"show_errors_inline": true,
+	"show_git_status": false,
+	"show_panel_on_build": false,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
+	"trim_trailing_white_space_on_save": true,
+	"ui_scale": 0.8,
+	"use_tab_stops": true,
+	"word_wrap": false,
+}

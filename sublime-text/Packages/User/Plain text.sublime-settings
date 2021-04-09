@@ -1,0 +1,10 @@
+// These settings override both User and Default settings for the Plain text syntax
+{
+    "tab_size": 2,
+    "trim_trailing_white_space_on_save": true,
+    "translate_tabs_to_spaces": false,
+    "detect_indentation": false,
+    "use_tab_stops": true,
+    "word_wrap": false,
+    "translate_tabs_to_spaces": true,
+}

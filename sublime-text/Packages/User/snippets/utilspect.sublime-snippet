@@ -1,0 +1,8 @@
+ <snippet>
+    <content><![CDATA[
+/* tslint:disable-next-line */
+process.stdout.write(JSON.stringify(require('util').inspect(${1:thing}, true, null), null, 2));
+]]>
+    </content>
+    <tabTrigger>inspect</tabTrigger>
+ </snippet>

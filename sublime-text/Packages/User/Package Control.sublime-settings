@@ -1,0 +1,30 @@
+{
+	"auto_upgrade_ignore":
+	[
+	],
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"Case Conversion",
+		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen (evolution)",
+		"EditorConfig",
+		"FileIcons",
+		"FilterPipes",
+		"LSP",
+		"LSP-typescript",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"RegReplace",
+		"SCSS",
+		"SideBarEnhancements",
+		"TypeScript",
+		"Vue Syntax Highlight",
+	],
+}

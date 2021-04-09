@@ -1,0 +1,42 @@
+// Settings in here override those in "${packages}/DoxyDoxygen (evolution)/Doxy.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+  "preferred_tabs_sizes": [ 2, 2, 2, 2, 2, 2 ],
+  "block_layout": {
+    "JsDoc": [
+        {
+            "type": [
+                "{return:doxy_type_to_description();doxy_The();}."
+            ],
+            "tags": [
+                "",
+                "@_brief",
+                "",
+                "@type",
+                ""
+            ],
+            "context": [
+                { "key": "kind",                                             "operator": "equal",  "operand": "property" }
+            ]
+        },
+        {
+            "tags": [
+                "",
+                "@_brief",
+                "",
+                "@type",
+                "@class",
+                //"@method",
+                //"",
+                "@param",
+                "",
+                "@return",
+                ""
+            ],
+            "context": [
+                { "key": "kind",                                             "operator": "not_equal",  "operand": "" }
+            ]
+        }
+    ]
+  }
+}

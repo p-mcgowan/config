@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the C Improved syntax
+{
+  "rulers" : [ 80, 120 ],
+  "tab_size": 4
+}
