@@ -10,18 +10,20 @@
 
 import sublime, sublime_plugin, os
 
+logfile = '/tmp/reopenTabs.tmp'
+
 class reopenTabsSecure(sublime_plugin.EventListener):
 
   def on_close(self, view):
     if view.file_name():
-      file = open(sublime.packages_path() + "/User/reopenTabs.tmp", 'a')
+      file = open(logfile, 'a')
       file.writelines(view.file_name() + "\n")
       file.close()
 
 class reopenTabsCommand(sublime_plugin.TextCommand):
 
   def run(self, edit):
-    fileName = sublime.packages_path() + "/User/reopenTabs.tmp"
+    fileName = logfile
 
     if os.path.isfile(fileName):
       readFile = open(fileName, "r")

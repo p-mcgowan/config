@@ -5,10 +5,10 @@
   },
   "rules":
   [
-    {
-      "class":"egal",
-      "scope": "markup.highlight.text.lsp",
-      "foreground": "red"
-    }
+    //{
+    //  "class":"egal",
+    //  "scope": "markup.highlight.text.lsp",
+    //  "foreground": "red"
+    //}
   ]
 }

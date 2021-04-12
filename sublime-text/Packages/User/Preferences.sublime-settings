@@ -23,7 +23,7 @@
 		"*.sublime-project"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Monokai.tmTheme",
 	"default_line_ending": "linux",
 	"detect_indentation": false,
 	"drag_text": false,
