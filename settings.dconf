@@ -21,7 +21,7 @@ name='slack'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Primary>F7'
-command='/home/pat/bin/keybinds chrome'
+command='/home/pat/bin/keybinds brave'
 name='chrome'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
