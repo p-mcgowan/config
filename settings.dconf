@@ -1,13 +1,14 @@
 [org/gnome/settings-daemon/plugins/power]
-power-button-action='nothing'
 idle-dim=false
-sleep-inactive-battery-type='nothing'
+power-button-action='nothing'
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-type='nothing'
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
-screensaver='<Primary><Alt>l'
+logout=['<Primary><Alt>Delete']
+screensaver=['<Primary><Alt>l']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary>F5'
@@ -21,7 +22,7 @@ name='slack'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Primary>F7'
-command='/home/pat/bin/keybinds chrome'
+command='/home/pat/bin/keybinds brave'
 name='chrome'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
@@ -50,115 +51,122 @@ command='bash /home/pat/bin/spot'
 name='respotify'
 
 [org/gnome/settings-daemon/plugins/xsettings]
-overrides={'Gtk/ShellShowsAppMenu': <1>}
 hinting='slight'
+overrides={'Gtk/ShellShowsAppMenu': <1>}
 
 [org/gnome/settings-daemon/peripherals/keyboard]
 numlock-state='on'
 
 [org/gnome/shell/extensions/dash-to-dock]
-dock-fixed=false
 dash-max-icon-size=16
+dock-fixed=false
+preferred-monitor=0
+
+[org/gnome/shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
 
 [org/gnome/shell/extensions/org-lab21-putwindow]
-put-to-location=@as []
-put-to-side-s-enabled=1
-put-to-side-e=['<Primary><Alt>KP_6']
-put-to-left-screen-enabled=0
-move-focus-cycle=@as []
-move-focus-south-enabled=0
-put-to-location-enabled=0
-put-to-side-s=['<Primary><Alt>KP_2']
-right-side-widths-1=50
-right-side-widths-2=50
-south-height-2=50
-move-focus-animation=0
-put-to-side-e-enabled=1
-put-to-corner-ne=['<Primary><Alt>KP_9']
-put-to-corner-sw=['<Primary><Alt>KP_1']
-put-to-side-w-enabled=1
-move-focus-north-enabled=0
-put-to-side-w=['<Primary><Alt>KP_4']
-put-to-corner-sw-enabled=1
+center-height=100
+center-height-1=50
+center-keep-width=0
+center-width=100
+center-width-1=50
 left-side-widths-1=50
 left-side-widths-2=50
-center-width-1=50
-put-to-corner-nw-enabled=1
-put-to-side-n-enabled=1
-south-height-1=50
-move-focus-north=@as []
-put-to-corner-nw=['<Primary><Alt>KP_7']
-move-focus-west=@as []
-move-focus-right-screen-enabled=0
-move-focus-left-screen=@as []
-put-to-left-screen=@as []
-center-height-1=50
-move-focus-west-enabled=0
-move-focus-right-screen=@as []
-center-width=100
-move-focus-east-enabled=0
-move-focus-south=@as []
 move-center-only-toggles=1
-put-to-right-screen=@as []
-put-to-right-screen-enabled=0
-put-to-center=['<Primary><Alt>KP_5']
+move-focus-animation=0
+move-focus-cycle=@as []
+move-focus-cycle-enabled=0
 move-focus-east=@as []
+move-focus-east-enabled=0
 move-focus-enabled=0
+move-focus-left-screen=@as []
+move-focus-left-screen-enabled=0
+move-focus-north=@as []
+move-focus-north-enabled=0
+move-focus-right-screen=@as []
+move-focus-right-screen-enabled=0
+move-focus-south=@as []
+move-focus-south-enabled=0
+move-focus-west=@as []
+move-focus-west-enabled=0
 north-height-1=50
 north-height-2=50
+put-to-center=['<Primary><Alt>KP_5']
 put-to-center-enabled=1
+put-to-corner-ne=['<Primary><Alt>KP_9']
 put-to-corner-ne-enabled=1
-move-focus-cycle-enabled=0
-center-keep-width=0
-center-height=100
-move-focus-left-screen-enabled=0
-put-to-corner-se-enabled=1
+put-to-corner-nw=['<Primary><Alt>KP_7']
+put-to-corner-nw-enabled=1
 put-to-corner-se=['<Primary><Alt>KP_3']
+put-to-corner-se-enabled=1
+put-to-corner-sw=['<Primary><Alt>KP_1']
+put-to-corner-sw-enabled=1
+put-to-left-screen=@as []
+put-to-left-screen-enabled=0
+put-to-location=@as []
+put-to-location-enabled=0
+put-to-right-screen=@as []
+put-to-right-screen-enabled=0
+put-to-side-e=['<Primary><Alt>KP_6']
+put-to-side-e-enabled=1
 put-to-side-n=['<Primary><Alt>KP_8']
+put-to-side-n-enabled=1
+put-to-side-s=['<Primary><Alt>KP_2']
+put-to-side-s-enabled=1
+put-to-side-w=['<Primary><Alt>KP_4']
+put-to-side-w-enabled=1
+right-side-widths-1=50
+right-side-widths-2=50
+south-height-1=50
+south-height-2=50
 
 [org/gnome/desktop/interface]
 clock-show-date=true
-text-scaling-factor=1.0
-gtk-im-module='ibus'
 clock-show-seconds=false
 enable-animations=false
+gtk-im-module='gtk-im-context-simple'
 gtk-theme='Adwaita-dark'
 icon-theme='ubuntu-mono-dark'
+text-scaling-factor=1.0
 
 [org/gnome/desktop/notifications/application/org-gnome-software]
-enable-sound-alerts=true
 application-id='org.gnome.Software.desktop'
 enable=false
+enable-sound-alerts=false
 
 [org/gnome/desktop/screensaver]
-picture-uri='file:///home/pat/Pictures/voyagerFull.png'
 color-shading-type='solid'
-primary-color='#000000000000'
 picture-options='zoom'
-secondary-color='#000000000000'
+picture-uri='file:///home/pat/Pictures/inv.png'
+primary-color='#333333'
+secondary-color='#333333'
 
 [org/gnome/desktop/peripherals/touchpad]
-natural-scroll=false
 click-method='none'
+natural-scroll=false
+send-events='enabled'
 speed=0.27205882352941169
 tap-to-click=false
-send-events='enabled'
+two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/peripherals/mouse]
-speed=-0.3529411764705882
+speed=-0.75735294117647056
 
 [org/gnome/desktop/wm/preferences]
-mouse-button-modifier='<Alt>'
+action-middle-click-titlebar='none'
 button-layout=':appmenu,close'
+mouse-button-modifier='<Alt>'
 titlebar-font='Ubuntu Mono 11'
 
 [org/gnome/desktop/background]
-picture-uri='file:///home/pat/Pictures/voyagerFull.png'
-show-desktop-icons=false
 color-shading-type='solid'
-primary-color='#000000000000'
 picture-options='zoom'
-secondary-color='#000000000000'
+picture-uri='file:///home/pat/Pictures/inv.png'
+primary-color='#333333'
+secondary-color='#333333'
+show-desktop-icons=false
 
 [org/gnome/desktop/input-sources]
 sources=[('xkb', 'us')]
