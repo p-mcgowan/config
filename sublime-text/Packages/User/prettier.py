@@ -3,7 +3,6 @@ import sublime_plugin
 import subprocess
 import re
 import sys
-import cgi
 
 class PrettierCommand(sublime_plugin.WindowCommand):
     def run(self, args=[], type=None, cli=False, input=False):
@@ -12,12 +11,10 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             fname = view.file_name()
             scope = view.scope_name(view.sel()[-1].b)
 
-            perty = "npx prettier --config ~/.prettierrc --write %s" % (fname)
-            ngperty = "npx prettier --config ~/.ngprettierrc --parser angular --write %s" % (fname)
-            command = perty
+            command = "npx prettier --config ~/.prettierrc --write %s" % (fname)
 
             if re.search(r".*\.html\b", scope):
-                command = ngperty
+                command = "npx prettier --config ~/.ngprettierrc --parser angular --write %s" % (fname)
 
             env = os.environ.copy()
             self.stdout = ""
@@ -27,9 +24,7 @@ class PrettierCommand(sublime_plugin.WindowCommand):
                 if "start" not in command:
                     command = "start \"\" " + command
 
-                p = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True
-                    # , cwd=dirName
-                )
+                p = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True)
 
                 if p.stdout:
                     p.stdout.close()
@@ -39,9 +34,7 @@ class PrettierCommand(sublime_plugin.WindowCommand):
 
             else:
                 env["GNOME_TERMINAL_SCREEN"] = ""
-                p = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True
-                    # , cwd=dirName
-                )
+                p = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True)
                 self.stdout, self.stderr = p.communicate()
 
             exitCode = p.wait()
@@ -58,7 +51,6 @@ class PrettierCommand(sublime_plugin.WindowCommand):
                 print(stdout)
 
     def show(self, content):
-        content = re.sub(' ', '&nbsp;', cgi.escape(content))
         content = re.sub('\n', '<br>', content)
         errorTemplate = """
             <body id=show-scope>
