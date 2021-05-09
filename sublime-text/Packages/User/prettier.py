@@ -13,12 +13,12 @@ class PrettierCommand(sublime_plugin.WindowCommand):
 
     def run(self, args=[], type=None, cli=False, input=False):
         try:
-            self.build()
+            self.run_thread()
 
         except:
             print(traceback.format_exc())
 
-    def build(self):
+    def run_thread(self):
         if self.window.active_view():
             view = self.window.active_view()
             fname = view.file_name()
@@ -31,48 +31,6 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             if re.search(r".*\.html\b", scope):
                 command = "npx prettier --config ~/.ngprettierrc --parser angular --write %s" % (fname)
 
-            thread = self.run_thread(command)
-
-
-    def find_config(self, fname):
-        next_dir = os.path.dirname(fname)
-
-        count = 20
-        while next_dir != '/' and count > 0:
-            if os.path.exists(os.path.join(next_dir, '.prettierrc')):
-                return os.path.join(next_dir, '.prettierrc')
-            elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
-                return os.path.exists(os.path.join(next_dir, '.prettierrc.js'))
-            elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
-                return os.path.exists(os.path.join(next_dir, '.prettierrc.json'))
-            next_dir = os.path.dirname(next_dir)
-            count = count - 1
-
-        return '~/.prettierrc'
-
-    def show(self, content):
-        content = re.sub('\n', '<br>', content)
-        errorTemplate = """
-            <body id=show-scope>
-                <style>
-                    p {
-                        white-space: pre-wrap;
-                        margin-top: 0;
-                    }
-                    a {
-                        font-family: system;
-                        font-size: 1.05rem;
-                    }
-                </style>
-                <p>%s</p>
-            </body>
-        """ % (content)
-        self.window.active_view().show_popup(errorTemplate, max_width=1200)
-
-    def is_enabled(self):
-        return True
-
-    def run_thread(self, command):
         thread = threading.Thread(target=self.run_build_in_thread, args=(command,))
         thread.start()
 
@@ -121,3 +79,47 @@ class PrettierCommand(sublime_plugin.WindowCommand):
 
 
         return self.proc.returncode
+
+    def find_config(self, fname):
+        next_dir = os.path.dirname(fname)
+
+        count = 20
+        while next_dir != '/' and count > 0:
+            if os.path.exists(os.path.join(next_dir, '.prettierrc')):
+                return os.path.join(next_dir, '.prettierrc')
+            elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
+                return os.path.exists(os.path.join(next_dir, '.prettierrc.js'))
+            elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
+                return os.path.exists(os.path.join(next_dir, '.prettierrc.json'))
+            next_dir = os.path.dirname(next_dir)
+            count = count - 1
+
+        return '~/.prettierrc'
+
+    def show(self, content):
+        content = re.sub('\n', '<br>', content)
+
+        errorTemplate = """
+            <body id=show-scope>
+                <style>
+                    p {
+                        white-space: pre-wrap;
+                        margin-top: 0;
+                    }
+                    a {
+                        font-family: system;
+                        font-size: 1.05rem;
+                    }
+                </style>
+                <p>%s</p>
+            </body>
+        """ % (content)
+
+        self.window.active_view().show_popup(errorTemplate, max_width=1200)
+
+        # msg, line, col = re.search(r': (.*) \((\d+):(\d+)\)', content).group(1, 2, 3)
+        # point = self.window.active_view().text_point(int(line), int(col))
+        # self.window.active_view().show_popup(errorTemplate, max_width=1200, location=point)
+
+    def is_enabled(self):
+        return True
