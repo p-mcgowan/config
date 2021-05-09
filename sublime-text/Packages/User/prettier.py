@@ -11,7 +11,10 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             fname = view.file_name()
             scope = view.scope_name(view.sel()[-1].b)
 
-            command = "npx prettier --config ~/.prettierrc --write %s" % (fname)
+            print("file here:")
+            print(fname)
+            config = self.find_config(fname)
+            command = "npx prettier --config %s --write %s" % (config, fname)
 
             if re.search(r".*\.html\b", scope):
                 command = "npx prettier --config ~/.ngprettierrc --parser angular --write %s" % (fname)
@@ -49,6 +52,20 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             if self.stdout:
                 stdout = self.stdout.decode('UTF-8')
                 print(stdout)
+
+    def find_config(self, fname):
+        next_dir = os.path.dirname(fname)
+
+        count = 20
+        while next_dir != '/' and count > 0:
+            if os.path.exists(os.path.join(next_dir, '.prettierrc')):
+                return os.path.join(next_dir, '.prettierrc')
+            elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
+                return os.path.exists(os.path.join(next_dir, '.prettierrc.js'))
+            elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
+                return os.path.exists(os.path.join(next_dir, '.prettierrc.json'))
+            next_dir = os.path.dirname(next_dir)
+            count = count - 1
 
     def show(self, content):
         content = re.sub('\n', '<br>', content)
