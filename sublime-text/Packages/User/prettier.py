@@ -30,7 +30,7 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             command = "npx prettier --config %s --write %s" % (config, fname)
 
             if re.search(r".*\.html\b", scope):
-                command = "npx prettier --config ~/.ngprettierrc --parser angular --write %s" % (fname)
+                command = "npx prettier --config %s --parser angular --write %s" % (config, fname)
 
         thread = threading.Thread(target=self.run_build_in_thread, args=(command,))
         thread.start()
