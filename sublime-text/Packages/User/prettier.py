@@ -1,4 +1,5 @@
 import os
+import sublime
 import sublime_plugin
 import subprocess
 import threading
@@ -78,6 +79,8 @@ class PrettierCommand(sublime_plugin.WindowCommand):
                 print("error:\n%s" % (stderr))
 
 
+        sublime.run_command('revert')
+
         return self.proc.returncode
 
     def find_config(self, fname):
@@ -88,9 +91,9 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             if os.path.exists(os.path.join(next_dir, '.prettierrc')):
                 return os.path.join(next_dir, '.prettierrc')
             elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
-                return os.path.exists(os.path.join(next_dir, '.prettierrc.js'))
+                return os.path.join(next_dir, '.prettierrc.js')
             elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
-                return os.path.exists(os.path.join(next_dir, '.prettierrc.json'))
+                return os.path.join(next_dir, '.prettierrc.json')
             next_dir = os.path.dirname(next_dir)
             count = count - 1
 
