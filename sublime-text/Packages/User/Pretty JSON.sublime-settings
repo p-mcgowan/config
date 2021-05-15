@@ -4,5 +4,6 @@
     "pretty_on_save": false,
     "validate_on_save": false,
     "brace_newline": false,
-    "bracket_newline": false
+    "bracket_newline": false,
+    "ensure_ascii": false
 }
