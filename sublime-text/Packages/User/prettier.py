@@ -26,11 +26,11 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             scope = view.scope_name(view.sel()[-1].b)
 
             config = self.find_config(fname)
-            print("found config: %s" % (config))
-            command = "npx prettier --config %s --write %s" % (config, fname)
+            print("found config?: %s" % (config))
+            command = "npx prettier %s --write %s" % (config, fname)
 
             if re.search(r".*\.html\b", scope):
-                command = "npx prettier --config %s --parser angular --write %s" % (config, fname)
+                command = "npx prettier %s --parser angular --write %s" % (config, fname)
 
         thread = threading.Thread(target=self.run_build_in_thread, args=(command,))
         thread.start()
@@ -89,15 +89,18 @@ class PrettierCommand(sublime_plugin.WindowCommand):
         count = 20
         while next_dir != '/' and count > 0:
             if os.path.exists(os.path.join(next_dir, '.prettierrc')):
-                return os.path.join(next_dir, '.prettierrc')
+                return "--config %s" % (os.path.join(next_dir, '.prettierrc'))
             elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
-                return os.path.join(next_dir, '.prettierrc.js')
+                return "--config %s" % (os.path.join(next_dir, '.prettierrc.js'))
             elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
-                return os.path.join(next_dir, '.prettierrc.json')
+                return "--config %s" % (os.path.join(next_dir, '.prettierrc.json'))
             next_dir = os.path.dirname(next_dir)
             count = count - 1
 
-        return '~/.prettierrc'
+        if os.path.exists('~/.prettierrc'):
+            return '--config ~/.prettierrc'
+
+        return ''
 
     def show(self, content):
         content = re.sub('\n', '<br>', content)
