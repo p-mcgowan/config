@@ -42,10 +42,11 @@
         "file": "Packages/User/macros/align-sort.sublime-macro"
       }
     },
-    /** Close current html tag */
     {
       "keys": ["ctrl+."],
-      "command": "insert_import",
+      // "command": "commit_completion",
+      // "command": "auto_complete",
+      "command": "lsp_import",
     },
     // {
     //     "keys": ["ctrl+shift+."],
