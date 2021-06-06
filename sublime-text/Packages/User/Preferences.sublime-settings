@@ -61,8 +61,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TypeScript",
-    "Vintage",
+		"Vintage",
 	],
 	"mini_diff": false,
 	"remember_open_files": false,
