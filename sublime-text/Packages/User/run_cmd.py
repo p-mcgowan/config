@@ -56,7 +56,6 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
                 env["GNOME_TERMINAL_SCREEN"] = ""
                 print(command)
                 p = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
-                # env["GNOME_TERMINAL_SCREEN"] = ""
                 # p = subprocess.Popen("/usr/bin/dbus-launch {}".format(command), stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
                 # p = subprocess.Popen("/usr/bin/dbus-launch --exit-with-session {}".format(command), stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName)
                 self.stdout, self.stderr = p.communicate()
@@ -67,12 +66,11 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
 
             if self.stderr:
                 content = ''.join(map(lambda x: '<div><code>' + re.sub(' ', '&nbsp;', x) + '</code></div>', self.stderr.decode('UTF-8').split('\n')))
-                print('SOMETHING WENT WRONG:')
-                print(content)
-                content = errorTemplate.substitute({ "error": content })
-                max_width = min(self.window.active_view().viewport_extent()[0], 800)
-                # self.window.active_view().show_popup(content, max_width=self.window.active_view().viewport_extent()[0], max_height=400)
-                self.window.active_view().show_popup(content, max_width=max_width, max_height=400)
+                if exitCode != 0:
+                    content = errorTemplate.substitute({ "error": content })
+                    max_width = min(self.window.active_view().viewport_extent()[0], 800)
+                    # self.window.active_view().show_popup(content, max_width=self.window.active_view().viewport_extent()[0], max_height=400)
+                    self.window.active_view().show_popup(content, max_width=max_width, max_height=400)
                 print(self.stderr.decode('UTF-8'))
 
             if self.stdout:
