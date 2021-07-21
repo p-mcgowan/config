@@ -86,19 +86,26 @@ class PrettierCommand(sublime_plugin.WindowCommand):
     def find_config(self, fname):
         next_dir = os.path.dirname(fname)
 
+        def check_folder(folder):
+            if os.path.exists(os.path.join(folder, '.prettierrc')):
+                return "--config %s" % (os.path.join(folder, '.prettierrc'))
+            elif os.path.exists(os.path.join(folder, '.prettierrc.js')):
+                return "--config %s" % (os.path.join(folder, '.prettierrc.js'))
+            elif os.path.exists(os.path.join(folder, '.prettierrc.json')):
+                return "--config %s" % (os.path.join(folder, '.prettierrc.json'))
+
         count = 20
         while next_dir != '/' and count > 0:
-            if os.path.exists(os.path.join(next_dir, '.prettierrc')):
-                return "--config %s" % (os.path.join(next_dir, '.prettierrc'))
-            elif os.path.exists(os.path.join(next_dir, '.prettierrc.js')):
-                return "--config %s" % (os.path.join(next_dir, '.prettierrc.js'))
-            elif os.path.exists(os.path.join(next_dir, '.prettierrc.json')):
-                return "--config %s" % (os.path.join(next_dir, '.prettierrc.json'))
+            exists = check_folder(next_dir)
+            if exists:
+                return exists
             next_dir = os.path.dirname(next_dir)
             count = count - 1
 
-        if os.path.exists('~/.prettierrc'):
-            return '--config ~/.prettierrc'
+        env = os.environ.copy()
+        exists = check_folder(env["HOME"])
+        if exists:
+            return exists
 
         return ''
 
