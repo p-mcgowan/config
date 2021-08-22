@@ -58,6 +58,10 @@
         "trim_to_80": {
           "find": "([^\\r\\n]{1,80}(?=\\s|$))",
           "replace": "\\1\n",
+        },
+        "remove_ascii_colour_codes": {
+          "find": "\\[[0-9]*;?[0-9]*m",
+          "replace": ""
         }
     }
 }
