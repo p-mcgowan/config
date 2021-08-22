@@ -1,0 +1,42 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+    // "black": "hsl(0, 0%, 10%)",
+    // "blue": "hsl(210, 50%, 70%)",
+    // "blue-vibrant": "hsl(210, 60%, 70%)",
+    // "blue2": "hsla(210, 13%, 40%, 0.7)",
+    // "blue3": "hsl(210, 15%, 32%)",
+    // "blue4": "hsl(210, 13%, 55%)",
+    // "blue5": "hsl(180, 36%, 64%)",
+    // "blue6": "hsl(221, 12%, 79%)",
+    // "green": "hsl(114, 31%, 78%)",
+    // "green": "hsl(60, 31%, 78%)",
+    // "grey": "hsl(0, 0%, 30%)",
+    // "orange": "hsl(32, 93%, 76%)",
+    // "orange2": "hsl(32, 85%, 65%)",
+    // "orange3": "hsl(40, 94%, 78%)",
+    // "pink": "hsl(300, 30%, 78%)",
+    // "red": "hsl(357, 79%, 75%)",
+    // "red2": "hsl(13, 93%, 76%)",
+    // "white": "hsl(0, 0%, 100%)",
+    // "white2": "hsl(0, 0%, 100%)",
+    // "white3": "hsl(219, 28%, 88%)",
+
+    "blue3": "hsl(72, 7%, 13%)",
+    // "pink": "hsl(300, 30%, 68%)",
+    // "pink": "hsl(240, 90%, 80%)",
+    // "red": "hsl(357, 79%, 65%)",
+    // "red": "hsl(5, 100%, 60%)",
+    // "red2": "hsl(13, 93%, 66%)",
+    // "red2": "hsl(13, 93%, 66%)",
+  },
+  "globals":
+  {
+
+  },
+  "rules":
+  [
+
+  ]
+}
