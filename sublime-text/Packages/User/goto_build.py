@@ -13,4 +13,24 @@ class GotoBuildCommand(sublime_plugin.WindowCommand):
             fname = self.window.active_view().file_name()
             js_path = fname.replace('/src/', '/build/src/').replace('.ts', '.js')
             print(js_path)
-            self.window.open_file(js_path)
+            if os.path.exists(js_path):
+                self.window.open_file(js_path)
+                return
+
+            js_path = fname.replace('/src/', '/dist/src/').replace('.ts', '.js')
+            print(js_path)
+            if os.path.exists(js_path):
+                self.window.open_file(js_path)
+                return
+
+            js_path = fname.replace('/src/', '/dist/').replace('.ts', '.js')
+            print(js_path)
+            if os.path.exists(js_path):
+                self.window.open_file(js_path)
+                return
+
+            js_path = fname.replace('/src/', '/build/').replace('.ts', '.js')
+            print(js_path)
+            if os.path.exists(js_path):
+                self.window.open_file(js_path)
+                return
