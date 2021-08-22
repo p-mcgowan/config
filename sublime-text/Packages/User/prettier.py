@@ -20,17 +20,21 @@ class PrettierCommand(sublime_plugin.WindowCommand):
             print(traceback.format_exc())
 
     def run_thread(self):
-        if self.window.active_view():
-            view = self.window.active_view()
-            fname = view.file_name()
-            scope = view.scope_name(view.sel()[-1].b)
+        if not self.window.active_view():
+            return
 
-            config = self.find_config(fname)
-            print("found config?: %s" % (config))
-            command = "npx prettier %s --write %s" % (config, fname)
+        view = self.window.active_view()
+        fname = view.file_name()
+        scope = view.scope_name(view.sel()[-1].b)
 
-            if re.search(r".*\.html\b", scope):
-                command = "npx prettier %s --parser angular --write %s" % (config, fname)
+        config = self.find_config(fname)
+        # print("found config?: %s" % (config))
+        command = "npx prettier %s --write %s" % (config, fname)
+
+        if re.search(r".*\.html\b", scope):
+            command = "npx prettier %s --parser angular --write %s" % (config, fname)
+
+        print(command)
 
         thread = threading.Thread(target=self.run_build_in_thread, args=(command,))
         thread.start()
