@@ -54,6 +54,7 @@
   { "caption": "Perty", "command": "prettier", "args": null },
   // { "caption": "Perty", "command": "run_cmd", "args": { "command": "npx prettier --config ~/.prettierrc --write FILENAME" } },
   // { "caption": "ng-perty", "command": "run_cmd", "args": { "command": "npx prettier --parser angular --write FILENAME" } },
+  { "caption": "TSIndex - create TypeScript index file here", "command": "run_cmd", "args": { "command": "ztsindex DIRNAME >DIRNAME/index.ts" } },
   { "caption": "Lint", "command": "run_cmd", "args": { "command": "npx eslint FILENAME" } },
   { "caption": "Lint-fix", "command": "run_cmd", "args": { "command": "npx eslint FILENAME --fix" } },
   { "caption": "TSLint", "command": "run_cmd", "args": { "command": "npm run lint:fix -- FILENAME" } },
