@@ -69,4 +69,7 @@
   { "caption": "Show build file js", "command": "goto_build", "args": null, },
   // { "caption": "Terminal in Packages", "command": "run_cmd", "args": { "command": "gnome-terminal --working-directory=${packages} -- bash -il " } },
   { "caption": "Terminal in Packages", "command": "run_cmd", "args": { "command": "gnome-terminal --working-directory=DIRNAME" } },
+  { "caption": "Insert Daily", "command": "daily" },
+  { "caption": "Open link in browser", "command": "open_in_browser" },
+  { "caption": "Run text in node", "command": "run_text_with_node" },
 ]
