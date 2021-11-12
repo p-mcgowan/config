@@ -41,7 +41,8 @@
 	[
 		".idea",
 		".git",
-		".vscode"
+		".vscode",
+    "node_modules"
 	],
 	"font_size": 9,
 	"hot_exit": false,
