@@ -3,7 +3,7 @@
 */
 {
   "user": {
-    "highlight": true,
+    "highlight": false,
     "highlight_values": false,
     "0x_hex_values": true,
     "gutter_icon": "circle",
