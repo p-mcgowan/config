@@ -10,7 +10,6 @@
 	[
 		"Alignment",
 		"Case Conversion",
-		"Color Highlight",
 		"Dockerfile Syntax Highlighting",
 		"DoxyDoxygen (evolution)",
 		"EditorConfig",
@@ -20,7 +19,6 @@
 		"LSP-angular",
 		"LSP-typescript",
 		"LSP-vue",
-		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
 		"Pug",
@@ -28,6 +26,7 @@
 		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
+		"Terraform",
 		"Vue Syntax Highlight",
 	],
 }

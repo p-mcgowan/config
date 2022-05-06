@@ -9,7 +9,15 @@
 		"Online",
 		"online",
 		"screenshots",
-		"colours"
+		"colours",
+		"frontend",
+		"backend",
+		"behaviour",
+		"subtasks",
+		"microservices",
+		"middleware",
+		"microservice",
+		"templating",
 	],
 	"binary_file_patterns":
 	[
@@ -20,7 +28,8 @@
 		"*.min.js.map",
 		"*.min.css",
 		"*.sublime-workspace",
-		"*.sublime-project"
+		"*.sublime-project",
+    "node_modules"
 	],
 	"bold_folder_labels": true,
 	// "color_scheme": "Packages/User/Monokai.tmTheme",
