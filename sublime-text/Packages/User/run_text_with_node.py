@@ -15,8 +15,11 @@ class RunTextWithNodeCommand(sublime_plugin.WindowCommand):
         for region in view.sel():
             if not region.empty():
                 selText = view.substr(region)
-                repl = re.sub(r"'", "'\"'", selText)
-                self.run_in_thread(f"node -p '{repl}'")
+                with open('/tmp/sub.js', 'w') as f:
+                    f.write(selText)
+                    f.close()
+
+                self.run_in_thread(f"node /tmp/sub.js")
 
     def run_in_thread(self, command):
         env = os.environ.copy()

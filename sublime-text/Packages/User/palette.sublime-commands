@@ -72,4 +72,6 @@
   { "caption": "Insert Daily", "command": "daily" },
   { "caption": "Open link in browser", "command": "open_in_browser" },
   { "caption": "Run text in node", "command": "run_text_with_node" },
+  { "caption": "Open folder in new window", "command": "run_cmd", "args": { "command": "sub -n DIRNAME" } },
+  { "caption": "To log time", "command": "to_log_time" },
 ]
