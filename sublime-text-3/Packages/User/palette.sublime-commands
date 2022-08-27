@@ -43,6 +43,7 @@
   { "caption": "String interpolation", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/string-interp.sublime-snippet" } },
   { "caption": "CatToTemplate", "command": "cat_to_template" },
   { "caption": "Move to new group", "command": "move_to_new_group" },
+  { "caption": "Move to previous group", "command": "move_to_old_group" },
   { "caption": "Sort numeric", "command": "custom_sort_lines", "args": { "numeric": true } },
   { "caption": "InsertDocs", "command": "run_snippet", "args": { "file": "${packages}/User/snippets/tsdoc.sublime-snippet" } },
   { "caption": "Notifier", "command": "run_macro_file", "args": { "file": "Packages/User/macros/notific.sublime-macro" } },
