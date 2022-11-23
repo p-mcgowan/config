@@ -5,7 +5,7 @@ import os
 import subprocess
 import sys
 
-class RunTextWithNodeCommand(sublime_plugin.WindowCommand):
+class RunTextWithBashCommand(sublime_plugin.WindowCommand):
     proc = None
     stdout = ""
     stderr = ""
@@ -16,15 +16,15 @@ class RunTextWithNodeCommand(sublime_plugin.WindowCommand):
         for region in view.sel():
             if not region.empty():
                 selText = view.substr(region)
-                with open('/tmp/sub.js', 'w') as f:
+                with open('/tmp/sub.sh', 'w') as f:
                     f.write(selText)
                     f.close()
 
                 ran = True
-                self.run_in_thread(f"node /tmp/sub.js")
+                self.run_in_thread(f"bash /tmp/sub.sh")
 
         if ran == False:
-            self.run_in_thread("node %s" % (view.file_name()))
+            self.run_in_thread("bash %s" % (view.file_name()))
 
 
     def run_in_thread(self, command):

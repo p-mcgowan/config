@@ -9,7 +9,7 @@
 	"installed_packages":
 	[
 		"Alignment",
-		"Case Conversion",
+		"Awk",
 		"Dockerfile Syntax Highlighting",
 		"DoxyDoxygen (evolution)",
 		"EditorConfig",
@@ -29,4 +29,5 @@
 		"Terraform",
 		"Vue Syntax Highlight",
 	],
+	"debug": true,
 }

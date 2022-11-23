@@ -1,0 +1,7 @@
+[
+  {
+    "command": "expand_selection",
+    "args": { "to": "smart" }
+  },
+  { "args": null, "command": "open_in_browser" }
+]

@@ -11,7 +11,7 @@
       "keys": ["ctrl+shift+["],
       "command": "run_macro_file",
       "args": {
-        "file": "Packages/User/macros/eolbrace.sublime-macro"
+        "file": "res://Packages/User/macros/eolbrace.sublime-macro"
       }
     },
   /*{
@@ -23,7 +23,7 @@
       "keys": ["ctrl+shift+;"],
       "command": "run_macro_file",
       "args": {
-        "file": "Packages/User/macros/eolsemi.sublime-macro"
+        "file": "res://Packages/User/macros/eolsemi.sublime-macro"
       }
     },
     /** Add comma at end of line */
@@ -31,7 +31,7 @@
       "keys": ["ctrl+shift+,"],
       "command": "run_macro_file",
       "args": {
-        "file": "Packages/User/macros/eolcomma.sublime-macro"
+        "file": "res://Packages/User/macros/eolcomma.sublime-macro"
       }
     },
     /** Align and sort alphabetically */
@@ -39,7 +39,7 @@
       "keys": ["ctrl+f9"],
       "command": "run_macro_file",
       "args": {
-        "file": "Packages/User/macros/align-sort.sublime-macro"
+        "file": "res://Packages/User/macros/align-sort.sublime-macro"
       }
     },
     {
@@ -64,12 +64,12 @@
     // {
     //   "keys": ["ctrl+shift+."],
     //   "command": "run_macro_file",
-    //   "args": { "file": "Packages/User/macros/plint.sublime-macro" }
+    //   "args": { "file": "res://Packages/User/macros/plint.sublime-macro" }
     // },
     /** Same as zl[tab] but retains selection */
     { "keys": ["ctrl+k", "l"],
       "command": "insert_snippet",
-      "args": { "name": "Packages/User/snippets/conlog.sublime-snippet" }
+      "args": { "name": "res://Packages/User/snippets/conlog.sublime-snippet" }
     },
     // { "keys": ["ctrl+shift+]"],
     //   "command": "typescript_go_to_definition",
@@ -118,6 +118,7 @@
   { "keys": ["alt+shift+d"], "command": "find_all_under" },
   { "keys": ["ctrl+h"], "command": "replace_in_sel", "args": null },
   { "keys": ["ctrl+f"], "command": "find_in_selection" },
+  { "keys": ["ctrl+shift+alt+s"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/temp.sublime-macro"} },
     // { "keys": ["tab"], "command": "chain", "args": {
     //     "commands": [["expand_abbreviation_by_tab"], ["reg_replace", {"replacements": ["js_class"]}]]
     //   },

@@ -19,13 +19,14 @@ errorTemplate = Template("""
 """)
 # <style>body { height: 100%; width: 100%; } div { margin: 5px; white-space: nowrap; }</style>
 # <div>${error}</div>
+# https://stackoverflow.com/questions/2502833/store-output-of-subprocess-popen-call-in-a-string
 
 class RunCmdCommand(sublime_plugin.WindowCommand):
     """Exec command here."""
 
-    def run(self, command, app="", args=[], type=None, cli=False, input=False):
+    def run(self, command, app = "", args = [], type = None, cli = False, input = False):
         if self.window.active_view():
-            fname = self.window.active_view().file_name()
+            fname = self.window.active_view().file_name() or os.getcwd()
 
             dirName = os.path.dirname(fname)
 
@@ -59,20 +60,23 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
                 print(command)
                 proc = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, cwd=dirName, close_fds=True)
                 # self.stdout, self.stderr = p.communicate()
+                exitCode = proc.wait()
+                self.stderr = proc.stderr.read().decode('UTF-8')
+                self.stdout = proc.stdout.read().decode('UTF-8')
 
             print('$ {0} => {1}'.format(command, proc.returncode))
 
-            if proc.stderr:
-                content = ''.join(map(lambda x: '<div><code>' + re.sub(' ', '&nbsp;', x) + '</code></div>', proc.stderr.decode('UTF-8').split('\n')))
+            if self.stderr:
+                content = ''.join(map(lambda x: '<div><code>' + re.sub(' ', '&nbsp;', x) + '</code></div>', self.stderr.split('\n')))
                 if exitCode != 0:
                     content = errorTemplate.substitute({ "error": content })
                     max_width = min(self.window.active_view().viewport_extent()[0], 800)
                     # self.window.active_view().show_popup(content, max_width=self.window.active_view().viewport_extent()[0], max_height=400)
                     self.window.active_view().show_popup(content, max_width=max_width, max_height=400)
-                print(proc.stderr.decode('UTF-8'))
+                print(self.stderr)
 
-            if proc.stdout:
-                print(proc.stdout.decode('UTF-8'))
+            if self.stdout:
+                print(self.stdout)
 
     def is_enabled(self):
         return True
@@ -80,8 +84,13 @@ class RunCmdCommand(sublime_plugin.WindowCommand):
 class RunCommandExecPromptCommand(sublime_plugin.TextCommand):
     """Prompt for command."""
 
-    def run(self, edit):
-        self.view.window().show_input_panel('Run command:', '', self.on_done, None, None)
+    def run(self, edit, command = "", args = []):
+        print(args)
+        for region in self.view.sel():
+            if not region.empty():
+                selText = self.view.substr(region)
+                return self.view.window().show_input_panel('Run command:', selText, self.on_done, None, None)
+        return self.view.window().show_input_panel('Run command:', command, self.on_done, None, None)
 
     def on_done(self, text):
         self.view.window().run_command('run_cmd', { 'command': text })
