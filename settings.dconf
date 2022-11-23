@@ -12,22 +12,22 @@ screensaver=['<Primary><Alt>l']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary>F5'
-command='/home/pat/bin/keybinds spotify'
+command='/home/patrickmcgowan/bin/keybinds spotify'
 name='spotify'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Primary>F6'
-command='/home/pat/bin/keybinds slack'
-name='slack'
+command='/home/patrickmcgowan/bin/keybinds teams'
+name='teams'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Primary>F7'
-command='/home/pat/bin/keybinds brave'
+command='/home/patrickmcgowan/bin/keybinds brave'
 name='chrome'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Primary>F8'
-command='/home/pat/bin/keybinds sublime'
+command='/home/patrickmcgowan/bin/keybinds sublime'
 name='sublime'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
@@ -37,17 +37,17 @@ name='terminal'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5]
 binding='<Primary>F12'
-command='gnome-terminal --geometry 80x8 -- /home/pat/bin/quickterm'
+command='gnome-terminal --geometry 80x8 -- /home/patrickmcgowan/bin/quickterm'
 name='quickterm'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6]
 binding='<Primary>F11'
-command='/home/pat/bin/bf gnome-terminal'
+command='/home/patrickmcgowan/bin/bf gnome-terminal'
 name='focus terms'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7]
 binding='<Shift>F5'
-command='bash /home/pat/bin/spot'
+command='bash /home/patrickmcgowan/bin/spot'
 name='respotify'
 
 [org/gnome/settings-daemon/plugins/xsettings]
@@ -139,7 +139,7 @@ enable-sound-alerts=false
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/pat/Pictures/inv.png'
+picture-uri='file:///home/patrickmcgowan/Pictures/inv.png'
 primary-color='#333333'
 secondary-color='#333333'
 
@@ -163,7 +163,7 @@ titlebar-font='Ubuntu Mono 11'
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/pat/Pictures/inv.png'
+picture-uri='file:///home/patrickmcgowan/Pictures/inv.png'
 primary-color='#333333'
 secondary-color='#333333'
 show-desktop-icons=false
