@@ -1,7 +1,7 @@
 [
   {
     "command": "expand_selection",
-    "args": { "to": "smart" }
+    "args": { "to": "scope" }
   },
-  { "args": null, "command": "open_in_browser" }
+  { "command": "lsp_import" }
 ]

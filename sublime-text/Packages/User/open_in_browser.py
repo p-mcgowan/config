@@ -1,4 +1,3 @@
-import sublime
 import sublime_plugin
 import re
 import os
@@ -14,8 +13,20 @@ class OpenInBrowserCommand(sublime_plugin.TextCommand):
         for region in self.view.sel():
             if not region.empty():
                 selText = self.view.substr(region)
-                if not re.match(r'^https?://', selText) is None:
-                    self.run_in_thread(f"$HOME/bin/google -w {selText}");
+            else:
+                selText = self.view.substr(self.view.expand_to_scope(region.a, self.view.scope_name(region.a)))
+                if '\n' in selText or not re.search(r'.*(https?://[^ ]+).*', selText):
+                    selText = self.view.substr(self.view.line(region.a))
+
+            print(selText)
+
+            match = re.search(r'.*(https?://[^ ]+).*', selText)
+            if not match:
+                return
+
+            selText = match.group(1)
+            print(selText)
+            self.run_in_thread(f"$HOME/bin/google -w {selText}");
 
     def run_in_thread(self, command):
         env = os.environ.copy()

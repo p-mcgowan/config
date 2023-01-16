@@ -118,7 +118,7 @@
   { "keys": ["alt+shift+d"], "command": "find_all_under" },
   { "keys": ["ctrl+h"], "command": "replace_in_sel", "args": null },
   { "keys": ["ctrl+f"], "command": "find_in_selection" },
-  { "keys": ["ctrl+shift+alt+s"], "command": "run_macro_file", "args": {"file": "res://Packages/User/macros/temp.sublime-macro"} },
+  { "keys": ["ctrl+shift+alt+s"], "command": "open_in_browser" },
     // { "keys": ["tab"], "command": "chain", "args": {
     //     "commands": [["expand_abbreviation_by_tab"], ["reg_replace", {"replacements": ["js_class"]}]]
     //   },
