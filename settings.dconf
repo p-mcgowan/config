@@ -7,7 +7,7 @@ sleep-inactive-battery-type='nothing'
 
 [org/gnome/settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
-logout=['<Primary><Alt>Delete']
+logout=@as []
 screensaver=['<Primary><Alt>l']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
@@ -51,7 +51,6 @@ command='bash /home/patrickmcgowan/bin/spot'
 name='respotify'
 
 [org/gnome/settings-daemon/plugins/xsettings]
-hinting='slight'
 overrides={'Gtk/ShellShowsAppMenu': <1>}
 
 [org/gnome/settings-daemon/peripherals/keyboard]
@@ -61,10 +60,21 @@ numlock-state='on'
 dash-max-icon-size=16
 dock-fixed=false
 preferred-monitor=0
+preferred-monitor-by-connector='DP-0'
 
 [org/gnome/shell/extensions/desktop-icons]
 show-home=false
 show-trash=false
+
+[org/gnome/shell/extensions/ding]
+add-volumes-opposite=false
+show-drop-place=false
+show-home=false
+show-trash=false
+show-volumes=false
+
+[org/gnome/shell/extensions/draw-on-your-screen]
+persistent-over-toggles=false
 
 [org/gnome/shell/extensions/org-lab21-putwindow]
 center-height=100
@@ -125,11 +135,16 @@ south-height-2=50
 [org/gnome/desktop/interface]
 clock-show-date=true
 clock-show-seconds=false
+clock-show-weekday=true
+color-scheme='prefer-dark'
 enable-animations=false
+font-hinting='slight'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Adwaita-dark'
-icon-theme='ubuntu-mono-dark'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+show-battery-percentage=false
 text-scaling-factor=1.0
+toolkit-accessibility=false
 
 [org/gnome/desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
@@ -147,11 +162,12 @@ secondary-color='#333333'
 click-method='none'
 natural-scroll=false
 send-events='enabled'
-speed=0.27205882352941169
+speed=0.41176470588235303
 tap-to-click=false
 two-finger-scrolling-enabled=true
 
 [org/gnome/desktop/peripherals/mouse]
+accel-profile='default'
 speed=-0.75735294117647056
 
 [org/gnome/desktop/wm/preferences]
@@ -164,11 +180,13 @@ titlebar-font='Ubuntu Mono 11'
 color-shading-type='solid'
 picture-options='zoom'
 picture-uri='file:///home/patrickmcgowan/Pictures/inv.png'
+picture-uri-dark='file:///home/patrickmcgowan/.local/share/backgrounds/2021-10-02-11-33-14-voyagerFull.png'
 primary-color='#333333'
 secondary-color='#333333'
 show-desktop-icons=false
 
 [org/gnome/desktop/input-sources]
+per-window=false
 sources=[('xkb', 'us')]
 xkb-options=['compose:rctrl']
 
