@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-console.debug($0);
+console.dir({ ${0:status, body} \}, { depth: null });
 ]]>
     </content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

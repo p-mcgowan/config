@@ -1,0 +1,84 @@
+%YAML 1.2
+---
+name: Ngx HTML
+file_extensions:
+  - component.html
+scope: text.html.ngx
+version: 2
+
+extends: Packages/HTML/HTML.sublime-syntax
+
+contexts:
+  main:
+    - meta_prepend: true
+    - include: interpolation
+
+  interpolation:
+    - match: '{{'
+      scope: punctuation.section.interpolation.begin.ngx.html
+      embed: scope:source.js
+      embed_scope: meta.interpolation.ngx.html
+      escape: '}}'
+      escape_captures:
+        0: punctuation.section.interpolation.end.ngx.html
+
+  tag-attributes:
+    - meta_prepend: true
+    - include: tag-ng-template-attribute
+    - include: tag-ng-reference-attribute
+    - include: tag-ng-bind-attribute
+    - include: tag-ng-on-attribute
+    - include: tag-ng-bindon-attribute
+
+  tag-ng-template-attribute:
+    - match: '(\*)([a-zA-Z]\w*)'
+      scope: meta.attribute-with-value.template.html
+      captures:
+        1: punctuation.definition.template.html
+        2: entity.other.attribute-name.template.html
+      push:
+        - tag-event-attribute-meta
+        - tag-event-attribute-assignment
+
+  tag-ng-reference-attribute:
+    - match: '(\#)([a-zA-Z]\w*)'
+      scope: meta.attribute.reference.html
+      captures:
+        1: punctuation.definition.reference.html
+        2: entity.other.attribute-name.reference.html
+      push:
+        - tag-event-attribute-meta
+        - tag-event-attribute-assignment
+
+  tag-ng-bind-attribute:
+    - match: '(\[)([a-zA-Z@][!\w.-]*)(\])'
+      scope: meta.attribute-with-value.bind.html
+      captures:
+        1: punctuation.section.bind.begin.html
+        2: entity.other.attribute-name.bind.html
+        3: punctuation.section.bind.end.html
+      push:
+        - tag-event-attribute-meta
+        - tag-event-attribute-assignment
+
+  tag-ng-on-attribute:
+    - match: '(\()([a-zA-Z@][\w:.]*)(\))'
+      scope: meta.attribute-with-value.on.html
+      captures:
+        1: punctuation.section.on.begin.html
+        2: entity.other.attribute-name.on.html
+        3: punctuation.section.on.end.html
+      push:
+        - tag-event-attribute-meta
+        - tag-event-attribute-assignment
+
+  tag-ng-bindon-attribute:
+    - match: '(\[\()([a-zA-Z][\w.]*)(\)\])\s*'
+      scope: meta.attribute-with-value.bindon.html
+      captures:
+        1: punctuation.section.bindon.begin.html
+        2: entity.other.attribute-name.bindon.html
+        3: punctuation.section.bindon.end.html
+      push:
+        - tag-event-attribute-meta
+        - tag-event-attribute-assignment

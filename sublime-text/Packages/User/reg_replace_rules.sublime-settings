@@ -5,63 +5,63 @@
             "find": "[ \\t\\n]",
             "replace": "",
             "greedy": true,
-            "case": false
+            "case": false,
         },
-        "camel_to_underscores": {
+        /*"camel_to_underscores": {
             "find": "([A-Z])",
             "replace": "_\\L\\1",
             "greedy": true,
             "case": true
-        },
+        },*/
         "underscores_to_camel": {
             "find": "_([a-zA-Z])",
             "replace": "\\U\\1",
             "greedy": true,
-            "case": true
+            "case": true,
         },
         "trim_eol_space": {
             "find": "[ ]*$",
             "replace": "",
             "greedy": true,
-            "case": false
+            "case": false,
         },
         "replace_double_tag_end": {
             "find": ">>",
             "replace": ">",
             "greedy": true,
-            "case": false
+            "case": false,
         },
         "replace_empty_start_tag": {
             "find": "^[ ]*>",
             "replace": "",
             "greedy": false,
-            "case": false
+            "case": false,
         },
         "newline_braces": {
             "find": "[ ]*\n[ ]*{",
             "replace": " {",
             "greedy": true,
-            "case": false
+            "case": false,
         },
         "to_underscore": {
             "find": " ",
             "replace": "_",
             "greedy": true,
-            "case": false
+            "case": false,
         },
         "gen_packs": {
             "find": "^│\\ *([^ ]+) *│ +'\\^?([^']+)'.*",
             "replace": "\\1@\\2",
             "greedy": true,
-            "case": false
+            "case": false,
         },
         "trim_to_80": {
           "find": "([^\\r\\n]{1,80}(?=\\s|$))",
           "replace": "\\1\n",
         },
         "remove_ascii_colour_codes": {
-          "find": "\\[[0-9]*;?[0-9]*m",
-          "replace": ""
-        }
-    }
+          "find": "\u001b\\[[0-9]*;?[0-9]*m",
+          "replace": "",
+        },
+    },
 }

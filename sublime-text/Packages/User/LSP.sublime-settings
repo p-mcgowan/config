@@ -1,6 +1,34 @@
 // Settings in here override those in "LSP/LSP.sublime-settings",
 
 {
+  "clients": {
+    "LSP-angular": {
+      "command": [
+        "${node_bin}", "${server_path}",
+        "--logFile", "${server_directory_path}/ngls.log",
+        "--ngProbeLocations", "${server_directory_path}/node_modules",
+        "--tsProbeLocations", "${server_directory_path}/node_modules",
+        "--stdio"
+      ],
+      // ST3
+      "languages": [
+        {
+          "scopes": ["text.html.ngx"],
+          "syntaxes": [
+            "Packages/Ngx HTML/NgxHTML.sublime-syntax"
+          ],
+        }
+      ],
+      // ST4
+      "selector": "text.html.ngx",
+      "disabled_capabilities": {},
+      "initializationOptions": {},
+      "settings": {},
+      "env": {
+        "TSC_NONPOLLING_WATCHER": "true"
+      }
+    }
+  },
   // "clients": {
   //   "js": {
   //       "command": ["lsp-tsserver"],

@@ -5,29 +5,32 @@ import os
 import subprocess
 import sys
 
-class RunTextWithBashCommand(sublime_plugin.WindowCommand):
+class RunTextWithBashCommand(sublime_plugin.TextCommand):
     proc = None
     stdout = ""
     stderr = ""
 
-    def run(self):
-        view = self.window.active_view()
+    def run(self, edit):
         ran = False
-        for region in view.sel():
+        for region in self.view.sel():
             if not region.empty():
-                selText = view.substr(region)
+                selText = self.view.substr(region)
                 with open('/tmp/sub.sh', 'w') as f:
+                    f.write("shopt -s expand_aliases\nsource ~/.bash_aliases\n")
                     f.write(selText)
                     f.close()
 
                 ran = True
-                self.run_in_thread(f"bash /tmp/sub.sh")
+                self.run_in_thread(f"bash /tmp/sub.sh", region, edit)
 
         if ran == False:
-            self.run_in_thread("bash %s" % (view.file_name()))
+            self.run_in_thread("bash %s" % (self.view.file_name()))
 
 
-    def run_in_thread(self, command):
+    def run_in_thread(self, command, region = None, edit = None):
+        fname = self.view.file_name() or os.getcwd()
+        dirName = os.path.dirname(fname)
+
         env = os.environ.copy()
         self.stdout = ""
         self.stderr = ""
@@ -46,21 +49,25 @@ class RunTextWithBashCommand(sublime_plugin.WindowCommand):
                 command = "start \"\" " + command
 
             # self.proc = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True)
-            self.proc = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True, startupinfo=info)
+            self.proc = subprocess.Popen(command, cwd=dirName, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, env=env, shell=True, startupinfo=info)
 
         else:
             env["GNOME_TERMINAL_SCREEN"] = ""
-            self.proc = subprocess.Popen(command, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True)
+            self.proc = subprocess.Popen(command, cwd=dirName, stdin=subprocess.PIPE, stderr=subprocess.PIPE, stdout=subprocess.PIPE, env=env, shell=True, executable="/bin/bash")
 
         self.stdout, self.stderr = self.proc.communicate()
 
         if self.proc.returncode != 0:
             print("Open failed ({})".format(self.proc.returncode))
+            print("stdout {}\n\nstderr {}".format(self.stdout, self.stderr))
 
         if self.stdout:
             stdout = self.stdout.decode('UTF-8')
             print(stdout)
-            self.show(stdout)
+            if region is not None:
+                self.view.replace(edit, region, stdout[:-1] if stdout[-1] == '\n' else stdout)
+            else:
+                self.show(stdout)
         if self.stderr:
             stderr = re.sub(r"^[^\n]+\n", '', self.stderr.decode('UTF-8'))
 
@@ -89,7 +96,7 @@ class RunTextWithBashCommand(sublime_plugin.WindowCommand):
             </body>
         """ % (content)
 
-        self.window.active_view().show_popup(errorTemplate, max_width=1200)
+        self.view.show_popup(errorTemplate, max_width=1200)
 
         # msg, line, col = re.search(r': (.*) \((\d+):(\d+)\)', content).group(1, 2, 3)
         # point = self.window.active_view().text_point(int(line), int(col))

@@ -8,6 +8,8 @@ class OpenInBrowserCommand(sublime_plugin.TextCommand):
     proc = None
     stdout = ""
     stderr = ""
+    urlRegex = re.compile(r'.*(https?://[^\]) ]+).*')
+    projectRegex = re.compile(r'.*(AOSRE-\d+).*')
 
     def run(self, edit):
         for region in self.view.sel():
@@ -15,18 +17,24 @@ class OpenInBrowserCommand(sublime_plugin.TextCommand):
                 selText = self.view.substr(region)
             else:
                 selText = self.view.substr(self.view.expand_to_scope(region.a, self.view.scope_name(region.a)))
-                if '\n' in selText or not re.search(r'.*(https?://[^ ]+).*', selText):
+                if '\n' in selText or (not re.search(self.urlRegex, selText) and not re.search(self.projectRegex, selText)):
                     selText = self.view.substr(self.view.line(region.a))
 
             print(selText)
 
-            match = re.search(r'.*(https?://[^ ]+).*', selText)
+            match = re.search(self.urlRegex, selText)
             if not match:
-                return
+                match = re.findall(self.projectRegex, selText)
+                if not match:
+                    return
+                selText = ""
+                for (ticket) in match:
+                    selText = f"{selText} -w https://atc.bmwgroup.net/jira/browse/{ticket}"
+            else:
+                selText = f"-w {match.group(1)}"
 
-            selText = match.group(1)
-            print(selText)
-            self.run_in_thread(f"$HOME/bin/google -w {selText}");
+            print(f"$HOME/bin/google {selText}")
+            self.run_in_thread(f"$HOME/bin/google {selText}");
 
     def run_in_thread(self, command):
         env = os.environ.copy()

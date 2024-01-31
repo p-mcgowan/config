@@ -1,0 +1,13 @@
+// Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
+
+{
+  // "initializationOptions": {
+  //   "preferences": {
+  //     "autoImportFileExcludePatterns": ["zlib"],
+  //     "importModuleSpecifierPreference": "project-relative",
+  //     "includeCompletionsForImportStatements": false,
+  //     "disableSuggestions": true,
+  //     "completionDisableFilterText": false
+  //   }
+  // }
+}

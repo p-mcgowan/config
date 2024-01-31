@@ -1,0 +1,16 @@
+// Settings in here override those in "LSP-pylsp/LSP-pylsp.sublime-settings"
+{
+  "settings": {
+    "pylsp.plugins.pycodestyle.maxLineLength": 120,
+    // --- Formatters -----------------------------------------------------
+    // By default, autopep8 is enabled
+    "pylsp.plugins.autopep8.enabled": false,
+    "pylsp.plugins.yapf.enabled": false,
+    "pylsp.plugins.pyls_isort.enabled": false,
+    // When enabling black, make sure that autopep8 and yapf are disabled.
+    "pylsp.plugins.pylsp_black.enabled": true,  // yes, `enabled` needs to use `pylsp_black` key, unlike ones below.
+    "pylsp.plugins.black.cache_config": false,
+    "pylsp.plugins.black.line_length": 120,
+    "pylsp.plugins.black.preview": false,
+  }
+}

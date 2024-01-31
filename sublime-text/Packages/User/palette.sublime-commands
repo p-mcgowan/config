@@ -44,6 +44,7 @@
   { "caption": "Notifier", "command": "run_macro_file", "args": { "file": "Packages/User/macros/notific.sublime-macro" } },
   { "caption": "PP: PasteJson", "command": "run_macro_file", "args": { "file": "Packages/User/macros/paste-json.sublime-macro" } },
   { "caption": "JsonStringify", "command": "json_stringify" },
+  { "caption": "JsonStringifyJs", "command": "json_stringify_from_js" },
   { "caption": "JsonUnStringify", "command": "json_unstringify" },
   { "caption": "JsonFlattify", "command": "flatten_json" },
   { "caption": "Run command here...", "command": "run_command_exec_prompt" },
@@ -67,9 +68,20 @@
   { "caption": "Insert Daily", "command": "daily" },
   { "caption": "Open link in browser", "command": "open_in_browser" },
   { "caption": "Run text in node", "command": "run_text_with_node" },
+  { "caption": "Run text in bash", "command": "run_text_with_bash" },
   // { "caption": "Eval: Run text in bash", "command": "run_text_with_bash" },
   { "caption": "Open folder in new window", "command": "run_cmd", "args": { "command": "sub -n DIRNAME" } },
   { "caption": "To log time", "command": "to_log_time" },
+  { "caption": "Group log time", "command": "group_logs" },
   { "caption": "Edit temp macro", "command": "open_file", "args": { "file": "${packages}/User/macros/temp.sublime-macro" } },
-  { "caption": "Set layout", "command": "custom_layout_prompt" }
+  { "caption": "Set layout", "command": "custom_layout_prompt" },
+  { "caption": "LSP import", "command": "lsp_import" },
+  { "caption": "Cut Blocks", "command": "run_macro_file", "args": { "file": "Packages/User/macros/cut-block.sublime-macro" } },
+
+  { "caption": "Panel: new", "command": "panel" },
+  { "caption": "Panel: delete", "command": "destroy_panel" },
+
+  { "caption": "Sort array", "command": "array_sort", "args": null },
+  { "caption": "Collapse All Folders", "command": "reload_project", "args": null },
+
 ]

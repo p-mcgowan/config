@@ -28,7 +28,7 @@ class PrettierCommand(sublime_plugin.WindowCommand):
         scope = view.scope_name(view.sel()[-1].b)
 
         config = self.find_config(fname)
-        # print("found config?: %s" % (config))
+        print("found config?: %s" % (config))
         command = "npx prettier %s --write %s" % (config, fname)
 
         if re.search(r".*\.html\b", scope):

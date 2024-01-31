@@ -118,7 +118,7 @@
   { "keys": ["alt+shift+d"], "command": "find_all_under" },
   { "keys": ["ctrl+h"], "command": "replace_in_sel", "args": null },
   { "keys": ["ctrl+f"], "command": "find_in_selection" },
-  { "keys": ["ctrl+shift+alt+s"], "command": "open_in_browser" },
+  { "keys": ["ctrl+shift+alt+b"], "command": "open_in_browser" },
     // { "keys": ["tab"], "command": "chain", "args": {
     //     "commands": [["expand_abbreviation_by_tab"], ["reg_replace", {"replacements": ["js_class"]}]]
     //   },
@@ -174,8 +174,34 @@
             }
           ]
       },
+      { "keys": ["crtl+shift+alt+e"], "comamnd": "refresh_folder_list" },
       { "keys": ["ctrl+tab"], "command": "next_view" },
       { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
       { "keys": ["ctrl+pagedown"], "command": "next_view_in_stack" },
       { "keys": ["ctrl+pageup"], "command": "prev_view_in_stack" },
+
+      { "keys": ["ctrl+shift+alt+up"], "command": "create_panel", "args": { "direction": "up" } },
+      { "keys": ["ctrl+shift+alt+down"], "command": "create_panel", "args": { "direction": "down" } },
+      { "keys": ["ctrl+shift+alt+left"], "command": "create_panel", "args": { "direction": "left" } },
+      { "keys": ["ctrl+shift+alt+right"], "command": "create_panel", "args": { "direction": "right" } },
+
+      { "keys": ["ctrl+shift+alt+delete"], "command": "destroy_panel" },
+
+      { "keys": ["ctrl+alt+up"], "command": "goto_panel", "args": { "direction": "up" } },
+      { "keys": ["ctrl+alt+down"], "command": "goto_panel", "args": { "direction": "down" } },
+      { "keys": ["ctrl+alt+left"], "command": "goto_panel", "args": { "direction": "left" } },
+      { "keys": ["ctrl+alt+right"], "command": "goto_panel", "args": { "direction": "right" } },
+
+      { "keys": ["ctrl+k", "ctrl+alt+up"], "command": "move_current_to_panel", "args": { "direction": "up" } },
+      { "keys": ["ctrl+k", "ctrl+alt+down"], "command": "move_current_to_panel", "args": { "direction": "down" } },
+      { "keys": ["ctrl+k", "ctrl+alt+left"], "command": "move_current_to_panel", "args": { "direction": "left" } },
+      { "keys": ["ctrl+k", "ctrl+alt+right"], "command": "move_current_to_panel", "args": { "direction": "right" } },
+
+      { "keys": ["ctrl+shift+alt+w"], "command": "move_current_to_panel", "args": { "direction": "up" } },
+      { "keys": ["ctrl+shift+alt+s"], "command": "move_current_to_panel", "args": { "direction": "down" } },
+      { "keys": ["ctrl+shift+alt+a"], "command": "move_current_to_panel", "args": { "direction": "left" } },
+      { "keys": ["ctrl+shift+alt+d"], "command": "move_current_to_panel", "args": { "direction": "right" } },
+
+      { "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": { "file": "Packages/User/macros/cut-block.sublime-macro" } },
+      { "keys": ["ctrl+shift+alt+e"], "command": "reload_project" },
     ]

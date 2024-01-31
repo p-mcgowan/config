@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+const logret = (message: string) => function(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+  const method = descriptor.value;
+
+  descriptor.value = function () {
+    const retval = method.apply(this, arguments);
+    console.warn({ [message]: retval, arguments });
+
+    return retval;
+  };
+};
+]]>
+    </content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>logdecorate</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.ts, source.js, source.tsx</scope>
+</snippet>

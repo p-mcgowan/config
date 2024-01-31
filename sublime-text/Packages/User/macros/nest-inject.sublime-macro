@@ -1,7 +1,6 @@
 [
     { "command": "expand_selection", "args": { "to": "word" } },
-    { "command": "insert_import", "args": null },
-    // { "command": "insert_snippet", "args": { "contents": "@Inject('${SELECTION}') private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\\l$1$2/g}: ${SELECTION}," } },
     { "command": "insert_snippet", "args": { "contents": "private ${SELECTION/(^[A-Z]|[A-Z]([A-Z]))/\\l$1$2/g}: ${SELECTION}," } },
-    { "command": "convert_to_camel", "args": null }
+    { "command": "move", "args": { "by": "characters", "forward": false } },
+    { "command": "lsp_import" },
 ]
