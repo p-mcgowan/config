@@ -59,7 +59,7 @@
   { "caption": "zpatch: Patch in generate-it changes", "command": "run_cmd", "args": { "command": "zpatch FILENAME" } },
   { "caption": "Regex: gen-it", "command": "reg_replace", "args": { "replacements": ["gen_packs"] } },
   { "caption": "remove ascii colours", "command": "reg_replace", "args": { "replacements": ["remove_ascii_colour_codes"] } },
-  { "caption": "JsonToExpect", "command": "run_macro_file", "args": { "file": "Packages/User/macros/json-to-expect.sublime-macro" } },
+  { "caption": "JsonToExpect", "command": "json_to_expect" },
   { "caption": "psql file", "command": "run_cmd", "args": { "command": "psql FILENAME" } },
   { "caption": "Regex: Wrap at chars", "command": "wrap_at_exec_prompt", "args": null, },
   { "caption": "Show build file js", "command": "goto_build", "args": null, },
