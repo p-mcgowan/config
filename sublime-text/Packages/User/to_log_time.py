@@ -14,16 +14,19 @@ isTime = re.compile(r'^\d+:\d+$')
 isFst = re.compile(r'\bfst\b')
 shouldRemove = re.compile(r'^(lunch|smoke|out)$')
 isTicket = re.compile(r'^([\d, ]+)\ (.*)')
-isDevopsMeeting = re.compile(r'devops biweekly|devops 4-eyes')
+isDevopsMeeting = re.compile(r'devops (biweekly|4-eyes|daily|dailies)')
 isDevBiweekly = re.compile(r'dev (monthly|biweekly|meeting)')
-isLeadBiweekly = re.compile(r'lead (monthly|biweekly|meeting)')
+isLeadBiweekly = re.compile(r'(lead|tech) (monthly|biweekly|meeting)')
+isGeneral = re.compile(r'inte general')
 isIdeation = re.compile(r'ideation')
 isDry = re.compile(r'\b(dry|dryday)\b')
 isLbsi = re.compile(r'\b((2|bmw)?lbsi|inapp|cdcl)\b')
 isBmwk = re.compile(r'\bbmwi?(k|\ know)')
 isFbm = re.compile(r'\bfbm\b', re.I)
-isInteDev = re.compile(r'inte dev')
+isInteDev = re.compile(r'inte dev|open source')
 isInteTeam = re.compile(r'inte team')
+
+dryProjectBilling = 'dry|cycle 16'
 
 def roundUpTime(time):
     (hours, minutes) = list(map(lambda s: int(s.strip()), time.split(':')))
@@ -105,7 +108,7 @@ class ToLogTimeCommand(sublime_plugin.TextCommand):
         elif isLbsi.search(msg):
             projectBilling = 'lbsi|^inApp.*post mvp'
         elif isDry.search(msg):
-            projectBilling = 'dry|cycle 14'
+            projectBilling = dryProjectBilling
         elif isFuntime.search(msg) or isInteTeam.search(msg):
             projectBilling = 'inte|team.*2024'
             logType = 'meeting'
@@ -128,6 +131,9 @@ class ToLogTimeCommand(sublime_plugin.TextCommand):
             logType = 'meeting'
         elif isDevBiweekly.search(msg) or isLeadBiweekly.search(msg) or is4Eyes.search(msg) or isInteDev.search(msg):
             projectBilling = 'inte|^devel.*2024'
+            logType = 'meeting'
+        elif isGeneral.search(msg):
+            projectBilling = 'inte|general'
             logType = 'meeting'
 
         return f"""'{strftime("%d.%m.%Y")}|{projectBilling}|{msg}|{hours}|{logType}',"""

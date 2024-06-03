@@ -1,5 +1,5 @@
 import sublime_plugin, json
-import User.flatten_json
+from User.flatten_json import flatten_json
 
 def convert_key_value_to_assertion(key, value):
   return f"expect({key}).equals({value});"

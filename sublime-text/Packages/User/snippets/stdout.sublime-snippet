@@ -4,4 +4,5 @@ process.stdout.write(${1:JSON.stringify($0, null, 2)});
 ]]>
     </content>
     <tabTrigger>stdout</tabTrigger>
+    <scope>source.ts, source.js</scope>
  </snippet>

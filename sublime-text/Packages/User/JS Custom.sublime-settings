@@ -1,0 +1,15 @@
+{
+  "configurations": {
+    "Default": {
+      "typescript": true,
+      "custom_templates": {
+       "tags": {
+          "css": "scope:source.js.css",
+          "html" : "scope:text.html.basic",
+          "sql" : "scope:source.sql",
+          "tpl" : "scope:source.sql"
+        },
+       }
+    },
+   },
+}
