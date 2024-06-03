@@ -1,4 +1,0 @@
-[
-  { "command": "run_on", "args": { "command": "npx prettier --config ~/.prettierrc --write FILENAME" } },
-  { "command": "run_cmd", "args": { "command": "npm run lint:fix FILENAME" } },
-]

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+cd "\$(cd \$(dirname \$0) && pwd)"
+]]>
+    </content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdhere</tabTrigger>
+    <tabTrigger>here</tabTrigger>
+    <tabTrigger>get-script-dir</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.shell, source.shell.bash</scope>
+</snippet>

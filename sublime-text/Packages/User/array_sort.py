@@ -9,7 +9,7 @@ class ArraySortCommand(sublime_plugin.TextCommand):
         for region in self.view.sel():
             if region.empty():
                 return
-            parts = list(set(list(filter(lambda x: len(x.strip()) > 0, self.splitRe.split(self.view.substr(region))))))
+            parts = list(set(list(filter(lambda x: len(x.strip()) > 0, self.splitRe.split(self.view.substr(region).replace('\n+', ''))))))
             parts.sort()
             sortedText = ', '.join(parts)
             self.view.replace(edit, region, sortedText)

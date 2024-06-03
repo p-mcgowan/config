@@ -9,7 +9,9 @@ import os
 syntax_tests = [
     [re.compile(r"^[dD]ockerfile.*"), "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.sublime-syntax"],
     [re.compile(r"^.*\.scss$"), "Packages/Sass/Syntaxes/SCSS.sublime-syntax"],
-    [re.compile(r"^\.env.*"), "Packages/ShellScript/Bash.sublime-syntax"]
+    [re.compile(r"^\.env.*"), "Bash.sublime-syntax"],
+    # [re.compile(r"\.hcl$"), "Perl.sublime-syntax"]
+    [re.compile(r".*\.(hcl|tf)"), "Perl.sublime-syntax"]
 ]
 
 

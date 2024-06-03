@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
+/*import { describe, it, before, beforeEach, afterEach, after } from 'node:test';*/
 describe('${1:the module}', () => {
 
-  beforeAll(async () => { });
+  before(async () => { });
   beforeEach(async () => { });
   afterEach(async () => { });
-  afterAll(async () => { });
+  after(async () => { });
 
   it('$2', async () => {
     $0

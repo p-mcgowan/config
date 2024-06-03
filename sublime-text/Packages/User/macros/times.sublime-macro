@@ -1,0 +1,23 @@
+[
+  {
+    "command": "insert",
+    "args": {
+      "characters": "log -p",
+    },
+  },
+  {
+    "command": "move_to",
+    "args": {
+      "extend": true,
+      "to": "bol",
+    },
+  },
+  {
+    "command": "run_text_with_bash",
+    "args": null,
+  },
+  {
+    "command": "to_log_time",
+    "args": null,
+  },
+]

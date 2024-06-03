@@ -1,7 +1,9 @@
 [
-  {
-    "command": "expand_selection",
-    "args": { "to": "scope" }
-  },
-  { "command": "lsp_import" }
+	{
+		"args": {
+      "replaceStr": "\\n",
+      "withStr": "\n",
+    },
+		"command": "replace_in_sel"
+	}
 ]

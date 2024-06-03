@@ -1,9 +1,0 @@
-{
-    "translate_tabs_to_spaces": true,
-    "tab_size": 2,
-    "detect_indentation": false,
-    "auto_indent": true,
-    "smart_indent": true,
-    "trim_automatic_white_space": true,
-    "ensure_newline_at_eof_on_save": false
-}

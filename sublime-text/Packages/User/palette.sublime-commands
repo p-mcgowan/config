@@ -10,7 +10,7 @@
   { "caption": "Soft Undo", "command": "soft_undo" },
   { "caption": "Show Scope Name", "command": "show_scope_name" },
 
-  { "caption": "Regex: Rebrace", "command": "reg_replace", "args": { "replacements": ["newline_braces"] } },
+  // { "caption": "Regex: Rebrace", "command": "reg_replace", "args": { "replacements": ["newline_braces"] } },
 
   { "caption": "Il8n", "command": "run_macro_file", "args": { "file": "Packages/User/macros/translate.sublime-macro" } },
   { "caption": "Re-open tabs", "command": "reopenTabs" },
@@ -25,10 +25,14 @@
   { "caption": "Goto Definition…", "command": "goto_definition" },
   { "caption": "Copy File Path", "command": "copy_path" },
   // { "caption": "Goto Definition", "command": "context_goto_definition" },
+
   { "caption": "Close Tabs to the Right" , "command": "close_to_right" },
   { "caption": "Close Other Tabs" , "command": "close_others" },
+  { "command": "custom_close_unmodified", "caption": "Close Unmodified Tabs" },
+  { "command": "custom_close_unmodified_to_right", "caption": "Close Unmodified Tabs to the Right" },
+
   // { "caption": "Set Custom Layout" , "command": "custom_layout" },
-  { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
+  // { "caption": "Regex: Trim Whitespace", "command": "reg_replace", "args": { "replacements": ["trim_whitespace"] } },
 
   // { "caption": "Reload Plugin: Typescript", "command": "reload_plugin", "args": { "name": "TypeScript.main" }},
   // { "caption": "Reload Plugin: SyntaxFromFileName", "command": "reload_plugin", "args": { "name": "SyntaxFromFileName.main" }},
@@ -52,14 +56,15 @@
   { "caption": "TSIndex - create TypeScript index file here", "command": "run_cmd", "args": { "command": "ztsindex DIRNAME >DIRNAME/index.ts" } },
   // { "caption": "fs-sub: Toggle font size", "command": "run_command_exec_prompt", "args": { "command": "fs-sub", "args": { } } },
   { "caption": "fs-sub: Toggle font size", "command": "run_cmd", "args": { "command": "fs-sub" } },
-  { "caption": "Lint", "command": "run_cmd", "args": { "command": "npx eslint FILENAME" } },
-  { "caption": "Lint-fix", "command": "run_cmd", "args": { "command": "npx eslint FILENAME --fix" } },
-  { "caption": "TSLint", "command": "run_cmd", "args": { "command": "npm run lint:fix -- FILENAME" } },
-  { "caption": "Checkout", "command": "run_cmd", "args": { "command": "git checkout -- FILENAME" } },
+  { "caption": "Lint", "command": "lint" },
+  { "caption": "Git Add", "command": "run_cmd", "args": { "command": "git add -- FILENAME" } },
+  { "caption": "Git Checkout", "command": "run_cmd", "args": { "command": "git checkout -- FILENAME" } },
   { "caption": "package.json", "command": "run_cmd", "args": { "command": "sub $(git rev-parse --show-toplevel)/package.json" } },
   { "caption": "zpatch: Patch in generate-it changes", "command": "run_cmd", "args": { "command": "zpatch FILENAME" } },
-  { "caption": "Regex: gen-it", "command": "reg_replace", "args": { "replacements": ["gen_packs"] } },
-  { "caption": "remove ascii colours", "command": "reg_replace", "args": { "replacements": ["remove_ascii_colour_codes"] } },
+  // { "caption": "Replace in selection", "command": "replace_in_sel_exec_prompt" },
+  { "caption": "Convert \\n to newline", "command": "replace_in_selection", "args": { "replaceStr": "\\n", "withStr": "\n" } },
+  // { "caption": "Regex: gen-it", "command": "reg_replace", "args": { "replacements": ["gen_packs"] } },
+  // { "caption": "remove ascii colours", "command": "reg_replace", "args": { "replacements": ["remove_ascii_colour_codes"] } },
   { "caption": "JsonToExpect", "command": "json_to_expect" },
   { "caption": "psql file", "command": "run_cmd", "args": { "command": "psql FILENAME" } },
   { "caption": "Regex: Wrap at chars", "command": "wrap_at_exec_prompt", "args": null, },
@@ -74,6 +79,8 @@
   { "caption": "To log time", "command": "to_log_time" },
   { "caption": "Group log time", "command": "group_logs" },
   { "caption": "Edit temp macro", "command": "open_file", "args": { "file": "${packages}/User/macros/temp.sublime-macro" } },
+  { "caption": "Preferences: To log time settings", "command": "open_file", "args": { "file": "${packages}/User/to-log-time.sublime-settings" } },
+  { "caption": "Run temp macro", "command": "run_macro_file", "args": { "file": "Packages/User/macros/temp.sublime-macro" } },
   { "caption": "Set layout", "command": "custom_layout_prompt" },
   { "caption": "LSP import", "command": "lsp_import" },
   { "caption": "Cut Blocks", "command": "run_macro_file", "args": { "file": "Packages/User/macros/cut-block.sublime-macro" } },
@@ -84,4 +91,9 @@
   { "caption": "Sort array", "command": "array_sort", "args": null },
   { "caption": "Collapse All Folders", "command": "reload_project", "args": null },
 
+  { "caption": "Log billing times", "command": "run_macro_file", "args": { "file": "Packages/User/macros/times.sublime-macro" } },
+
+  { "caption": "doit", "command": "run_cmd", "args": { "command": "bash /home/patrickmcgowan/source/acrontum/open-source/fstr/acr-std/getfiles.sh FILENAME" } },
+
+  { "caption": "Copy Content", "command": "copy_content" },
 ]

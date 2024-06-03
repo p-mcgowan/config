@@ -1,8 +1,0 @@
-{
-  "scope": "source.ts, source.typescript",
-   "completions": [
-      { "trigger": "zl", "contents": "console.log(${0:$SELECTION});" },
-      { "trigger": "zt", "contents": "console.trace(${0:$SELECTION});" },
-      { "trigger": "zb", "contents": "console.trace.bind(window.console)(`.................... ${0:$SELECTION}`);" }
-    ]
-}

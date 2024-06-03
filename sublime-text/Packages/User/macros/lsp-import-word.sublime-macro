@@ -1,0 +1,7 @@
+[
+  {
+    "command": "expand_selection",
+    "args": { "to": "scope" }
+  },
+  { "command": "lsp_import" }
+]

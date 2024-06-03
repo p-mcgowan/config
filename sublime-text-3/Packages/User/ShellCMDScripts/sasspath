@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo "@import '$(realpath /home/pat/source/rebuild/app/assets/angular/shared/stylesheets/colours.scss --relative-to .)';"
-echo "@import '$(realpath /home/pat/source/rebuild/app/assets/angular/league-admin/stylesheets/colours.scss --relative-to .)';"
-echo "@import '$(realpath /home/pat/source/rebuild/app/assets/angular/league-admin/stylesheets/colour-variables.scss --relative-to .)';"

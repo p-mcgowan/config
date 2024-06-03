@@ -97,5 +97,5 @@
     { "button": "scroll_down", "modifiers": ["ctrl"], "command": "none" },
     { "button": "scroll_up", "modifiers": ["ctrl"], "command": "none" },
 
-    { "button": "button2", "modifiers": [], "press_command": "context_menu" }
+    { "button": "button2", "modifiers": [], "press_command": "context_menu" },
 ]

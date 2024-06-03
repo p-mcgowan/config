@@ -1,4 +1,9 @@
 {
     "rulers": [80, 120],
-    "tab_size": 4
+    "tab_size": 2,
+    "extensions":
+    [
+		"h",
+		"ino"
+	],
 }

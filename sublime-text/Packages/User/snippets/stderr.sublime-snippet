@@ -4,4 +4,5 @@ process.stderr.write(${1:JSON.stringify($0, null, 2)});
 ]]>
     </content>
     <tabTrigger>stderr</tabTrigger>
+    <scope>source.ts, source.js</scope>
  </snippet>

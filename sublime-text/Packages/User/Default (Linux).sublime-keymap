@@ -44,9 +44,13 @@
     },
     {
       "keys": ["ctrl+."],
+      "command": "run_macro_file",
+      "args": {
+        "file": "res://Packages/User/macros/lsp-import-word.sublime-macro"
+      }
       // "command": "commit_completion",
       // "command": "auto_complete",
-      "command": "lsp_import",
+      // "command": "lsp_import",
     },
     // {
     //     "keys": ["ctrl+shift+."],
@@ -204,4 +208,5 @@
 
       { "keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": { "file": "Packages/User/macros/cut-block.sublime-macro" } },
       { "keys": ["ctrl+shift+alt+e"], "command": "reload_project" },
+      { "keys": ["ctrl+shift+c"], "command": "copy" },
     ]

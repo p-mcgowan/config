@@ -1,6 +1,0 @@
-// These settings override both User and Default settings for the LaTeX syntax
-{
-  "rulers": [ 120 ],
-  "translate_tabs_to_spaces": true,
-  // "trim_trailing_white_space_on_save": true
-}

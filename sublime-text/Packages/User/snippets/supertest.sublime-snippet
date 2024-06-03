@@ -1,8 +1,10 @@
  <snippet>
     <content><![CDATA[
 .expect(({ status, body }) => {
-  expect(status).toBe(${1:RESPONSE_CODES.post});
-  ${0}
+  expect({ status, body }).toEqual({
+    status: 200,
+    body: {}
+  });
 });
 ]]>
     </content>

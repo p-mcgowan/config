@@ -3,15 +3,9 @@
 {
   "initializationOptions": {
     "preferences": {
-      /* backend */
-      "importModuleSpecifierPreference": "non-relative",
-
-      /* frontend? */
+      // "importModuleSpecifierPreference": "relative",
       // "importModuleSpecifierPreference": "shortest",
-      // "importModuleSpecifierPreference": "auto",
-      // "importModuleSpecifierPreference": "relative",
-
-      // "importModuleSpecifierPreference": "relative",
+      "importModuleSpecifierPreference": "auto",
       // "importModuleSpecifierPreference": "project-relative",
       // "importModuleSpecifierPreference": "non-relative",
 
@@ -26,5 +20,6 @@
       // "disableSuggestions": true,
       // "completionDisableFilterText": false
     }
-  }
+  },
+  "selector": "text.html.ngx",
 }

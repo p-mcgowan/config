@@ -1,5 +1,0 @@
-[
-    { "command": "typescript_organize_imports" },
-    { "command": "save" },
-    { "command": "run_cmd", "args": { "command": "npx eslint FILENAME --fix" } },
-]

@@ -1,4 +1,0 @@
-// These settings override both User and Default settings for the Nunjucks syntax
-{
-  "tab_size":2
-}
